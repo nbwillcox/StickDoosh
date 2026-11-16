@@ -101,8 +101,9 @@
     }
     if (crit && S.Comic) S.Comic.word('KAPOW!', mx, my - 26, { size: 24, color: '#ff4fa3', burst: true, burstColor: '#ffffff' });
     // vocal gun sounds: mg cycles 5 pitch variants (kid mouth-gun), flame uses a seamless loop, dual sometimes "pew pew"
-    if (id === 'flame' && S.Audio && S.Audio.loop) {
-      S.Audio.loop('flame_loop', 'fl' + (owner.uid || 0), { vol: enemy ? 0.35 : 0.7, x: mx, ttl: 0.12 });
+    if ((id === 'flame' || id === 'mg') && S.Audio && S.Audio.loop) {
+      // held-fire stream sounds: flame = fwoosh loop, machine gun = a guy saying 'brrrrrr' (mg_loop)
+      S.Audio.loop(id + '_loop', 'gl' + id + (owner.uid || 0), { vol: enemy ? 0.35 : 0.7, x: mx, ttl: 0.14 });
     } else {
       let sn = d.sfx || id;
       if (id === 'mg') { owner._mgn = ((owner._mgn || 0) + 1) % 5; sn = owner._mgn ? 'mg' + (owner._mgn + 1) : 'mg'; }
