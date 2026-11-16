@@ -72,7 +72,7 @@
       for (let i = 0; i < n; i++) {
         let a = base;
         if (d.fan) a += n > 1 ? U.lerp(-d.fan / 2, d.fan / 2, i / (n - 1)) * (mega ? 1.2 : 1) : 0;
-        if (d.spread) a += U.rand(-d.spread / 2, d.spread / 2) * (enemy ? 0.6 : 1);
+        if (d.spread) a += U.rand(-d.spread / 2, d.spread / 2) * (enemy ? 0.6 : 1) * (id === 'mg' && owner.spin != null ? 1.7 - 0.9 * owner.spin : 1);
         const sp = d.speed * spMul * (d.kind === 'pellet' ? U.rand(0.8, 1.12) : 1);
         let ox = 0, oy = 0;
         if (id === 'dual' && owner.dualAlt) { ox = -dir.x * 4 - dir.y * 3; oy = -dir.y * 4 + dir.x * 3; } // aim: second pistol sits behind + below the aim line
@@ -88,9 +88,11 @@
       if (id === 'dual') owner.dualAlt = !owner.dualAlt;
     }
     // juice
-    const ws = (d.wordSize || 18) * (enemy ? 0.72 : 1) * (mega ? 1.2 : 1);
+    let ws = (d.wordSize || 18) * (enemy ? 0.72 : 1) * (mega ? 1.2 : 1);
+    let sword = d.word;
+    if (id === 'mg' && !enemy && owner.def && owner.def.spinUp) { const sp = owner.spin || 0; sword = sp < 0.25 ? 'brr' : sp < 0.5 ? 'BRRBR' : sp < 0.8 ? 'BRRBRBRR' : 'BRRBRBRRRBRR'; ws *= 0.7 + 0.45 * sp; }
     if (d.stream) {
-      if (S.Comic) S.Comic.stream('gun' + (owner.uid || 0), d.word, mx, my, { dir: dir.x || owner.facing || 1, size: ws, color: d.color, max: id === 'flame' ? 9 : 14, rate: id === 'flame' ? 14 : 24 });
+      if (S.Comic) S.Comic.stream('gun' + (owner.uid || 0), sword, mx, my, { dir: dir.x || owner.facing || 1, size: ws, color: d.color, max: id === 'flame' ? 9 : 14, rate: id === 'flame' ? 14 : 24 });
     } else if (d.word && S.Comic && (!enemy || Math.random() < 0.5)) {
       let txt = d.word;
       if (id === 'dual' && Math.random() < 0.3) txt = 'PEW PEW';

@@ -25,7 +25,7 @@
       look: { limb: '#ffb81c', head: '#ffffff', headR: 7.6, thick: 3.1, body: 'tiny', face: 'grin', hat: '#b0672f', scarfColor: '#e8173a', props: ['cowboyHat', 'handlebar', 'scarf'] },
     },
     brenda: {
-      name: 'BRENDA BRRRT', gun: 'mg', special: 'groundpound', voice: 'brenda', speed: 0.95, jump: 0.97,
+      name: 'BRENDA BRRRT', gun: 'mg', spinUp: true, special: 'groundpound', voice: 'brenda', speed: 0.95, jump: 0.97,
       blurb: 'Balloon biceps. Pink mohawk. BRRBRBRRRBRR.',
       quirk: 'Heavy hitter, heavy feet. Ground Pound stuns everything on the floor.',
       look: { limb: '#c77dff', head: '#ffffff', headR: 7, thick: 3.5, body: 'muscle', face: 'angry', hair: '#ff4fa3', props: ['mohawk', 'eyeblack'] },

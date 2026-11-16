@@ -126,6 +126,7 @@
         const ok = g.damage(e, s.dmg, { team: s.team, owner: s.owner, kind: 'bullet', dirX: U.sign(s.vx), x: s.x, y: s.y, knock: s.knock });
         if (s.onHit) s.onHit(s, e, ok);
         s.dead = true;
+        if (s.style === 'mud' && S.Game.mudPuddle && e.kind === 'player') S.Game.mudPuddle(e.x, e.y);
         if (ok === false && S.FX) S.FX.spark(s.x, s.y, 3, '#ffffff');
         if (s.splat && S.FX) { S.FX.debris(s.x, s.y, 4, s.color); if (ok !== false) word(s.splat, s.x, s.y - 12, { size: 16, color: s.color, stroke: '#ffffff' }); }
         break;
@@ -139,6 +140,7 @@
     const g = S.Game, T = S.Terrain;
     if (s.blast) { const bx = x, by = y; if (s.team === 'enemy') { const p = player(); if (p && Math.hypot(p.x - bx, (p.y - p.h / 2) - by) < s.blast) g.damage(p, s.blastDmg || 1, { team: 'enemy', owner: s.owner, kind: 'blast', blast: true, dirX: U.sign(p.x - bx) || 1, x: bx, y: by }); if (S.FX) { S.FX.explosion(bx, by, s.blast * 0.8); S.FX.shake(0.15); } if (s.word) word(s.word, bx, by - 20, { size: 18, color: '#ffe14d', stroke: '#e8173a', burst: true, burstColor: '#ff7a1a' }); sfx('explode', { x: bx, vol: 0.5, pitch: 1.2 }); } else g.explode(bx, by, s.blast, s.blastDmg || 3, s.team, { owner: s.owner }); }
     else { if (S.FX) { S.FX.debris(x, y, 5, s.color || '#8a8ca0'); S.FX.dust(x, y, 3); } if (s.splat) word(s.splat, x, y - 10, { size: 15, color: s.color || '#ffffff', stroke: '#141018', life: 0.5 }); }
+    if (s.style === 'mud' && s.team === 'enemy' && g.mudPuddle && T && T.raycast) { const h = T.raycast(x, y - 4, x, y + 70); if (h) g.mudPuddle(x, h.y); }
     if (s.tileDmg && T && T.W) T.damageTile(Math.floor(x / C.T), Math.floor(y / C.T), s.tileDmg, { team: s.team });
   }
   function shotDraw(ctx, s) {

@@ -1249,6 +1249,65 @@ IDS.forEach(function (id) { DEFAULT_SEEDS[id] = hashStr('stick-doosh:' + id + ':
       if (!pool.length) acc = Math.min(acc, 2.5);
     }
 
+    // killability: drop any ground/perch enemy that has no clear line from ANY reachable standing spot (walled-in nooks); no rng used
+    {
+      // walk/jump reachability identical to tools/ttktest.js reachableCells (the same standing-cell BFS the killability sweep uses)
+      const standAt = function (tx, ty) { const m = get(tx, ty); return (SOLID[m] || m === PLAT) && !SOLID[get(tx, ty - 1)] && !SOLID[get(tx, ty - 2)] && !HAZ[get(tx, ty - 1)]; };
+      const cols = [], seenS = new Set(), cellsS = new Set();
+      for (let x = 0; x < w; x++) { const c = []; for (let y = 3; y < h - 1; y++) if (standAt(x, y)) c.push(y); cols.push(c); }
+      {
+        const sy0 = Math.round(surf[spawnTx]); let start = null, bd = 1e9;
+        for (let x = Math.max(0, spawnTx - 3); x <= Math.min(w - 1, spawnTx + 3); x++) for (const y of cols[x]) { const d = Math.abs(y - sy0) + Math.abs(x - spawnTx); if (d < bd) { bd = d; start = [x, y]; } }
+        const q = start ? [start] : []; if (start) seenS.add(start[0] * 4096 + start[1]);
+        while (q.length) {
+          const cur = q.pop(), x = cur[0], y = cur[1]; cellsS.add(x * 4096 + y);
+          for (let nx = Math.max(0, x - 7); nx <= Math.min(w - 1, x + 7); nx++) {
+            const c = cols[nx], adx = Math.abs(nx - x);
+            for (let i = 0; i < c.length; i++) {
+              const ny = c[i], up = y - ny;
+              if (up > 4 && !(up <= 12 && adx <= 2)) continue;
+              if (up < -24) continue;
+              const k = nx * 4096 + ny; if (seenS.has(k)) continue;
+              seenS.add(k); q.push([nx, ny]);
+            }
+          }
+        }
+      }
+      const reachS = { has: function (cx, ty) { return cellsS.has(cx * 4096 + ty); } };
+      const clearLine = function (x0, y0, x1, y1) {
+        const n = Math.ceil(Math.hypot(x1 - x0, y1 - y0) / 1.5);
+        for (let i = 1; i < n; i++) { const f = i / n; if (SOLID[get(Math.floor((x0 + (x1 - x0) * f) / T), Math.floor((y0 + (y1 - y0) * f) / T))]) return false; }
+        return true;
+      };
+      const seeable = function (e) {
+        const etx = Math.floor(e.x / T), ety = Math.round(e.y / T), R = 16, V = 13;
+        for (let cx = Math.max(1, etx - R); cx <= Math.min(w - 2, etx + R); cx++) {
+          if (Math.abs(cx - etx) < 2) continue;
+          for (let cy = Math.max(2, ety - V); cy <= Math.min(h - 2, ety + V); cy++) {
+            if (!reachS.has(cx, cy + 1)) continue;
+            const mx = (cx + 0.5) * T, my = (cy + 1) * T - 20;
+            if (clearLine(mx, my, e.x, e.y - 8) || clearLine(mx, my, e.x, e.y - 4)) return true;
+          }
+        }
+        return false;
+      };
+      // Enemies.make slides a wall-facing ground enemy up to 110 px forward (clearFront); do that slide here so the check sees the real spot
+      const solidPx = function (x, y) { return SOLID[get(Math.floor(x / T), Math.floor(y / T))] === 1; };
+      const walledAt = function (x, y, f) { for (const cy of [y - 6, y - 20]) for (const o of [12, 21, 31]) if (solidPx(x + f * o, cy)) return true; return false; };
+      const boxOk = function (x, y) { for (let yy = y - 30; yy < y; yy += 6) for (let xx = x - 7; xx <= x + 7; xx += 7) if (solidPx(xx, yy)) return false; return solidPx(x - 6, y + 2) && solidPx(x + 6, y + 2); };
+      for (let i = enemies.length - 1; i >= 0; i--) {
+        const e = enemies[i];
+        if (!e.air && !e.water && !e.perch && walledAt(e.x, e.y, e.facing)) {
+          let nx = null;
+          for (let dx = 8; dx <= 110; dx += 4) { const cx = e.x + e.facing * dx; if (boxOk(cx, e.y) && !walledAt(cx, e.y, e.facing)) { nx = cx; break; } }
+          if (nx == null) { enemies.splice(i, 1); const j = ents.indexOf(e); if (j >= 0) ents.splice(j, 1); continue; }
+          e.x = nx;
+        }
+        if (e.air || e.water || seeable(e)) continue;
+        enemies.splice(i, 1); const j = ents.indexOf(e); if (j >= 0) ents.splice(j, 1);
+      }
+    }
+
     // explosive barrel clusters next to some enemies (+ always next to rollers)
     let barrels = 0;
     for (const e of enemies) {

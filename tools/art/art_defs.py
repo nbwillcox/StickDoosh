@@ -86,6 +86,27 @@ ITEMS = {
         "the center of the frame."},
 }
 
+
+# ---- dude portraits (results screen + How To Play roster): bust of each playable bro, centered, 512x512 ---------
+def dude(prompt, bg):
+    return {'kind': 'shop', 'gen': (768, 768), 'out': (512, 512), 'q': 78, 'takes': 'ab',
+            'prompt': STYLE + "Close-up bust portrait of a funny stick figure hero, round white head, " + prompt +
+            " Background: " + bg + " The face is exactly in the center of the frame."}
+
+
+ITEMS.update({
+    'dude_sgt': dude("a tall red-and-black pompadour hairdo, cool aviator sunglasses, a blue headband with the word "
+                     "DOOSH, a confident cocky grin, red stick body.", "bright yellow halftone dots."),
+    'dude_pete': dude("a huge oversized brown cowboy hat, a curly handlebar mustache, a red neckerchief scarf, a "
+                      "cheeky grin, tiny small yellow-orange stick body.", "bright orange halftone dots."),
+    'dude_brenda': dude("a tall pink mohawk, black eye-black stripes under the eyes, an angry determined scowl, "
+                        "huge balloon-like purple bicep muscles.", "bright pink halftone dots."),
+    'dude_major': dude("a clear glass fishbowl space helmet over the head, a monocle, a curly mustache and a red "
+                       "bow tie inside the helmet, a posh grin, blue stick body.", "bright blue halftone dots."),
+    'dude_gramps': dude("a very long white beard down to the chest, a floppy blue nightcap, wrinkly old man face, "
+                        "pink fluffy slippers visible, hunched grey stick body.", "bright green halftone dots."),
+})
+
 # ---- second-round re-rolls: takes a/b of these two read weakly (wind = a literal leaf, jungle = white gorilla)
 def _extra(name, prompts):
     it = ITEMS[name]

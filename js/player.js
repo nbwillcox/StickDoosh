@@ -200,7 +200,7 @@
           if (this.onGround) { this.coyote = C.COYOTE; this.airJumps = 0; this.jumped = false; if (this.landV > 380) this.land(); this.landV = 0; }
           else { this.coyote -= dt; this.landV = Math.max(this.landV, this.vy); }
           if (jumpPress) this.jumpBuf = C.JUMP_BUF; else this.jumpBuf -= dt;
-          const jv = C.JUMP * (st.jumpMul || 1) * (this.def.jump || 1);
+          const jv = C.JUMP * (st.jumpMul || 1) * (this.def.jump || 1) * (this.zoneT > 0 && this.zoneJump ? this.zoneJump : 1);
           if (this.jumpBuf > 0 && this.hurtT <= 0) {
             if (this.inLiquid) { this.vy = -250; this.jumpBuf = 0; sfx('splash', { x: this.x, vol: 0.3 }); }
             else if (this.onGround && down && this.standingOneWay()) { this.dropT = 0.22; this.y += 2; this.onGround = false; this.jumpBuf = 0; this.coyote = 0; }
@@ -238,7 +238,12 @@
         this.firing = false;
         const gun = this.gun, wdef = S.Weapons[gun];
         if (G && G.state !== 'bossdeath' && !frozen && wdef && this.hurtT <= 0) {
-          const rate = S.Weapons.rateOf(gun, this.lvl, this);
+          let rate = S.Weapons.rateOf(gun, this.lvl, this);
+          if (gun === 'mg' && this.def.spinUp) { // minigun spin-up: 40% -> 100% fire rate over 0.8 s of held fire, resets after 0.3 s idle
+            if (fireHeld) { this.spinIdle = 0; this.spin = Math.min(1, (this.spin || 0) + dt / 0.8); }
+            else { this.spinIdle = (this.spinIdle || 0) + dt; if (this.spinIdle > 0.3) this.spin = 0; }
+            rate *= 0.4 + 0.6 * (this.spin || 0);
+          } else this.spin = 0;
           const auto = wdef.auto || (S.Save && S.Save.settings.game.autofire);
           if (this.fireT > 0) this.fireT -= dt; else this.fireT = 0;
           const want = (auto && fireHeld) || firePress;

@@ -101,7 +101,9 @@
   background: repeating-conic-gradient(from 0deg, #ff3b2f 0 9deg, #ff8a24 9deg 18deg); animation: sd-spin 90s linear infinite; z-index: 0;
 }
 .sd-sunburst::after { content: ''; position: absolute; inset: 0; background-image: var(--sd-dots); background-size: 9px 9px; z-index: 0; pointer-events: none; }
-.sd-title-art { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; transition: opacity .8s; z-index: 1; }
+.sd-title-art { position: absolute; inset: 0; background-size: cover; background-position: center bottom; background-repeat: no-repeat; opacity: 0; transition: opacity .8s; z-index: 1; }
+/* narrower than 3:2 (4:3 tablets, portrait phones): cover would crop the outer dudes, so fit the whole 16:9 art by width, anchored to the bottom (sunburst shows above) */
+@media (max-aspect-ratio: 3/2) { .sd-title-art { background-size: 100% auto; } }
 .sd-title-art.ok { opacity: 1; }
 .sd-title-art.ok ~ .sd-logo .sd-logo-burst { opacity: .0; }
 .sd-title-main { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 2.2vh; width: 100%; }
@@ -130,6 +132,17 @@
   #title .menu .sd-btn { flex: 1 1 28%; min-width: 140px; font-size: 18px; min-height: 42px; padding: 7px 10px 4px; }
   .sd-tagline { display: none; }
 }
+
+/* dude portraits (results + how-to roster) */
+.sd-portrait { flex: 0 0 auto; border: 3px solid var(--sd-ink); background: #fff; box-shadow: 3px 3px 0 var(--sd-ink); transform: rotate(-2deg); overflow: hidden; line-height: 0; }
+.sd-portrait img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.sd-portrait.lg { width: 96px; height: 96px; } .sd-portrait.sm { width: 56px; height: 56px; }
+.sd-res-dude { display: flex; align-items: center; gap: 12px; justify-content: center; margin: 4px 0 8px; }
+.sd-roster { grid-column: 1 / -1; }
+.sd-roster-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 8px 14px; margin-top: 6px; }
+.sd-roster-card { display: flex; align-items: center; gap: 10px; }
+.sd-roster-txt { display: flex; flex-direction: column; font-size: 13px; line-height: 1.2; } .sd-roster-txt b { font-size: 15px; }
+@media (max-height: 560px) { .sd-portrait.lg { width: 56px; height: 56px; } }
 
 /* ---------------- LEVEL SELECT ---------------- */
 .sd-grid {

@@ -310,7 +310,7 @@
       } else kept = Math.floor(earned * 0.5);
       save.gold += kept; save.stats.gold += kept; save.stats.rescues += G.rescues;
       S.Save.save(true);
-      const result = { theme: id, time, kills: G.kills, gold: kept, rescues: G.rescues, bossBeaten: !!win, newSuper, firstClear, newBest, earned };
+      const result = { dude: G.player && G.player.dude || null, theme: id, time, kills: G.kills, gold: kept, rescues: G.rescues, bossBeaten: !!win, newSuper, firstClear, newBest, earned };
       if (S.Main) S.Main.mode = 'menu';
       if (S.Input) S.Input.lockMouse(false);
       ui(win ? 'onLevelClear' : 'onLevelFail', result);
@@ -446,7 +446,11 @@
         layers[l].push(e);
       }
       for (const L of layers) for (const e of L) {
-        try { if (e._dying) drawDying(ctx, e); else e.draw(ctx); } catch (err) { console.error('[ent draw]', e.id || e.kind, err); e.dead = true; }
+        try {
+          if (e._dying) drawDying(ctx, e);
+          else if (e.sinkY > 0.5 && e.sinkSurf != null) { ctx.save(); ctx.beginPath(); ctx.rect(e.x - 120, e.y - 400, 240, e.sinkSurf - (e.y - 400)); ctx.clip(); ctx.translate(0, e.sinkY); e.draw(ctx); ctx.restore(); }
+          else e.draw(ctx);
+        } catch (err) { console.error('[ent draw]', e.id || e.kind, err); e.dead = true; }
       }
     },
   };
@@ -523,10 +527,54 @@
     if (id === 'rockslide' || id === 'log') return rollerSpawner(sp, id);
     if (id === 'updraft') return zoneEntity(sp, (p, dt) => { p.vy -= C.GRAV * 1.4 * dt * (G.grav); if (p.vy < -330) p.vy = -330; p.onGround = false; });
     if (id === 'stampede') return stampede(sp);
-    if (id === 'quicksand') return null;
+    if (id === 'quicksand') return quicksand(sp);
     if (typeof H[id] === 'function') return H[id](sp);
     return null;
   }
+  // quicksand: a band over MUD tiles. Everything standing in it moves at 0.6x, jumps at 0.8x and visibly sinks (up to 14 px, tiles stay solid so it is never lethal)
+  function quicksand(sp) {
+    const x0 = sp.x0 != null ? sp.x0 : sp.x, x1 = sp.x1 != null ? sp.x1 : sp.x + 4 * C.T, sy = sp.y;
+    function grab(e, dt, me) {
+      const inside = !e.dead && e.x > x0 && e.x < x1 && Math.abs(e.y - sy) < 4 && e.onGround;
+      if (inside) { e.zoneSlow = 0.6; e.zoneJump = 0.8; e.zoneT = 0.15; e.sinkY = Math.min(14, (e.sinkY || 0) + 25 * dt); e.sinkSurf = sy; e.sinkOwner = me; return true; }
+      if (e.sinkY > 0 && e.sinkOwner === me) e.sinkY = Math.max(0, e.sinkY - 70 * dt);
+      return false;
+    }
+    return { kind: 'hazard', id: 'quicksand', team: 'neutral', x: (x0 + x1) / 2, y: sy, w: x1 - x0, h: 2 * C.T, t: 0, gloop: U.rand(1, 3), dead: false,
+      update(dt) {
+        this.t += dt; const p = G.player;
+        const list = [p]; for (const e of G.ents) if (e.kind === 'enemy' && !e.isBoss && !e.dead && Math.abs(e.x - this.x) < this.w / 2 + 40) list.push(e);
+        let any = false;
+        for (const e of list) { if (e && grab(e, dt, this)) any = true; }
+        if (any && (this.gloop -= dt) <= 0) { this.gloop = U.rand(1.4, 3); if (S.Comic && p) S.Comic.word('GLOOP', p.x + U.rand(-30, 30), sy - 18, { size: 15, color: '#c9a070', stroke: '#2a1a0a', life: 0.6 }); }
+      },
+      draw(ctx) {
+        const t = this.t, h = C.T * 2;
+        ctx.save(); ctx.globalAlpha = 0.5; ctx.fillStyle = '#3a2410'; ctx.fillRect(x0, sy, x1 - x0, h); ctx.globalAlpha = 1;
+        ctx.fillStyle = '#5a3d1c'; ctx.fillRect(x0, sy, x1 - x0, 3);
+        ctx.strokeStyle = '#2a1a0a'; ctx.lineWidth = 2; ctx.fillStyle = '#7a5428';
+        const n = Math.max(2, Math.round((x1 - x0) / 22));
+        for (let i = 0; i < n; i++) { const ph = (t * 0.7 + i * 0.37) % 1, bx = x0 + (i + 0.5) * (x1 - x0) / n, by = sy + 4 + ph * 10, r = 2 + ph * 3; ctx.globalAlpha = 1 - ph * 0.6; ctx.beginPath(); ctx.arc(bx, by, r, 0, Math.PI * 2); ctx.fill(); ctx.stroke(); }
+        ctx.restore();
+      } };
+  }
+  // mud puddle: left by mud-man pies. Non-damaging, slows the player to 0.5x while they stand in it for ~2.5 s
+  function mudPuddle(x, y) {
+    let n = 0; for (const e of G.ents) if (e.id === 'mudpuddle' && !e.dead) { n++; if (n >= 5) { e.dead = true; } }
+    return G.spawn({ kind: 'hazard', id: 'mudpuddle', team: 'neutral', x, y, w: 56, h: 8, t: 0, life: 2.5, dead: false,
+      update(dt) {
+        this.t += dt; if (this.t >= this.life) { this.dead = true; return; }
+        const p = G.player; if (!p || p.dead) return;
+        if (Math.abs(p.x - this.x) < this.w / 2 + 4 && Math.abs(p.y - this.y) < 8) { p.zoneSlow = 0.5; p.zoneJump = 1; p.zoneT = 0.15; }
+      },
+      draw(ctx) {
+        const k = this.t / this.life, w = this.w * Math.min(1, this.t * 6) * (1 - Math.max(0, k - 0.8) * 2.5), x = this.x, y = this.y;
+        ctx.beginPath(); ctx.ellipse(x, y - 2, w / 2, 5, 0, 0, Math.PI * 2); ctx.fillStyle = '#7a5a2f'; ctx.fill(); ctx.strokeStyle = '#2a1a0a'; ctx.lineWidth = 2; ctx.stroke();
+        ctx.fillStyle = '#a07a46'; ctx.beginPath(); ctx.ellipse(x - w * 0.15, y - 3, w * 0.12, 2, 0, 0, Math.PI * 2); ctx.fill();
+        if (Math.sin(this.t * 6) > 0.7) { ctx.beginPath(); ctx.arc(x + w * 0.1, y - 7, 2.5, 0, Math.PI * 2); ctx.fillStyle = '#7a5a2f'; ctx.fill(); ctx.stroke(); }
+      } });
+  }
+  G.mudPuddle = mudPuddle;
   function zoneEntity(sp, fn) {
     return { kind: 'hazard', team: 'neutral', x: sp.x, y: sp.y, w: sp.w || 60, h: sp.h || 200, t: 0, always: false, dead: false,
       update(dt) { this.t += dt; const p = G.player; if (p && !p.dead && U.overlap(this, p, 0)) fn(p, dt); },

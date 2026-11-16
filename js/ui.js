@@ -961,6 +961,16 @@
     show('select');
   }
 
+  // dude portrait (assets/art/dude_<id>.webp); the <img> removes itself when the file is missing so the layout falls back to text only
+  function dudePortrait(id, cls) {
+    const w = el('div', 'sd-portrait ' + (cls || ''));
+    const img = document.createElement('img');
+    img.alt = ''; img.decoding = 'async'; img.draggable = false;
+    img.onerror = () => { w.remove(); };
+    img.src = 'assets/art/dude_' + id + '.webp';
+    w.appendChild(img);
+    return w;
+  }
   // ------------------------------------------------------------------ RESULTS
   function renderResults(o) {
     const r = o.result || {}, fail = !!o.fail;
@@ -972,6 +982,8 @@
     root.appendChild(el('div', 'sd-res-word', fail ? 'YOU GOT DOOSHED' : (r.bossBeaten ? 'LEVEL DOOSHED!' : 'LEVEL CLEAR!')));
     const col = el('div', 'sd-res-row');
     if (inf) col.appendChild(el('span', 'sd-cap ' + (fail ? 'red' : 'white'), fail ? inf.boss + ' wins this round' : inf.name + (r.bossBeaten ? ' - ' + inf.boss + ' got DOOSHED' : '')));
+    const dId = r.dude || (S.Game && S.Game.player && S.Game.player.dude) || null, dd = dId && S.Dudes && S.Dudes[dId];
+    if (dd) { const dw = el('div', 'sd-res-dude'); dw.appendChild(dudePortrait(dId, 'lg')); dw.appendChild(el('span', 'sd-cap ' + (fail ? 'red' : 'white'), (fail ? 'DOOSHED: ' : 'FINISHED BY: ') + String(dd.name))); col.appendChild(dw); }
     const tally = el('div', 'sd-tally');
     const rows = [];
     const addRow = (k, v, cls, fmt) => {
@@ -1050,6 +1062,19 @@
       ['GET TO THE CHOPPA!', '<p>After the boss blows up, a helicopter drops a ladder. Grab it. Collect gold, then spend it in the shop on permanent upgrades.</p>']
     ];
     panels.forEach(([t, h], i) => { const p = el('div', 'sd-how'); p.style.setProperty('--i', i); p.innerHTML = '<h3>' + esc(t) + '</h3>' + h; g.appendChild(p); });
+    if (S.Dudes && S.Dudes.order) {
+      const rp = el('div', 'sd-how sd-roster'); rp.style.setProperty('--i', panels.length);
+      rp.appendChild(el('h3', '', 'THE BROS'));
+      const list = el('div', 'sd-roster-list');
+      for (const id of S.Dudes.order) {
+        const d = S.Dudes[id]; if (!d) continue;
+        const c = el('div', 'sd-roster-card');
+        c.appendChild(dudePortrait(id, 'sm'));
+        const t = el('div', 'sd-roster-txt'); t.appendChild(el('b', '', String(d.name || id))); t.appendChild(el('span', '', String(d.blurb || '')));
+        c.appendChild(t); list.appendChild(c);
+      }
+      rp.appendChild(list); g.appendChild(rp);
+    }
     box.appendChild(g); root.appendChild(box);
   }
   function renderCredits() {

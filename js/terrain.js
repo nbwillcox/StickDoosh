@@ -73,6 +73,7 @@
 
   function idx(tx, ty) { return ty * W + tx; }
   function get(tx, ty) {
+    if (!tiles) return MAT.EMPTY;
     if (tx < 0 || tx >= W) return MAT.BEDROCK;
     if (ty < 0 || ty >= H) return MAT.EMPTY;
     return tiles[ty * W + tx];
@@ -687,7 +688,8 @@
       if (e.vy > maxFall) e.vy = maxFall;
       e.hitWall = 0; e.bonk = false; e.stepped = false;
       if (e.noTerrain) { e.x += e.vx * dt; e.y += e.vy * dt; e.onGround = false; return; }
-      let dx = e.vx * dt, dy = e.vy * dt;
+      if (e.zoneT > 0) e.zoneT -= dt;
+      let dx = e.vx * dt * (e.zoneT > 0 && e.zoneSlow ? e.zoneSlow : 1), dy = e.vy * dt;
       const steps = Math.max(1, Math.ceil(Math.max(Math.abs(dx), Math.abs(dy)) / (T * 0.4)));
       dx /= steps; dy /= steps;
       const wasGround = e.onGround;
