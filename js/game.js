@@ -43,7 +43,7 @@
         return (e.y - e.h * 0.45) > S.LevelGen.waterY(lv, G.time);
       } : null;
       G.ents = []; G._hostile = { player: [], enemy: [], neutral: [] };
-      G.time = 0; G.gold = 0; G.kills = 0; G.rescues = 0; G.boss = null; G.bossStarted = false; G.bossDeath = null; G.pending = null;
+      G.time = 0; G.gold = 0; G.kills = 0; G.rescues = 0; G.boss = null; G.bossStarted = false; G.bossDeath = null; G.pending = null; G.finished = false; G.bossGold = 0; // finished reset: levels after the first never finished (freeze bug)
       G.checkpoint = { x: lv.spawn.x, y: lv.spawn.y }; G.capT = U.rand(14, 24); G.killT = 0; G.killChain = 0; G.goldPop = null;
       G.bonusLives = G.stats.extraLives || 0; G.chopper = null; G.sealed = false; G.paused = false; G.hitFlag = {};
       // team
