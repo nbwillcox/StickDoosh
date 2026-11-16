@@ -11,11 +11,13 @@ sys.path.insert(0, os.path.join(ROOT, 'tools', 'comfy_audio'))
 import audiolib as AL
 SRC = os.path.join(ROOT, 'assets', 'raw_audio', 'vocal', 'mgv'); SFX = os.path.join(ROOT, 'assets', 'sfx')
 main = sys.argv[1] if len(sys.argv) > 1 else 'en_ph2_am_michael'
-alts = ['en_ph1_am_puck', 'en_ph1_am_onyx', 'en_ph1_am_michael']
+alts = []  # variants = pitch shifts of the chosen take only
 
 
 def load(tag):
-    sr, x = wavfile.read(os.path.join(SRC, tag + '.wav'))
+    d = os.path.join(SRC, tag + '.wav')
+    if not os.path.exists(d): d = os.path.join(SRC.replace('mgv', 'mgv2'), tag + '.wav')
+    sr, x = wavfile.read(d)
     x = x.astype(np.float32)
     if x.dtype.kind != 'f' or np.abs(x).max() > 2: x = x / 32768.0
     return x, sr
@@ -44,7 +46,7 @@ def active(x, sr):
 
 def loopify(x, sr, length=0.9, xf=0.10):
     n = int(length * sr); xfn = int(xf * sr)
-    a = int(0.22 * sr)                                   # skip the 'b' onset
+    a = int(0.30 * sr)                                   # skip the 'bur' onset, loop only the rolled r
     seg = x[a: a + n + xfn]
     if len(seg) < n + xfn:
         seg = np.pad(seg, (0, n + xfn - len(seg)), mode='wrap')
