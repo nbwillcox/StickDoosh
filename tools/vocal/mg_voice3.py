@@ -43,7 +43,24 @@ def roll(sr, dur, f0, rate, seed):
     return (x * env).astype(np.float32)
 
 
+def squeeze(x, sr, thr=0.05, min_gap=0.018, keep=0.003):
+    """Remove dead air: any quiet run longer than min_gap is cut down to `keep` seconds, so bur + rolled r run together."""
+    n = max(1, int(sr * 0.003)); e = np.convolve(np.abs(x), np.ones(n) / n, 'same'); q = e < thr * e.max()
+    mask = np.ones(len(x), bool); i = 0; kn = int(keep * sr / 2)
+    while i < len(x):
+        if q[i]:
+            j = i
+            while j < len(x) and q[j]: j += 1
+            if j - i > min_gap * sr and i > 0 and j < len(x):
+                mask[i + kn: j - kn] = False
+            i = j
+        else:
+            i += 1
+    return x[mask]
+
+
 def save(tag, x, sr):
+    x = squeeze(x, sr)
     x = x / (np.abs(x).max() + 1e-9) * 0.85
     sf.write(os.path.join(OUT, tag + '.wav'), x.astype(np.float32), sr)
 
