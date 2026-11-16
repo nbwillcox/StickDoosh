@@ -1,0 +1,1386 @@
+{
+ "title": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/title.mp3",
+  "bytes": 1248958,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/title_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.39,
+     "peak_db": 0.0,
+     "clip_frac": 1.8219449626865671e-06,
+     "silence_frac": 0.0098,
+     "longest_silence_s": 1.1,
+     "rms_db_std": 2.47,
+     "sub_lt100": 0.1767,
+     "body_100_1k": 0.4991,
+     "crunch_1k_5k": 0.2891,
+     "air_5k_16k": 0.0351,
+     "guitar_100_5k": 0.7881,
+     "centroid_hz": 1215.464,
+     "flatness_300_5k": 0.7401
+    },
+    "master": {
+     "loop_start_s": 1.683,
+     "loop_end_s": 90.833,
+     "loop_score": 0.4371,
+     "lufs_in": -10.08,
+     "lufs_out": -14.0,
+     "true_peak_db": -3.37,
+     "dur_s": 89.15
+    },
+    "problems": [],
+    "score": 1.7049,
+    "prompt": "Anthemic 1980s arena heavy metal instrumental with no vocals, twin distorted electric guitars playing a big triumphant riff, soaring harmonized guitar leads and a shredding guitar solo, driving bass guitar, pounding drum kit with double bass drums and huge cymbal crashes, creating heroic, epic, fist-pumping energy. BPM: 140. Length: 112 seconds",
+    "seed": 1679575217,
+    "pipeline": "P2",
+    "preview_bytes": 1248958,
+    "preview": "assets/raw_audio/music_preview/title_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/title_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.24,
+     "peak_db": 0.0,
+     "clip_frac": 1.4170683043117744e-06,
+     "silence_frac": 0.0076,
+     "longest_silence_s": 0.85,
+     "rms_db_std": 2.12,
+     "sub_lt100": 0.1488,
+     "body_100_1k": 0.4854,
+     "crunch_1k_5k": 0.325,
+     "air_5k_16k": 0.0408,
+     "guitar_100_5k": 0.8104,
+     "centroid_hz": 1372.5828,
+     "flatness_300_5k": 0.7352
+    },
+    "master": {
+     "loop_start_s": 0.0,
+     "loop_end_s": 90.0,
+     "loop_score": 0.427,
+     "lufs_in": -10.27,
+     "lufs_out": -14.0,
+     "true_peak_db": -3.36,
+     "dur_s": 90.0
+    },
+    "problems": [],
+    "score": 1.8104,
+    "prompt": "Anthemic 1980s arena heavy metal instrumental with no vocals, twin distorted electric guitars playing a big triumphant riff, soaring harmonized guitar leads and a shredding guitar solo, driving bass guitar, pounding drum kit with double bass drums and huge cymbal crashes, creating heroic, epic, fist-pumping energy. BPM: 140. Length: 112 seconds",
+    "seed": 1679575217,
+    "pipeline": "P2",
+    "preview_bytes": 1261027,
+    "preview": "assets/raw_audio/music_preview/title_B.mp3"
+   },
+   "abP1": {
+    "wav": "assets/raw_audio/music/title_abP1.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -12.27,
+     "peak_db": -0.21,
+     "clip_frac": 0.0,
+     "silence_frac": 0.0067,
+     "longest_silence_s": 0.75,
+     "rms_db_std": 2.23,
+     "sub_lt100": 0.1537,
+     "body_100_1k": 0.5616,
+     "crunch_1k_5k": 0.2565,
+     "air_5k_16k": 0.0282,
+     "guitar_100_5k": 0.8181,
+     "centroid_hz": 1075.896,
+     "flatness_300_5k": 0.6653
+    },
+    "master": {
+     "loop_start_s": 0.0,
+     "loop_end_s": 96.0,
+     "loop_score": 0.6717,
+     "lufs_in": -12.26,
+     "lufs_out": -14.0,
+     "true_peak_db": -1.6,
+     "dur_s": 96.0
+    },
+    "problems": [],
+    "score": 1.6444,
+    "prompt": "Anthemic 1980s arena heavy metal instrumental with no vocals, twin distorted electric guitars playing a big triumphant riff, soaring harmonized guitar leads and a shredding guitar solo, driving bass guitar, pounding drum kit with double bass drums and huge cymbal crashes, creating heroic, epic, fist-pumping energy. BPM: 140. Length: 112 seconds",
+    "seed": 4242,
+    "pipeline": "P1",
+    "preview_bytes": 1344775,
+    "preview": "assets/raw_audio/music_preview/title_abP1.mp3"
+   },
+   "abP1s5151": {
+    "wav": "assets/raw_audio/music/title_abP1s5151.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.57,
+     "peak_db": 0.0,
+     "clip_frac": 5.263396558872305e-06,
+     "silence_frac": 0.0054,
+     "longest_silence_s": 0.6,
+     "rms_db_std": 2.3,
+     "sub_lt100": 0.1656,
+     "body_100_1k": 0.551,
+     "crunch_1k_5k": 0.2503,
+     "air_5k_16k": 0.033,
+     "guitar_100_5k": 0.8014,
+     "centroid_hz": 1104.0612,
+     "flatness_300_5k": 0.6755
+    },
+    "master": {
+     "loop_start_s": 0.035,
+     "loop_end_s": 82.321,
+     "loop_score": 0.5964,
+     "lufs_in": -10.67,
+     "lufs_out": -14.0,
+     "true_peak_db": -3.05,
+     "dur_s": 82.29
+    },
+    "problems": [],
+    "score": 1.6293,
+    "prompt": "Anthemic 1980s arena heavy metal instrumental with no vocals, twin distorted electric guitars playing a big triumphant riff, soaring harmonized guitar leads and a shredding guitar solo, driving bass guitar, pounding drum kit with double bass drums and huge cymbal crashes, creating heroic, epic, fist-pumping energy. BPM: 140. Length: 112 seconds",
+    "seed": 5151,
+    "pipeline": "P1",
+    "preview_bytes": 1152775,
+    "preview": "assets/raw_audio/music_preview/title_abP1s5151.mp3"
+   },
+   "abP1s6262": {
+    "wav": "assets/raw_audio/music/title_abP1s6262.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -12.27,
+     "peak_db": 0.0,
+     "clip_frac": 2.0243832918739636e-07,
+     "silence_frac": 0.0183,
+     "longest_silence_s": 2.05,
+     "rms_db_std": 1.83,
+     "sub_lt100": 0.1607,
+     "body_100_1k": 0.5237,
+     "crunch_1k_5k": 0.2835,
+     "air_5k_16k": 0.032,
+     "guitar_100_5k": 0.8072,
+     "centroid_hz": 1175.7347,
+     "flatness_300_5k": 0.6448
+    },
+    "master": {
+     "loop_start_s": 1.683,
+     "loop_end_s": 90.818,
+     "loop_score": 0.4082,
+     "lufs_in": -12.11,
+     "lufs_out": -14.0,
+     "true_peak_db": -1.78,
+     "dur_s": 89.13
+    },
+    "problems": [],
+    "score": 1.4211,
+    "prompt": "Anthemic 1980s arena heavy metal instrumental with no vocals, twin distorted electric guitars playing a big triumphant riff, soaring harmonized guitar leads and a shredding guitar solo, driving bass guitar, pounding drum kit with double bass drums and huge cymbal crashes, creating heroic, epic, fist-pumping energy. BPM: 140. Length: 112 seconds",
+    "seed": 6262,
+    "pipeline": "P1",
+    "preview_bytes": 1248958,
+    "preview": "assets/raw_audio/music_preview/title_abP1s6262.mp3"
+   },
+   "abP2": {
+    "wav": "assets/raw_audio/music/title_abP2.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.43,
+     "peak_db": 0.0,
+     "clip_frac": 3.036574937810945e-07,
+     "silence_frac": 0.0067,
+     "longest_silence_s": 0.75,
+     "rms_db_std": 2.16,
+     "sub_lt100": 0.15,
+     "body_100_1k": 0.5191,
+     "crunch_1k_5k": 0.3001,
+     "air_5k_16k": 0.0306,
+     "guitar_100_5k": 0.8192,
+     "centroid_hz": 1246.324,
+     "flatness_300_5k": 0.7202
+    },
+    "master": {
+     "loop_start_s": 0.0,
+     "loop_end_s": 82.286,
+     "loop_score": 0.4863,
+     "lufs_in": -10.49,
+     "lufs_out": -14.0,
+     "true_peak_db": -3.04,
+     "dur_s": 82.29
+    },
+    "problems": [],
+    "score": 1.7613,
+    "prompt": "Anthemic 1980s arena heavy metal instrumental with no vocals, twin distorted electric guitars playing a big triumphant riff, soaring harmonized guitar leads and a shredding guitar solo, driving bass guitar, pounding drum kit with double bass drums and huge cymbal crashes, creating heroic, epic, fist-pumping energy. BPM: 140. Length: 112 seconds",
+    "seed": 4242,
+    "pipeline": "P2",
+    "preview_bytes": 1153141,
+    "preview": "assets/raw_audio/music_preview/title_abP2.mp3"
+   },
+   "abP2s5151": {
+    "wav": "assets/raw_audio/music/title_abP2s5151.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.33,
+     "peak_db": 0.0,
+     "clip_frac": 9.109724813432836e-07,
+     "silence_frac": 0.0058,
+     "longest_silence_s": 0.65,
+     "rms_db_std": 1.85,
+     "sub_lt100": 0.1772,
+     "body_100_1k": 0.4883,
+     "crunch_1k_5k": 0.298,
+     "air_5k_16k": 0.0363,
+     "guitar_100_5k": 0.7864,
+     "centroid_hz": 1285.4163,
+     "flatness_300_5k": 0.7004
+    },
+    "master": {
+     "loop_start_s": 0.023,
+     "loop_end_s": 89.169,
+     "loop_score": 0.5036,
+     "lufs_in": -10.35,
+     "lufs_out": -14.0,
+     "true_peak_db": -3.0,
+     "dur_s": 89.15
+    },
+    "problems": [],
+    "score": 1.7218,
+    "prompt": "Anthemic 1980s arena heavy metal instrumental with no vocals, twin distorted electric guitars playing a big triumphant riff, soaring harmonized guitar leads and a shredding guitar solo, driving bass guitar, pounding drum kit with double bass drums and huge cymbal crashes, creating heroic, epic, fist-pumping energy. BPM: 140. Length: 112 seconds",
+    "seed": 5151,
+    "pipeline": "P2",
+    "preview_bytes": 1248958,
+    "preview": "assets/raw_audio/music_preview/title_abP2s5151.mp3"
+   },
+   "abP2s6262": {
+    "wav": "assets/raw_audio/music/title_abP2s6262.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.3,
+     "peak_db": 0.0,
+     "clip_frac": 2.6316982794361524e-06,
+     "silence_frac": 0.008,
+     "longest_silence_s": 0.9,
+     "rms_db_std": 2.24,
+     "sub_lt100": 0.1465,
+     "body_100_1k": 0.4939,
+     "crunch_1k_5k": 0.3292,
+     "air_5k_16k": 0.0303,
+     "guitar_100_5k": 0.8232,
+     "centroid_hz": 1326.5076,
+     "flatness_300_5k": 0.701
+    },
+    "master": {
+     "loop_start_s": 0.824,
+     "loop_end_s": 89.967,
+     "loop_score": 0.4936,
+     "lufs_in": -10.04,
+     "lufs_out": -14.0,
+     "true_peak_db": -3.25,
+     "dur_s": 89.14
+    },
+    "problems": [],
+    "score": 1.8073,
+    "prompt": "Anthemic 1980s arena heavy metal instrumental with no vocals, twin distorted electric guitars playing a big triumphant riff, soaring harmonized guitar leads and a shredding guitar solo, driving bass guitar, pounding drum kit with double bass drums and huge cymbal crashes, creating heroic, epic, fist-pumping energy. BPM: 140. Length: 112 seconds",
+    "seed": 6262,
+    "pipeline": "P2",
+    "preview_bytes": 1248958,
+    "preview": "assets/raw_audio/music_preview/title_abP2s6262.mp3"
+   }
+  }
+ },
+ "select": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/select.mp3",
+  "bytes": 1141073,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/select_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -11.4,
+     "peak_db": 0.0,
+     "clip_frac": 1.5182874689054727e-06,
+     "silence_frac": 0.0085,
+     "longest_silence_s": 0.85,
+     "rms_db_std": 2.88,
+     "sub_lt100": 0.2717,
+     "body_100_1k": 0.5621,
+     "crunch_1k_5k": 0.1507,
+     "air_5k_16k": 0.0151,
+     "guitar_100_5k": 0.7128,
+     "centroid_hz": 634.0213,
+     "flatness_300_5k": 0.7227
+    },
+    "master": {
+     "loop_start_s": 3.32,
+     "loop_end_s": 84.748,
+     "loop_score": 0.5878,
+     "lufs_in": -11.41,
+     "lufs_out": -14.0,
+     "true_peak_db": -2.21,
+     "dur_s": 81.43
+    },
+    "problems": [],
+    "score": 1.3406,
+    "prompt": "Mid-tempo heavy metal instrumental with no vocals, chugging palm-muted distorted electric guitar riffs, steady groovy bass guitar, solid rock drum kit with tight kick and snare, and short melodic guitar lead fills, creating confident, cool, steady head-nodding energy. BPM: 112. Length: 112 seconds",
+    "seed": 758905658,
+    "pipeline": "P2",
+    "preview_bytes": 1141073,
+    "preview": "assets/raw_audio/music_preview/select_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/select_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -11.39,
+     "peak_db": 0.0,
+     "clip_frac": 2.6316982794361524e-06,
+     "silence_frac": 0.0071,
+     "longest_silence_s": 0.75,
+     "rms_db_std": 1.89,
+     "sub_lt100": 0.2146,
+     "body_100_1k": 0.619,
+     "crunch_1k_5k": 0.1519,
+     "air_5k_16k": 0.0143,
+     "guitar_100_5k": 0.7709,
+     "centroid_hz": 624.898,
+     "flatness_300_5k": 0.7383
+    },
+    "master": {
+     "loop_start_s": 2.717,
+     "loop_end_s": 103.43,
+     "loop_score": 0.5879,
+     "lufs_in": -11.29,
+     "lufs_out": -14.0,
+     "true_peak_db": -2.16,
+     "dur_s": 100.71
+    },
+    "problems": [],
+    "score": 1.4155,
+    "prompt": "Mid-tempo heavy metal instrumental with no vocals, chugging palm-muted distorted electric guitar riffs, steady groovy bass guitar, solid rock drum kit with tight kick and snare, and short melodic guitar lead fills, creating confident, cool, steady head-nodding energy. BPM: 112. Length: 112 seconds",
+    "seed": 758905658,
+    "pipeline": "P2",
+    "preview_bytes": 1410970,
+    "preview": "assets/raw_audio/music_preview/select_B.mp3"
+   }
+  }
+ },
+ "ice": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/ice.mp3",
+  "bytes": 1190810,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/ice_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -11.33,
+     "peak_db": 0.0,
+     "clip_frac": 1.3158491397180762e-06,
+     "silence_frac": 0.0107,
+     "longest_silence_s": 1.2,
+     "rms_db_std": 2.24,
+     "sub_lt100": 0.4609,
+     "body_100_1k": 0.3797,
+     "crunch_1k_5k": 0.1252,
+     "air_5k_16k": 0.0342,
+     "guitar_100_5k": 0.5049,
+     "centroid_hz": 713.2631,
+     "flatness_300_5k": 0.9236
+    },
+    "master": {
+     "loop_start_s": 0.046,
+     "loop_end_s": 85.04,
+     "loop_score": 0.3443,
+     "lufs_in": -11.4,
+     "lufs_out": -14.0,
+     "true_peak_db": -1.85,
+     "dur_s": 84.99
+    },
+    "problems": [],
+    "score": 1.1807,
+    "prompt": "Thrash metal instrumental with no vocals, opening with an icy clean chorus electric guitar arpeggio then exploding into fast aggressive palm-muted distorted guitar riffs, galloping bass guitar, rapid double bass drums and crashing cymbals, creating cold, sharp, frantic energy. BPM: 180. Length: 112 seconds",
+    "seed": 1360077569,
+    "pipeline": "P2",
+    "preview_bytes": 1190810,
+    "preview": "assets/raw_audio/music_preview/ice_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/ice_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.89,
+     "peak_db": 0.0,
+     "clip_frac": 8.704848155058042e-06,
+     "silence_frac": 0.0071,
+     "longest_silence_s": 0.75,
+     "rms_db_std": 4.78,
+     "sub_lt100": 0.4412,
+     "body_100_1k": 0.3379,
+     "crunch_1k_5k": 0.174,
+     "air_5k_16k": 0.0468,
+     "guitar_100_5k": 0.5119,
+     "centroid_hz": 955.5591,
+     "flatness_300_5k": 0.8478
+    },
+    "master": {
+     "loop_start_s": 1.672,
+     "loop_end_s": 103.627,
+     "loop_score": 0.2165,
+     "lufs_in": -10.75,
+     "lufs_out": -14.0,
+     "true_peak_db": -2.51,
+     "dur_s": 101.96
+    },
+    "problems": [],
+    "score": 1.2717,
+    "prompt": "Thrash metal instrumental with no vocals, opening with an icy clean chorus electric guitar arpeggio then exploding into fast aggressive palm-muted distorted guitar riffs, galloping bass guitar, rapid double bass drums and crashing cymbals, creating cold, sharp, frantic energy. BPM: 180. Length: 112 seconds",
+    "seed": 1360077569,
+    "pipeline": "P2",
+    "preview_bytes": 1428158,
+    "preview": "assets/raw_audio/music_preview/ice_B.mp3"
+   }
+  }
+ },
+ "fire": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/fire.mp3",
+  "bytes": 1425233,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/fire_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.42,
+     "peak_db": 0.0,
+     "clip_frac": 1.609384717039801e-05,
+     "silence_frac": 0.0147,
+     "longest_silence_s": 1.6,
+     "rms_db_std": 2.94,
+     "sub_lt100": 0.316,
+     "body_100_1k": 0.3064,
+     "crunch_1k_5k": 0.2664,
+     "air_5k_16k": 0.1106,
+     "guitar_100_5k": 0.5728,
+     "centroid_hz": 1760.4887,
+     "flatness_300_5k": 0.8701
+    },
+    "master": {
+     "loop_start_s": 0.998,
+     "loop_end_s": 102.738,
+     "loop_score": 0.4075,
+     "lufs_in": -10.39,
+     "lufs_out": -14.0,
+     "true_peak_db": -2.07,
+     "dur_s": 101.74
+    },
+    "problems": [],
+    "score": 1.3224,
+    "prompt": "Heavy doom metal instrumental with no vocals, slow crushing down-tuned distorted guitar riffs, thick rumbling bass guitar, heavy pounding drums with big cymbal crashes, and a fast blazing shred guitar solo, creating dark, fiery, powerful energy. BPM: 92. Length: 112 seconds",
+    "seed": 1216039673,
+    "pipeline": "P2",
+    "preview_bytes": 1425233,
+    "preview": "assets/raw_audio/music_preview/fire_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/fire_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.7,
+     "peak_db": 0.0,
+     "clip_frac": 6.07314987562189e-07,
+     "silence_frac": 0.0156,
+     "longest_silence_s": 1.75,
+     "rms_db_std": 3.31,
+     "sub_lt100": 0.1911,
+     "body_100_1k": 0.4805,
+     "crunch_1k_5k": 0.2635,
+     "air_5k_16k": 0.0648,
+     "guitar_100_5k": 0.744,
+     "centroid_hz": 1407.1388,
+     "flatness_300_5k": 0.8144
+    },
+    "master": {
+     "loop_start_s": 2.879,
+     "loop_end_s": 99.31,
+     "loop_score": 0.3648,
+     "lufs_in": -10.59,
+     "lufs_out": -14.0,
+     "true_peak_db": -3.17,
+     "dur_s": 96.43
+    },
+    "problems": [],
+    "score": 1.4326,
+    "prompt": "Heavy doom metal instrumental with no vocals, slow crushing down-tuned distorted guitar riffs, thick rumbling bass guitar, heavy pounding drums with big cymbal crashes, and a fast blazing shred guitar solo, creating dark, fiery, powerful energy. BPM: 92. Length: 112 seconds",
+    "seed": 1216039673,
+    "pipeline": "P2",
+    "preview_bytes": 1350993,
+    "preview": "assets/raw_audio/music_preview/fire_B.mp3"
+   }
+  }
+ },
+ "wind": {
+  "default": "A",
+  "why": "all candidates flagged; highest objective score",
+  "file": "assets/music/wind.mp3",
+  "bytes": 1378421,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/wind_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -12.49,
+     "peak_db": 0.0,
+     "clip_frac": 2.0243832918739636e-07,
+     "silence_frac": 0.0063,
+     "longest_silence_s": 0.7,
+     "rms_db_std": 3.27,
+     "sub_lt100": 0.649,
+     "body_100_1k": 0.246,
+     "crunch_1k_5k": 0.0961,
+     "air_5k_16k": 0.0088,
+     "guitar_100_5k": 0.3422,
+     "centroid_hz": 399.0912,
+     "flatness_300_5k": 0.7767
+    },
+    "master": {
+     "loop_start_s": 0.0,
+     "loop_end_s": 98.394,
+     "loop_score": 0.314,
+     "lufs_in": -12.48,
+     "lufs_out": -14.0,
+     "true_peak_db": -1.66,
+     "dur_s": 98.39
+    },
+    "problems": [
+     "little guitar-range energy"
+    ],
+    "score": 0.6956,
+    "prompt": "Speed metal instrumental with no vocals, blazing fast tremolo-picked distorted electric guitar riffs, rapid galloping bass, relentless double bass drums with fast snare, and screaming whammy bar guitar leads, creating rushing, windswept, breakneck energy. BPM: 200. Length: 112 seconds",
+    "seed": 833492936,
+    "pipeline": "P2",
+    "preview_bytes": 1378421,
+    "preview": "assets/raw_audio/music_preview/wind_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/wind_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -12.59,
+     "peak_db": -1.6,
+     "clip_frac": 0.0,
+     "silence_frac": 0.0067,
+     "longest_silence_s": 0.75,
+     "rms_db_std": 2.61,
+     "sub_lt100": 0.6601,
+     "body_100_1k": 0.232,
+     "crunch_1k_5k": 0.1004,
+     "air_5k_16k": 0.0074,
+     "guitar_100_5k": 0.3324,
+     "centroid_hz": 400.5376,
+     "flatness_300_5k": 0.7517
+    },
+    "master": {
+     "loop_start_s": 0.0,
+     "loop_end_s": 86.401,
+     "loop_score": 0.4976,
+     "lufs_in": -12.65,
+     "lufs_out": -14.0,
+     "true_peak_db": -2.93,
+     "dur_s": 86.4
+    },
+    "problems": [
+     "little guitar-range energy"
+    ],
+    "score": 0.6793,
+    "prompt": "Speed metal instrumental with no vocals, blazing fast tremolo-picked distorted electric guitar riffs, rapid galloping bass, relentless double bass drums with fast snare, and screaming whammy bar guitar leads, creating rushing, windswept, breakneck energy. BPM: 200. Length: 112 seconds",
+    "seed": 833492936,
+    "pipeline": "P2",
+    "preview_bytes": 1210558,
+    "preview": "assets/raw_audio/music_preview/wind_B.mp3"
+   }
+  }
+ },
+ "water": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/water.mp3",
+  "bytes": 1201050,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/water_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.34,
+     "peak_db": 0.0,
+     "clip_frac": 1.4170683043117744e-06,
+     "silence_frac": 0.0156,
+     "longest_silence_s": 1.75,
+     "rms_db_std": 2.84,
+     "sub_lt100": 0.2849,
+     "body_100_1k": 0.3925,
+     "crunch_1k_5k": 0.2847,
+     "air_5k_16k": 0.0378,
+     "guitar_100_5k": 0.6772,
+     "centroid_hz": 1195.8129,
+     "flatness_300_5k": 0.4876
+    },
+    "master": {
+     "loop_start_s": 2.113,
+     "loop_end_s": 87.827,
+     "loop_score": 0.7887,
+     "lufs_in": -10.46,
+     "lufs_out": -14.0,
+     "true_peak_db": -3.21,
+     "dur_s": 85.71
+    },
+    "problems": [],
+    "score": 1.2313,
+    "prompt": "Pirate shanty folk metal instrumental with no vocals, galloping distorted electric guitars playing a swashbuckling sea shanty melody, accordion and fiddle layers, driving bass guitar, pounding drums with double bass, creating rowdy, swaying, adventurous energy. BPM: 150. Length: 112 seconds",
+    "seed": 874062848,
+    "pipeline": "P2",
+    "preview_bytes": 1201050,
+    "preview": "assets/raw_audio/music_preview/water_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/water_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -9.76,
+     "peak_db": 0.0,
+     "clip_frac": 2.8341366086235487e-06,
+     "silence_frac": 0.0121,
+     "longest_silence_s": 1.05,
+     "rms_db_std": 2.51,
+     "sub_lt100": 0.1838,
+     "body_100_1k": 0.3515,
+     "crunch_1k_5k": 0.421,
+     "air_5k_16k": 0.0428,
+     "guitar_100_5k": 0.7724,
+     "centroid_hz": 1602.1444,
+     "flatness_300_5k": 0.5724
+    },
+    "master": {
+     "loop_start_s": 0.383,
+     "loop_end_s": 89.983,
+     "loop_score": 0.5371,
+     "lufs_in": -9.98,
+     "lufs_out": -14.0,
+     "true_peak_db": -3.8,
+     "dur_s": 89.6
+    },
+    "problems": [],
+    "score": 1.8615,
+    "prompt": "Pirate shanty folk metal instrumental with no vocals, galloping distorted electric guitars playing a swashbuckling sea shanty melody, accordion and fiddle layers, driving bass guitar, pounding drums with double bass, creating rowdy, swaying, adventurous energy. BPM: 150. Length: 112 seconds",
+    "seed": 874062848,
+    "pipeline": "P2",
+    "preview_bytes": 1255541,
+    "preview": "assets/raw_audio/music_preview/water_B.mp3"
+   }
+  }
+ },
+ "mud": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/mud.mp3",
+  "bytes": 1401095,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/mud_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -11.16,
+     "peak_db": 0.0,
+     "clip_frac": 1.0121916459369818e-06,
+     "silence_frac": 0.0179,
+     "longest_silence_s": 1.15,
+     "rms_db_std": 5.67,
+     "sub_lt100": 0.3415,
+     "body_100_1k": 0.452,
+     "crunch_1k_5k": 0.1636,
+     "air_5k_16k": 0.0422,
+     "guitar_100_5k": 0.6156,
+     "centroid_hz": 869.4105,
+     "flatness_300_5k": 0.7344
+    },
+    "master": {
+     "loop_start_s": 3.727,
+     "loop_end_s": 103.725,
+     "loop_score": 0.7242,
+     "lufs_in": -11.08,
+     "lufs_out": -14.0,
+     "true_peak_db": -2.15,
+     "dur_s": 100.0
+    },
+    "problems": [],
+    "score": 1.2416,
+    "prompt": "Sludgy groove metal instrumental with no vocals, thick down-tuned fuzzy distorted guitar riffs with a swampy heavy groove, grinding bass guitar, slow stomping drums with heavy kick and snare, and bluesy guitar bends, creating dirty, muddy, swaggering energy. BPM: 96. Length: 112 seconds",
+    "seed": 1032261276,
+    "pipeline": "P2",
+    "preview_bytes": 1401095,
+    "preview": "assets/raw_audio/music_preview/mud_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/mud_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -11.45,
+     "peak_db": 0.0,
+     "clip_frac": 9.109724813432836e-07,
+     "silence_frac": 0.0138,
+     "longest_silence_s": 1.55,
+     "rms_db_std": 4.72,
+     "sub_lt100": 0.2991,
+     "body_100_1k": 0.5324,
+     "crunch_1k_5k": 0.1366,
+     "air_5k_16k": 0.0317,
+     "guitar_100_5k": 0.669,
+     "centroid_hz": 704.1867,
+     "flatness_300_5k": 0.6514
+    },
+    "master": {
+     "loop_start_s": 1.277,
+     "loop_end_s": 81.277,
+     "loop_score": 0.7646,
+     "lufs_in": -11.76,
+     "lufs_out": -14.0,
+     "true_peak_db": -1.66,
+     "dur_s": 80.0
+    },
+    "problems": [],
+    "score": 1.0147,
+    "prompt": "Sludgy groove metal instrumental with no vocals, thick down-tuned fuzzy distorted guitar riffs with a swampy heavy groove, grinding bass guitar, slow stomping drums with heavy kick and snare, and bluesy guitar bends, creating dirty, muddy, swaggering energy. BPM: 96. Length: 112 seconds",
+    "seed": 1032261276,
+    "pipeline": "P2",
+    "preview_bytes": 1120958,
+    "preview": "assets/raw_audio/music_preview/mud_B.mp3"
+   }
+  }
+ },
+ "jungle": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/jungle.mp3",
+  "bytes": 1234695,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/jungle_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -11.73,
+     "peak_db": 0.0,
+     "clip_frac": 1.6195066334991709e-06,
+     "silence_frac": 0.0205,
+     "longest_silence_s": 1.95,
+     "rms_db_std": 2.6,
+     "sub_lt100": 0.4727,
+     "body_100_1k": 0.3526,
+     "crunch_1k_5k": 0.1565,
+     "air_5k_16k": 0.0181,
+     "guitar_100_5k": 0.5091,
+     "centroid_hz": 634.8349,
+     "flatness_300_5k": 0.7809
+    },
+    "master": {
+     "loop_start_s": 4.888,
+     "loop_end_s": 93.006,
+     "loop_score": 0.2323,
+     "lufs_in": -11.66,
+     "lufs_out": -14.0,
+     "true_peak_db": -1.97,
+     "dur_s": 88.12
+    },
+    "problems": [],
+    "score": 0.9191,
+    "prompt": "Tribal heavy metal instrumental with no vocals, pounding tribal tom drums and jungle percussion, heavy distorted electric guitar riffs, rumbling bass guitar, driving rock drum kit, and wailing guitar leads, creating primal, wild, adventurous energy. BPM: 126. Length: 112 seconds",
+    "seed": 765927219,
+    "pipeline": "P2",
+    "preview_bytes": 1234695,
+    "preview": "assets/raw_audio/music_preview/jungle_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/jungle_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -12.07,
+     "peak_db": 0.0,
+     "clip_frac": 8.097533167495854e-07,
+     "silence_frac": 0.0263,
+     "longest_silence_s": 1.85,
+     "rms_db_std": 2.59,
+     "sub_lt100": 0.5653,
+     "body_100_1k": 0.3372,
+     "crunch_1k_5k": 0.0819,
+     "air_5k_16k": 0.0154,
+     "guitar_100_5k": 0.4191,
+     "centroid_hz": 414.4823,
+     "flatness_300_5k": 0.8611
+    },
+    "master": {
+     "loop_start_s": 1.869,
+     "loop_end_s": 98.53,
+     "loop_score": 0.3969,
+     "lufs_in": -12.04,
+     "lufs_out": -14.0,
+     "true_peak_db": -1.54,
+     "dur_s": 96.66
+    },
+    "problems": [],
+    "score": 0.6896,
+    "prompt": "Tribal heavy metal instrumental with no vocals, pounding tribal tom drums and jungle percussion, heavy distorted electric guitar riffs, rumbling bass guitar, driving rock drum kit, and wailing guitar leads, creating primal, wild, adventurous energy. BPM: 126. Length: 112 seconds",
+    "seed": 765927219,
+    "pipeline": "P2",
+    "preview_bytes": 1354284,
+    "preview": "assets/raw_audio/music_preview/jungle_B.mp3"
+   }
+  }
+ },
+ "mountain": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/mountain.mp3",
+  "bytes": 1344775,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/mountain_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.67,
+     "peak_db": 0.0,
+     "clip_frac": 1.0121916459369818e-07,
+     "silence_frac": 0.0152,
+     "longest_silence_s": 1.7,
+     "rms_db_std": 2.42,
+     "sub_lt100": 0.2961,
+     "body_100_1k": 0.3783,
+     "crunch_1k_5k": 0.3111,
+     "air_5k_16k": 0.0144,
+     "guitar_100_5k": 0.6894,
+     "centroid_hz": 1061.1743,
+     "flatness_300_5k": 0.6672
+    },
+    "master": {
+     "loop_start_s": 0.731,
+     "loop_end_s": 96.726,
+     "loop_score": 0.4398,
+     "lufs_in": -10.64,
+     "lufs_out": -14.0,
+     "true_peak_db": -3.27,
+     "dur_s": 95.99
+    },
+    "problems": [],
+    "score": 1.3764,
+    "prompt": "Epic power metal instrumental with no vocals, soaring harmonized twin electric guitar leads, fast distorted rhythm guitars, majestic synth strings, driving bass, rapid double bass drums and huge cymbal crashes, creating heroic, triumphant, climbing energy. BPM: 160. Length: 112 seconds",
+    "seed": 423708208,
+    "pipeline": "P2",
+    "preview_bytes": 1344775,
+    "preview": "assets/raw_audio/music_preview/mountain_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/mountain_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.64,
+     "peak_db": 0.0,
+     "clip_frac": 3.036574937810945e-07,
+     "silence_frac": 0.0107,
+     "longest_silence_s": 1.2,
+     "rms_db_std": 2.49,
+     "sub_lt100": 0.2481,
+     "body_100_1k": 0.4455,
+     "crunch_1k_5k": 0.289,
+     "air_5k_16k": 0.0174,
+     "guitar_100_5k": 0.7344,
+     "centroid_hz": 1007.1748,
+     "flatness_300_5k": 0.6724
+    },
+    "master": {
+     "loop_start_s": 1.393,
+     "loop_end_s": 83.894,
+     "loop_score": 0.5437,
+     "lufs_in": -10.56,
+     "lufs_out": -14.0,
+     "true_peak_db": -2.99,
+     "dur_s": 82.5
+    },
+    "problems": [],
+    "score": 1.6038,
+    "prompt": "Epic power metal instrumental with no vocals, soaring harmonized twin electric guitar leads, fast distorted rhythm guitars, majestic synth strings, driving bass, rapid double bass drums and huge cymbal crashes, creating heroic, triumphant, climbing energy. BPM: 160. Length: 112 seconds",
+    "seed": 423708208,
+    "pipeline": "P2",
+    "preview_bytes": 1156067,
+    "preview": "assets/raw_audio/music_preview/mountain_B.mp3"
+   }
+  }
+ },
+ "plains": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/plains.mp3",
+  "bytes": 1261027,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/plains_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -11.04,
+     "peak_db": 0.0,
+     "clip_frac": 4.048766583747927e-07,
+     "silence_frac": 0.0054,
+     "longest_silence_s": 0.3,
+     "rms_db_std": 3.42,
+     "sub_lt100": 0.0944,
+     "body_100_1k": 0.681,
+     "crunch_1k_5k": 0.2157,
+     "air_5k_16k": 0.0084,
+     "guitar_100_5k": 0.8967,
+     "centroid_hz": 789.1693,
+     "flatness_300_5k": 0.584
+    },
+    "master": {
+     "loop_start_s": 1.591,
+     "loop_end_s": 91.584,
+     "loop_score": 0.6631,
+     "lufs_in": -11.18,
+     "lufs_out": -14.0,
+     "true_peak_db": -2.25,
+     "dur_s": 89.99
+    },
+    "problems": [],
+    "score": 1.5973,
+    "prompt": "Southern rock boogie metal instrumental with no vocals, crunchy overdriven electric guitars playing a bluesy boogie riff, slide guitar licks, driving bass guitar, shuffle rock drums with cowbell, creating rowdy, sunny, good-time energy. BPM: 132. Length: 112 seconds",
+    "seed": 1980047794,
+    "pipeline": "P2",
+    "preview_bytes": 1261027,
+    "preview": "assets/raw_audio/music_preview/plains_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/plains_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.41,
+     "peak_db": 0.0,
+     "clip_frac": 2.9353557732172473e-06,
+     "silence_frac": 0.0049,
+     "longest_silence_s": 0.4,
+     "rms_db_std": 3.93,
+     "sub_lt100": 0.094,
+     "body_100_1k": 0.5682,
+     "crunch_1k_5k": 0.3273,
+     "air_5k_16k": 0.0097,
+     "guitar_100_5k": 0.8955,
+     "centroid_hz": 1071.2588,
+     "flatness_300_5k": 0.5479
+    },
+    "master": {
+     "loop_start_s": 1.846,
+     "loop_end_s": 83.273,
+     "loop_score": 0.573,
+     "lufs_in": -10.0,
+     "lufs_out": -14.0,
+     "true_peak_db": -3.47,
+     "dur_s": 81.43
+    },
+    "problems": [],
+    "score": 1.8044,
+    "prompt": "Southern rock boogie metal instrumental with no vocals, crunchy overdriven electric guitars playing a bluesy boogie riff, slide guitar licks, driving bass guitar, shuffle rock drums with cowbell, creating rowdy, sunny, good-time energy. BPM: 132. Length: 112 seconds",
+    "seed": 1980047794,
+    "pipeline": "P2",
+    "preview_bytes": 1141073,
+    "preview": "assets/raw_audio/music_preview/plains_B.mp3"
+   }
+  }
+ },
+ "fantasy": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/fantasy.mp3",
+  "bytes": 1280044,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/fantasy_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.39,
+     "peak_db": 0.0,
+     "clip_frac": 2.0243832918739636e-06,
+     "silence_frac": 0.0138,
+     "longest_silence_s": 1.3,
+     "rms_db_std": 2.71,
+     "sub_lt100": 0.1454,
+     "body_100_1k": 0.5376,
+     "crunch_1k_5k": 0.2832,
+     "air_5k_16k": 0.0338,
+     "guitar_100_5k": 0.8208,
+     "centroid_hz": 1257.1012,
+     "flatness_300_5k": 0.6193
+    },
+    "master": {
+     "loop_start_s": 0.569,
+     "loop_end_s": 91.939,
+     "loop_score": 0.2849,
+     "lufs_in": -10.5,
+     "lufs_out": -14.0,
+     "true_peak_db": -3.15,
+     "dur_s": 91.37
+    },
+    "problems": [],
+    "score": 1.6447,
+    "prompt": "Symphonic power metal instrumental with no vocals, baroque harpsichord arpeggios, fast distorted electric guitar riffs, neoclassical shred guitar leads, orchestral strings, driving bass and double bass drums, creating magical, medieval, epic fantasy energy. BPM: 156. Length: 112 seconds",
+    "seed": 1294799888,
+    "pipeline": "P2",
+    "preview_bytes": 1280044,
+    "preview": "assets/raw_audio/music_preview/fantasy_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/fantasy_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.69,
+     "peak_db": 0.0,
+     "clip_frac": 5.060958229684909e-07,
+     "silence_frac": 0.0103,
+     "longest_silence_s": 1.15,
+     "rms_db_std": 3.22,
+     "sub_lt100": 0.2252,
+     "body_100_1k": 0.5229,
+     "crunch_1k_5k": 0.2186,
+     "air_5k_16k": 0.0332,
+     "guitar_100_5k": 0.7415,
+     "centroid_hz": 1053.2202,
+     "flatness_300_5k": 0.6785
+    },
+    "master": {
+     "loop_start_s": 0.522,
+     "loop_end_s": 80.702,
+     "loop_score": 0.2762,
+     "lufs_in": -10.75,
+     "lufs_out": -14.0,
+     "true_peak_db": -2.86,
+     "dur_s": 80.18
+    },
+    "problems": [],
+    "score": 1.483,
+    "prompt": "Symphonic power metal instrumental with no vocals, baroque harpsichord arpeggios, fast distorted electric guitar riffs, neoclassical shred guitar leads, orchestral strings, driving bass and double bass drums, creating magical, medieval, epic fantasy energy. BPM: 156. Length: 112 seconds",
+    "seed": 1294799888,
+    "pipeline": "P2",
+    "preview_bytes": 1123518,
+    "preview": "assets/raw_audio/music_preview/fantasy_B.mp3"
+   }
+  }
+ },
+ "moon": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/moon.mp3",
+  "bytes": 1163015,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/moon_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -11.04,
+     "peak_db": 0.0,
+     "clip_frac": 2.0243832918739636e-07,
+     "silence_frac": 0.0013,
+     "longest_silence_s": 0.15,
+     "rms_db_std": 5.28,
+     "sub_lt100": 0.3048,
+     "body_100_1k": 0.5222,
+     "crunch_1k_5k": 0.1578,
+     "air_5k_16k": 0.0147,
+     "guitar_100_5k": 0.68,
+     "centroid_hz": 686.8588,
+     "flatness_300_5k": 0.7555
+    },
+    "master": {
+     "loop_start_s": 0.476,
+     "loop_end_s": 83.472,
+     "loop_score": 0.322,
+     "lufs_in": -11.08,
+     "lufs_out": -14.0,
+     "true_peak_db": -2.71,
+     "dur_s": 83.0
+    },
+    "problems": [],
+    "score": 1.3742,
+    "prompt": "Space rock metal instrumental with no vocals, heavy distorted electric guitar riffs, spacey analog synth arpeggios and cosmic synth pads, driving bass guitar, pounding rock drums, and soaring delay-drenched guitar leads, creating cosmic, floating, sci-fi energy. BPM: 120. Length: 112 seconds",
+    "seed": 1934165214,
+    "pipeline": "P2",
+    "preview_bytes": 1163015,
+    "preview": "assets/raw_audio/music_preview/moon_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/moon_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -11.36,
+     "peak_db": 0.0,
+     "clip_frac": 2.0243832918739636e-07,
+     "silence_frac": 0.0116,
+     "longest_silence_s": 0.4,
+     "rms_db_std": 4.74,
+     "sub_lt100": 0.3635,
+     "body_100_1k": 0.4907,
+     "crunch_1k_5k": 0.131,
+     "air_5k_16k": 0.0143,
+     "guitar_100_5k": 0.6216,
+     "centroid_hz": 601.0859,
+     "flatness_300_5k": 0.7907
+    },
+    "master": {
+     "loop_start_s": 0.0,
+     "loop_end_s": 80.501,
+     "loop_score": 0.3366,
+     "lufs_in": -10.98,
+     "lufs_out": -14.0,
+     "true_peak_db": -2.8,
+     "dur_s": 80.5
+    },
+    "problems": [],
+    "score": 1.2281,
+    "prompt": "Space rock metal instrumental with no vocals, heavy distorted electric guitar riffs, spacey analog synth arpeggios and cosmic synth pads, driving bass guitar, pounding rock drums, and soaring delay-drenched guitar leads, creating cosmic, floating, sci-fi energy. BPM: 120. Length: 112 seconds",
+    "seed": 1934165214,
+    "pipeline": "P2",
+    "preview_bytes": 1127907,
+    "preview": "assets/raw_audio/music_preview/moon_B.mp3"
+   }
+  }
+ },
+ "retro": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/retro.mp3",
+  "bytes": 1406581,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/retro_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -10.92,
+     "peak_db": 0.0,
+     "clip_frac": 1.6195066334991709e-06,
+     "silence_frac": 0.0161,
+     "longest_silence_s": 0.75,
+     "rms_db_std": 2.79,
+     "sub_lt100": 0.3249,
+     "body_100_1k": 0.3738,
+     "crunch_1k_5k": 0.2687,
+     "air_5k_16k": 0.0312,
+     "guitar_100_5k": 0.6425,
+     "centroid_hz": 1107.1343,
+     "flatness_300_5k": 0.7442
+    },
+    "master": {
+     "loop_start_s": 1.474,
+     "loop_end_s": 101.882,
+     "loop_score": 0.302,
+     "lufs_in": -10.84,
+     "lufs_out": -14.0,
+     "true_peak_db": -2.59,
+     "dur_s": 100.41
+    },
+    "problems": [],
+    "score": 1.4871,
+    "prompt": "Chiptune metal instrumental with no vocals, 8-bit square wave synth leads and video game arpeggios, heavy distorted electric guitar power chord riffs, driving bass, fast metal drums with double bass, creating retro, energetic, video game boss-level energy. BPM: 160. Length: 112 seconds",
+    "seed": 354341992,
+    "pipeline": "P2",
+    "preview_bytes": 1406581,
+    "preview": "assets/raw_audio/music_preview/retro_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/retro_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -11.28,
+     "peak_db": 0.0,
+     "clip_frac": 1.0121916459369818e-07,
+     "silence_frac": 0.0067,
+     "longest_silence_s": 0.75,
+     "rms_db_std": 2.63,
+     "sub_lt100": 0.4332,
+     "body_100_1k": 0.3364,
+     "crunch_1k_5k": 0.2118,
+     "air_5k_16k": 0.0182,
+     "guitar_100_5k": 0.5482,
+     "centroid_hz": 859.8701,
+     "flatness_300_5k": 0.7052
+    },
+    "master": {
+     "loop_start_s": 0.023,
+     "loop_end_s": 85.536,
+     "loop_score": 0.2262,
+     "lufs_in": -11.56,
+     "lufs_out": -14.0,
+     "true_peak_db": -2.42,
+     "dur_s": 85.51
+    },
+    "problems": [],
+    "score": 1.3,
+    "prompt": "Chiptune metal instrumental with no vocals, 8-bit square wave synth leads and video game arpeggios, heavy distorted electric guitar power chord riffs, driving bass, fast metal drums with double bass, creating retro, energetic, video game boss-level energy. BPM: 160. Length: 112 seconds",
+    "seed": 354341992,
+    "pipeline": "P2",
+    "preview_bytes": 1198124,
+    "preview": "assets/raw_audio/music_preview/retro_B.mp3"
+   }
+  }
+ },
+ "boss": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/boss.mp3",
+  "bytes": 1150581,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/boss_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -12.14,
+     "peak_db": -0.19,
+     "clip_frac": 0.0,
+     "silence_frac": 0.0049,
+     "longest_silence_s": 0.55,
+     "rms_db_std": 1.22,
+     "sub_lt100": 0.6276,
+     "body_100_1k": 0.262,
+     "crunch_1k_5k": 0.093,
+     "air_5k_16k": 0.0173,
+     "guitar_100_5k": 0.355,
+     "centroid_hz": 468.8149,
+     "flatness_300_5k": 0.8905
+    },
+    "master": {
+     "loop_start_s": 0.29,
+     "loop_end_s": 82.4,
+     "loop_score": 0.5632,
+     "lufs_in": -12.09,
+     "lufs_out": -14.0,
+     "true_peak_db": -1.71,
+     "dur_s": 82.11
+    },
+    "problems": [],
+    "score": 0.9704,
+    "prompt": "Fast aggressive thrash metal instrumental with no vocals, frantic palm-muted distorted electric guitar riffs, urgent pounding double bass drums, fast snare, pulsing bass guitar and a screaming dissonant guitar solo, creating intense, urgent, dangerous battle energy. BPM: 190. Length: 112 seconds",
+    "seed": 777725196,
+    "pipeline": "P2",
+    "preview_bytes": 1150581,
+    "preview": "assets/raw_audio/music_preview/boss_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/boss_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -12.12,
+     "peak_db": 0.0,
+     "clip_frac": 2.0243832918739636e-07,
+     "silence_frac": 0.0036,
+     "longest_silence_s": 0.4,
+     "rms_db_std": 2.5,
+     "sub_lt100": 0.569,
+     "body_100_1k": 0.3203,
+     "crunch_1k_5k": 0.0933,
+     "air_5k_16k": 0.0173,
+     "guitar_100_5k": 0.4137,
+     "centroid_hz": 457.5022,
+     "flatness_300_5k": 0.9005
+    },
+    "master": {
+     "loop_start_s": 0.511,
+     "loop_end_s": 81.029,
+     "loop_score": 0.1817,
+     "lufs_in": -12.15,
+     "lufs_out": -14.0,
+     "true_peak_db": -1.87,
+     "dur_s": 80.52
+    },
+    "problems": [],
+    "score": 1.0412,
+    "prompt": "Fast aggressive thrash metal instrumental with no vocals, frantic palm-muted distorted electric guitar riffs, urgent pounding double bass drums, fast snare, pulsing bass guitar and a screaming dissonant guitar solo, creating intense, urgent, dangerous battle energy. BPM: 190. Length: 112 seconds",
+    "seed": 777725196,
+    "pipeline": "P2",
+    "preview_bytes": 1128273,
+    "preview": "assets/raw_audio/music_preview/boss_B.mp3"
+   }
+  }
+ },
+ "final": {
+  "default": "A",
+  "why": "first candidate without objective problems",
+  "file": "assets/music/final.mp3",
+  "bytes": 1122421,
+  "cands": {
+   "A": {
+    "wav": "assets/raw_audio/music/final_A.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -11.57,
+     "peak_db": -0.67,
+     "clip_frac": 0.0,
+     "silence_frac": 0.0045,
+     "longest_silence_s": 0.5,
+     "rms_db_std": 4.01,
+     "sub_lt100": 0.3688,
+     "body_100_1k": 0.5194,
+     "crunch_1k_5k": 0.0971,
+     "air_5k_16k": 0.0146,
+     "guitar_100_5k": 0.6166,
+     "centroid_hz": 527.4023,
+     "flatness_300_5k": 0.6386
+    },
+    "master": {
+     "loop_start_s": 0.0,
+     "loop_end_s": 80.112,
+     "loop_score": 0.228,
+     "lufs_in": -11.86,
+     "lufs_out": -14.0,
+     "true_peak_db": -3.01,
+     "dur_s": 80.11
+    },
+    "problems": [],
+    "score": 1.1149,
+    "prompt": "Epic final boss heavy metal instrumental with no vocals, crushing distorted electric guitars, dramatic choir-like synth pads and pipe organ, orchestral strings, thunderous double bass drums and cymbal crashes, and a blazing shred guitar solo, creating dark, apocalyptic, climactic energy. BPM: 170. Length: 112 seconds",
+    "seed": 603941916,
+    "pipeline": "P2",
+    "preview_bytes": 1122421,
+    "preview": "assets/raw_audio/music_preview/final_A.mp3"
+   },
+   "B": {
+    "wav": "assets/raw_audio/music/final_B.wav",
+    "raw": {
+     "dur_s": 112.01,
+     "lufs": -11.25,
+     "peak_db": 0.0,
+     "clip_frac": 5.060958229684909e-07,
+     "silence_frac": 0.0094,
+     "longest_silence_s": 0.8,
+     "rms_db_std": 3.55,
+     "sub_lt100": 0.3026,
+     "body_100_1k": 0.5045,
+     "crunch_1k_5k": 0.1679,
+     "air_5k_16k": 0.025,
+     "guitar_100_5k": 0.6724,
+     "centroid_hz": 819.6712,
+     "flatness_300_5k": 0.6564
+    },
+    "master": {
+     "loop_start_s": 1.95,
+     "loop_end_s": 87.881,
+     "loop_score": 0.1792,
+     "lufs_in": -11.01,
+     "lufs_out": -14.0,
+     "true_peak_db": -1.88,
+     "dur_s": 85.93
+    },
+    "problems": [],
+    "score": 1.3019,
+    "prompt": "Epic final boss heavy metal instrumental with no vocals, crushing distorted electric guitars, dramatic choir-like synth pads and pipe organ, orchestral strings, thunderous double bass drums and cymbal crashes, and a blazing shred guitar solo, creating dark, apocalyptic, climactic energy. BPM: 170. Length: 112 seconds",
+    "seed": 603941916,
+    "pipeline": "P2",
+    "preview_bytes": 1203975,
+    "preview": "assets/raw_audio/music_preview/final_B.mp3"
+   }
+  }
+ }
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stick Doosh audio audition</title>
+<base href="../../">
+<style>
+ body{font:14px/1.4 system-ui,sans-serif;background:#141018;color:#eee;margin:0;padding:12px 16px}
+ h2{margin:18px 0 6px;color:#ffd23f} button,select{font:inherit;margin:2px;padding:4px 9px;border-radius:6px;border:1px solid #555;background:#2a2433;color:#eee;cursor:pointer}
+ button:hover{background:#3d3350} label{margin-right:14px} #log{background:#000;padding:8px;min-height:3em;border-radius:6px;white-space:pre-wrap}
+ #meter{height:10px;background:#333;border-radius:5px;overflow:hidden;margin:6px 0}#bar{height:100%;width:0;background:#7bd}
+</style></head><body>
+<h1>Stick Doosh - audio audition</h1>
+<div>
+ <label><input type="checkbox" id="proc"> force PROCEDURAL (ignore sfx/music files)</label>
+ <label>cursing <select id="curse"><option value="bleep">bleeped</option><option value="raw">uncensored</option></select></label>
+ <label>chatter <select id="chat"><option value="some">some</option><option value="lots">constant</option><option value="off">off</option></select></label>
+ <label>master <input type="range" id="vm" min="0" max="1" step="0.05" value="0.8"></label>
+</div>
+<div id="meter"><div id="bar"></div></div>
+<div id="log">click anything to unlock audio</div>
+<h2>Music</h2><div id="music"></div><div><button id="stopm">stop music</button></div>
+<h2>SFX</h2><div id="sfx"></div>
+<h2>Voice</h2>
+<div><select id="spk"></select><select id="ev"></select> <button id="say">say (random)</button> <button id="all">play all lines of this event</button></div>
+<script>
+window.SGS = window.SGS || {};
+SGS.Save = { settings: { audio: { master: 0.8, music: 0.7, sfx: 0.9, voice: 0.9, background: true, cursing: 'bleep', chatter: 'some', bubbles: true } } };
+SGS.Comic = { bubble: function (t, x, y, o) { log('[' + o.speaker + '] ' + t); } };
+function log(s) { var l = document.getElementById('log'); l.textContent = s + '\n' + l.textContent.slice(0, 600); }
+</script>
+<script src="js/audiolist.js"></script><script src="js/audio.js"></script><script src="js/music.js"></script><script src="js/voice.js"></script>
+<script>
+var S = SGS, A = S.Audio, M = S.Music, V = S.Voice, $ = function (i) { return document.getElementById(i); };
+var ORIG = JSON.parse(JSON.stringify(S.AUDIO_FILES));
+A.init();
+function el(tag, txt, fn, p) { var e = document.createElement(tag); e.textContent = txt; e.onclick = fn; $(p).appendChild(e); return e; }
+M.IDS.forEach(function (id) { el('button', id + (ORIG.music[id] ? '' : ' (proc)'), function () { A.unlock(); M.play(id, { fade: 0.4, restart: true }); log('music: ' + id + (M.isProcedural() ? ' [procedural]' : ' [file]')); }, 'music'); });
+$('stopm').onclick = function () { M.stop(0.3); };
+var names = A.NAMES.slice().sort();
+names.forEach(function (n) { el('button', n + (ORIG.sfx[n] ? '*' : ''), function () { A.unlock(); A.sfx(n, { vol: 1 }); }, 'sfx'); });
+['mg', 'flame', 'heli', 'rocket_loop', 'alarm'].forEach(function (n) {
+  var on = false; el('button', 'loop ' + n, function () { A.unlock(); on = !on; if (on) A.loop(n, 'aud_' + n, { vol: 1 }); else A.stopLoop('aud_' + n); }, 'sfx');
+});
+V.speakers.forEach(function (s) { var o = document.createElement('option'); o.textContent = s; $('spk').appendChild(o); });
+function fillEv() { $('ev').innerHTML = ''; Object.keys(V.LINES[$('spk').value]).forEach(function (e) { var o = document.createElement('option'); o.textContent = e; $('ev').appendChild(o); }); }
+$('spk').onchange = fillEv; fillEv();
+$('say').onclick = function () { A.unlock(); V.preload([$('spk').value]); V.stop(); V._ev = {}; V._spk = {}; V.say($('spk').value, $('ev').value, { force: true }); };
+$('all').onclick = function () {
+  A.unlock(); var sp = $('spk').value, ev = $('ev').value, n = V.LINES[sp][ev].length, i = 0;
+  (function next() { if (i >= n) return; V.stop(); V.say(sp, ev, { force: true, pick: i++ }); setTimeout(next, 3200); })();
+};
+$('proc').onchange = function () { S.AUDIO_FILES.music = this.checked ? {} : ORIG.music; S.AUDIO_FILES.sfx = this.checked ? {} : ORIG.sfx; };
+$('curse').onchange = function () { S.Save.settings.audio.cursing = this.value; };
+$('chat').onchange = function () { S.Save.settings.audio.chatter = this.value; };
+$('vm').oninput = function () { S.Save.settings.audio.master = +this.value; A.setVolumes(); };
+// level meter (tap on the master bus) - also lets automated checks read window.__peak
+var an = null, buf = null; window.__peak = 0;
+setInterval(function () {
+  if (!A.ctx || !A.bus) return;
+  if (!an) { an = A.ctx.createAnalyser(); an.fftSize = 1024; A.bus.master.connect(an); buf = new Float32Array(an.fftSize); }
+  an.getFloatTimeDomainData(buf); var p = 0; for (var i = 0; i < buf.length; i++) { var a = Math.abs(buf[i]); if (a > p) p = a; }
+  window.__peak = Math.max(window.__peak * 0.9, p); $('bar').style.width = Math.min(100, p * 140) + '%';
+}, 50);
+</script></body></html>

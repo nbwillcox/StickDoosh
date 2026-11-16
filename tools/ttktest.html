@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Stick Doosh - enemy time-to-kill test</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  :root { --bg:#14111c; --fg:#f2eee0; --dim:#9a93b0; --ok:#7dff6b; --bad:#ff5a5a; --card:#1f1a2c; }
+  body { margin:0; padding:16px; background:var(--bg); color:var(--fg); font:14px/1.45 system-ui, sans-serif; }
+  h1 { margin:0 0 4px; font-size:20px; } p { margin:4px 0 12px; color:var(--dim); }
+  button, select, input { font:inherit; padding:6px 12px; margin:0 6px 6px 0; border-radius:6px; border:1px solid #4a4268; background:var(--card); color:var(--fg); }
+  button { cursor:pointer; } button:disabled { opacity:.5; }
+  pre { background:var(--card); padding:12px; border-radius:8px; overflow:auto; font:12px/1.35 ui-monospace, Consolas, monospace; white-space:pre; }
+  #status { color:var(--dim); margin-left:6px; }
+</style></head>
+<body>
+<h1>Enemy time-to-kill matrix</h1>
+<p>Runs the real game scripts headlessly (flat test floor, god-mode bot, real enemy AI). Same code as <code>node tools/ttktest.js</code>. Query: <code>?only=grunt,shield&amp;trials=4&amp;sweep=1</code> (sweep = all 12 real levels).</p>
+<div>
+  <label>trials <input id="trials" type="number" value="4" min="1" max="30" style="width:64px"></label>
+  <label><input id="sweep" type="checkbox"> level sweep</label>
+  <label><input id="sweeponly" type="checkbox"> sweep only</label>
+  <button id="go">Run</button><span id="status"></span>
+</div>
+<pre id="out">press Run</pre>
+<script src="../js/util.js"></script>
+<script src="../js/config.js"></script>
+<script src="../js/save.js"></script>
+<script src="../js/comic.js"></script>
+<script src="../js/fx.js"></script>
+<script src="../js/terrain.js"></script>
+<script src="../js/rig.js"></script>
+<script src="../js/props.js"></script>
+<script src="../js/dudes.js"></script>
+<script src="../js/themes.js"></script>
+<script src="../js/levelgen.js"></script>
+<script src="../js/weapons.js"></script>
+<script src="../js/supers.js"></script>
+<script src="../js/entities.js"></script>
+<script src="../js/enemies.js"></script>
+<script src="../js/bosses.js"></script>
+<script src="../js/player.js"></script>
+<script src="../js/game.js"></script>
+<script src="ttktest.js"></script>
+<script>
+(function () {
+  var q = new URLSearchParams(location.search), out = document.getElementById('out'), st = document.getElementById('status'), go = document.getElementById('go');
+  if (q.get('trials')) document.getElementById('trials').value = q.get('trials');
+  if (q.get('sweep')) document.getElementById('sweep').checked = true;
+  if (q.get('sweeponly')) document.getElementById('sweeponly').checked = true;
+  function run() {
+    go.disabled = true; st.textContent = 'running...'; out.textContent = '';
+    setTimeout(function () {
+      try {
+        window.TTK.init();
+        var t0 = performance.now();
+        var res = window.TTK.run({ only: q.get('only') || null, trials: +document.getElementById('trials').value, sweep: document.getElementById('sweep').checked, sweeponly: document.getElementById('sweeponly').checked, themes: q.get('themes') || null });
+        out.textContent = window.TTK.report(res);
+        window.TTK.last = res;
+        st.textContent = 'done in ' + ((performance.now() - t0) / 1000).toFixed(1) + ' s';
+      } catch (e) { out.textContent = 'ERROR ' + (e && e.stack || e); st.textContent = 'failed'; }
+      go.disabled = false;
+    }, 30);
+  }
+  go.onclick = run;
+  if (q.get('auto')) run();
+})();
+</script>
+</body></html>

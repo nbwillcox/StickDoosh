@@ -1,0 +1,6 @@
+_*
+assets/raw*/
+tools/.venv/
+tools/models/
+__pycache__/
+*.pyc

@@ -1,0 +1,3345 @@
+{
+ "speakers": [
+  "sgt",
+  "pete",
+  "brenda",
+  "major",
+  "gramps",
+  "goon",
+  "announcer",
+  "boss_ice",
+  "boss_fire",
+  "boss_wind",
+  "boss_water",
+  "boss_mud",
+  "boss_jungle",
+  "boss_mountain",
+  "boss_plains",
+  "boss_fantasy",
+  "boss_moon",
+  "boss_retro",
+  "boss_fortress"
+ ],
+ "lines": [
+  {
+   "id": "sgt/spawn_0",
+   "speaker": "sgt",
+   "event": "spawn",
+   "i": 0,
+   "text": "Sergeant Doosh, reporting for DOOSH!",
+   "h": "1eho3uu"
+  },
+  {
+   "id": "sgt/spawn_1",
+   "speaker": "sgt",
+   "event": "spawn",
+   "i": 1,
+   "text": "Did somebody order a DOOSH?",
+   "h": "3kqwwh"
+  },
+  {
+   "id": "sgt/spawn_2",
+   "speaker": "sgt",
+   "event": "spawn",
+   "i": 2,
+   "text": "I'm back, and my hair is perfect.",
+   "h": "1rm9uz3"
+  },
+  {
+   "id": "sgt/spawn_3",
+   "speaker": "sgt",
+   "event": "spawn",
+   "i": 3,
+   "text": "Time to get my DOOSH on.",
+   "h": "jmgu6d"
+  },
+  {
+   "id": "sgt/kill_0",
+   "speaker": "sgt",
+   "event": "kill",
+   "i": 0,
+   "text": "Doosh'd.",
+   "h": "1avrhcr"
+  },
+  {
+   "id": "sgt/kill_1",
+   "speaker": "sgt",
+   "event": "kill",
+   "i": 1,
+   "text": "Hasta la vista, stick boy.",
+   "h": "gfcbgs"
+  },
+  {
+   "id": "sgt/kill_2",
+   "speaker": "sgt",
+   "event": "kill",
+   "i": 2,
+   "text": "That's gonna leave a mark.",
+   "h": "rrxu2y"
+  },
+  {
+   "id": "sgt/kill_3",
+   "speaker": "sgt",
+   "event": "kill",
+   "i": 3,
+   "text": "Eat {shit}, stick boy!",
+   "h": "1ivlkkk"
+  },
+  {
+   "id": "sgt/kill_4",
+   "speaker": "sgt",
+   "event": "kill",
+   "i": 4,
+   "text": "Another one bites the dust. Because I shot it.",
+   "h": "jfr0nc"
+  },
+  {
+   "id": "sgt/kill_5",
+   "speaker": "sgt",
+   "event": "kill",
+   "i": 5,
+   "text": "Bye bye, buddy.",
+   "h": "eqdw9j"
+  },
+  {
+   "id": "sgt/multikill_0",
+   "speaker": "sgt",
+   "event": "multikill",
+   "i": 0,
+   "text": "I'm on a roll!",
+   "h": "qrda6y"
+  },
+  {
+   "id": "sgt/multikill_1",
+   "speaker": "sgt",
+   "event": "multikill",
+   "i": 1,
+   "text": "Who's next?!",
+   "h": "vgn4r0"
+  },
+  {
+   "id": "sgt/multikill_2",
+   "speaker": "sgt",
+   "event": "multikill",
+   "i": 2,
+   "text": "Is that all you got?!",
+   "h": "p0quk2"
+  },
+  {
+   "id": "sgt/multikill_3",
+   "speaker": "sgt",
+   "event": "multikill",
+   "i": 3,
+   "text": "Doosh, doosh, doosh, DOOSH!",
+   "h": "1mkzske"
+  },
+  {
+   "id": "sgt/pickup_0",
+   "speaker": "sgt",
+   "event": "pickup",
+   "i": 0,
+   "text": "Now we're talking!",
+   "h": "1i6uplq"
+  },
+  {
+   "id": "sgt/pickup_1",
+   "speaker": "sgt",
+   "event": "pickup",
+   "i": 1,
+   "text": "Oh, hello gorgeous.",
+   "h": "1ykykd1"
+  },
+  {
+   "id": "sgt/pickup_2",
+   "speaker": "sgt",
+   "event": "pickup",
+   "i": 2,
+   "text": "Come to papa!",
+   "h": "88hfpr"
+  },
+  {
+   "id": "sgt/hurt_0",
+   "speaker": "sgt",
+   "event": "hurt",
+   "i": 0,
+   "text": "Ow! That was my good arm!",
+   "h": "3dh9zs"
+  },
+  {
+   "id": "sgt/hurt_1",
+   "speaker": "sgt",
+   "event": "hurt",
+   "i": 1,
+   "text": "My pompadour!",
+   "h": "146whs3"
+  },
+  {
+   "id": "sgt/hurt_2",
+   "speaker": "sgt",
+   "event": "hurt",
+   "i": 2,
+   "text": "I felt that in my hair.",
+   "h": "1yydw1l"
+  },
+  {
+   "id": "sgt/hurt_3",
+   "speaker": "sgt",
+   "event": "hurt",
+   "i": 3,
+   "text": "{Damn}, that stings!",
+   "h": "shcn9v"
+  },
+  {
+   "id": "sgt/low_hp_0",
+   "speaker": "sgt",
+   "event": "low_hp",
+   "i": 0,
+   "text": "I've had worse. Not much worse.",
+   "h": "1xifn13"
+  },
+  {
+   "id": "sgt/low_hp_1",
+   "speaker": "sgt",
+   "event": "low_hp",
+   "i": 1,
+   "text": "Tell my hair I loved it.",
+   "h": "1aq9dv2"
+  },
+  {
+   "id": "sgt/die_0",
+   "speaker": "sgt",
+   "event": "die",
+   "i": 0,
+   "text": "Tell my mom I'm out of lives!",
+   "h": "1kc5veb"
+  },
+  {
+   "id": "sgt/die_1",
+   "speaker": "sgt",
+   "event": "die",
+   "i": 1,
+   "text": "I'll be back. After a respawn.",
+   "h": "wt6l5g"
+  },
+  {
+   "id": "sgt/die_2",
+   "speaker": "sgt",
+   "event": "die",
+   "i": 2,
+   "text": "Not the pompadour! Aaaargh!",
+   "h": "camb3p"
+  },
+  {
+   "id": "sgt/die_3",
+   "speaker": "sgt",
+   "event": "die",
+   "i": 3,
+   "text": "Tell the shotgun I love her.",
+   "h": "4kcy17"
+  },
+  {
+   "id": "sgt/rescue_0",
+   "speaker": "sgt",
+   "event": "rescue",
+   "i": 0,
+   "text": "You're welcome, buddy!",
+   "h": "sfhbo1"
+  },
+  {
+   "id": "sgt/rescue_1",
+   "speaker": "sgt",
+   "event": "rescue",
+   "i": 1,
+   "text": "Never leave a stick behind!",
+   "h": "kl522k"
+  },
+  {
+   "id": "sgt/rescue_2",
+   "speaker": "sgt",
+   "event": "rescue",
+   "i": 2,
+   "text": "Welcome back, you absolute legend.",
+   "h": "68e7zb"
+  },
+  {
+   "id": "sgt/flag_0",
+   "speaker": "sgt",
+   "event": "flag",
+   "i": 0,
+   "text": "Checkpoint secured.",
+   "h": "1axjtgm"
+  },
+  {
+   "id": "sgt/flag_1",
+   "speaker": "sgt",
+   "event": "flag",
+   "i": 1,
+   "text": "Hoisting the flag of freedom. And snacks.",
+   "h": "243mwe"
+  },
+  {
+   "id": "sgt/explode_0",
+   "speaker": "sgt",
+   "event": "explode",
+   "i": 0,
+   "text": "Boom!",
+   "h": "3kx4nn"
+  },
+  {
+   "id": "sgt/explode_1",
+   "speaker": "sgt",
+   "event": "explode",
+   "i": 1,
+   "text": "I love the smell of explosions in the morning.",
+   "h": "1ro2n6z"
+  },
+  {
+   "id": "sgt/gold_0",
+   "speaker": "sgt",
+   "event": "gold",
+   "i": 0,
+   "text": "Cha-ching, baby.",
+   "h": "6u02nz"
+  },
+  {
+   "id": "sgt/gold_1",
+   "speaker": "sgt",
+   "event": "gold",
+   "i": 1,
+   "text": "Shiny!",
+   "h": "1m0ah1t"
+  },
+  {
+   "id": "sgt/idle_0",
+   "speaker": "sgt",
+   "event": "idle",
+   "i": 0,
+   "text": "Are we there yet?",
+   "h": "x1ihwi"
+  },
+  {
+   "id": "sgt/idle_1",
+   "speaker": "sgt",
+   "event": "idle",
+   "i": 1,
+   "text": "I should've brought snacks.",
+   "h": "q4gdmz"
+  },
+  {
+   "id": "sgt/idle_2",
+   "speaker": "sgt",
+   "event": "idle",
+   "i": 2,
+   "text": "Anyone hear that? Me neither.",
+   "h": "1hy4g5q"
+  },
+  {
+   "id": "sgt/level_start_0",
+   "speaker": "sgt",
+   "event": "level_start",
+   "i": 0,
+   "text": "Let's go kick some stick!",
+   "h": "1l8vkun"
+  },
+  {
+   "id": "sgt/level_start_1",
+   "speaker": "sgt",
+   "event": "level_start",
+   "i": 1,
+   "text": "Operation Doosh begins now.",
+   "h": "1xp5cr1"
+  },
+  {
+   "id": "sgt/level_clear_0",
+   "speaker": "sgt",
+   "event": "level_clear",
+   "i": 0,
+   "text": "Mission accomplished. Mostly.",
+   "h": "1pslul3"
+  },
+  {
+   "id": "sgt/level_clear_1",
+   "speaker": "sgt",
+   "event": "level_clear",
+   "i": 1,
+   "text": "Another day, another dollar, another explosion.",
+   "h": "2ar6sb"
+  },
+  {
+   "id": "sgt/level_fail_0",
+   "speaker": "sgt",
+   "event": "level_fail",
+   "i": 0,
+   "text": "Well, {damn}.",
+   "h": "b4amzv"
+  },
+  {
+   "id": "pete/spawn_0",
+   "speaker": "pete",
+   "event": "spawn",
+   "i": 0,
+   "text": "Yeehaw! Pew pew pew!",
+   "h": "hrt8z2"
+  },
+  {
+   "id": "pete/spawn_1",
+   "speaker": "pete",
+   "event": "spawn",
+   "i": 1,
+   "text": "Howdy, y'all! Pete's in the house!",
+   "h": "x82ecb"
+  },
+  {
+   "id": "pete/spawn_2",
+   "speaker": "pete",
+   "event": "spawn",
+   "i": 2,
+   "text": "Saddle up, partner!",
+   "h": "19jfcjk"
+  },
+  {
+   "id": "pete/spawn_3",
+   "speaker": "pete",
+   "event": "spawn",
+   "i": 3,
+   "text": "I'm little, but my guns are loud!",
+   "h": "rtm2s7"
+  },
+  {
+   "id": "pete/kill_0",
+   "speaker": "pete",
+   "event": "kill",
+   "i": 0,
+   "text": "Pew pew, varmint!",
+   "h": "1rzeeff"
+  },
+  {
+   "id": "pete/kill_1",
+   "speaker": "pete",
+   "event": "kill",
+   "i": 1,
+   "text": "Yeehaw!",
+   "h": "1fj0pyh"
+  },
+  {
+   "id": "pete/kill_2",
+   "speaker": "pete",
+   "event": "kill",
+   "i": 2,
+   "text": "Nobody calls me short and lives!",
+   "h": "1ox6xjs"
+  },
+  {
+   "id": "pete/kill_3",
+   "speaker": "pete",
+   "event": "kill",
+   "i": 3,
+   "text": "Draw, partner! Oh. Too late.",
+   "h": "135rcjr"
+  },
+  {
+   "id": "pete/kill_4",
+   "speaker": "pete",
+   "event": "kill",
+   "i": 4,
+   "text": "Giddy up and get dead!",
+   "h": "ya0vrx"
+  },
+  {
+   "id": "pete/multikill_0",
+   "speaker": "pete",
+   "event": "multikill",
+   "i": 0,
+   "text": "Reload? I don't need to reload!",
+   "h": "15ptq5z"
+  },
+  {
+   "id": "pete/multikill_1",
+   "speaker": "pete",
+   "event": "multikill",
+   "i": 1,
+   "text": "Look at me go! Pew pew pew pew!",
+   "h": "dri10p"
+  },
+  {
+   "id": "pete/multikill_2",
+   "speaker": "pete",
+   "event": "multikill",
+   "i": 2,
+   "text": "That's a whole lotta pew!",
+   "h": "3tgvwh"
+  },
+  {
+   "id": "pete/pickup_0",
+   "speaker": "pete",
+   "event": "pickup",
+   "i": 0,
+   "text": "Well, hot diggity!",
+   "h": "kkmy5e"
+  },
+  {
+   "id": "pete/pickup_1",
+   "speaker": "pete",
+   "event": "pickup",
+   "i": 1,
+   "text": "Ooh, shiny!",
+   "h": "wclkmb"
+  },
+  {
+   "id": "pete/pickup_2",
+   "speaker": "pete",
+   "event": "pickup",
+   "i": 2,
+   "text": "Gimme gimme gimme!",
+   "h": "bnqyqb"
+  },
+  {
+   "id": "pete/hurt_0",
+   "speaker": "pete",
+   "event": "hurt",
+   "i": 0,
+   "text": "Ouch! My hat!",
+   "h": "mqntyx"
+  },
+  {
+   "id": "pete/hurt_1",
+   "speaker": "pete",
+   "event": "hurt",
+   "i": 1,
+   "text": "Yeow! That's my mustache!",
+   "h": "jbsu7q"
+  },
+  {
+   "id": "pete/hurt_2",
+   "speaker": "pete",
+   "event": "hurt",
+   "i": 2,
+   "text": "Dagnabbit!",
+   "h": "x196w2"
+  },
+  {
+   "id": "pete/hurt_3",
+   "speaker": "pete",
+   "event": "hurt",
+   "i": 3,
+   "text": "Ow ow ow ow!",
+   "h": "1v9aef2"
+  },
+  {
+   "id": "pete/low_hp_0",
+   "speaker": "pete",
+   "event": "low_hp",
+   "i": 0,
+   "text": "I'm too pretty to die!",
+   "h": "1xk9i4y"
+  },
+  {
+   "id": "pete/low_hp_1",
+   "speaker": "pete",
+   "event": "low_hp",
+   "i": 1,
+   "text": "Mama, I need a hug!",
+   "h": "19kig2g"
+  },
+  {
+   "id": "pete/die_0",
+   "speaker": "pete",
+   "event": "die",
+   "i": 0,
+   "text": "Tell my horse I love him!",
+   "h": "pdbtp7"
+  },
+  {
+   "id": "pete/die_1",
+   "speaker": "pete",
+   "event": "die",
+   "i": 1,
+   "text": "I'm meeeelting! Wait, wrong movie.",
+   "h": "36nrpa"
+  },
+  {
+   "id": "pete/die_2",
+   "speaker": "pete",
+   "event": "die",
+   "i": 2,
+   "text": "Adios, amigos!",
+   "h": "13nqbqa"
+  },
+  {
+   "id": "pete/die_3",
+   "speaker": "pete",
+   "event": "die",
+   "i": 3,
+   "text": "Aw, {crap}!",
+   "h": "9et0iw"
+  },
+  {
+   "id": "pete/rescue_0",
+   "speaker": "pete",
+   "event": "rescue",
+   "i": 0,
+   "text": "Thank ya kindly, partner!",
+   "h": "4dqtk9"
+  },
+  {
+   "id": "pete/rescue_1",
+   "speaker": "pete",
+   "event": "rescue",
+   "i": 1,
+   "text": "Yeehaw, I found a friend!",
+   "h": "2pub6b"
+  },
+  {
+   "id": "pete/rescue_2",
+   "speaker": "pete",
+   "event": "rescue",
+   "i": 2,
+   "text": "Come on, we're burnin' daylight!",
+   "h": "wx9ryw"
+  },
+  {
+   "id": "pete/flag_0",
+   "speaker": "pete",
+   "event": "flag",
+   "i": 0,
+   "text": "Flag's up, y'all!",
+   "h": "r32ezo"
+  },
+  {
+   "id": "pete/flag_1",
+   "speaker": "pete",
+   "event": "flag",
+   "i": 1,
+   "text": "Checkpoint! Time for a tiny nap!",
+   "h": "d6il3d"
+  },
+  {
+   "id": "pete/explode_0",
+   "speaker": "pete",
+   "event": "explode",
+   "i": 0,
+   "text": "Kaboom, y'all!",
+   "h": "1gfk0pw"
+  },
+  {
+   "id": "pete/explode_1",
+   "speaker": "pete",
+   "event": "explode",
+   "i": 1,
+   "text": "Whoa, that's a big bang for a little guy!",
+   "h": "3fwdia"
+  },
+  {
+   "id": "pete/gold_0",
+   "speaker": "pete",
+   "event": "gold",
+   "i": 0,
+   "text": "Gold! Mine, mine, mine!",
+   "h": "1blkbj4"
+  },
+  {
+   "id": "pete/gold_1",
+   "speaker": "pete",
+   "event": "gold",
+   "i": 1,
+   "text": "Cha-ching, cowboy!",
+   "h": "e4whyf"
+  },
+  {
+   "id": "pete/idle_0",
+   "speaker": "pete",
+   "event": "idle",
+   "i": 0,
+   "text": "Is this thing on?",
+   "h": "d58u3z"
+  },
+  {
+   "id": "pete/idle_1",
+   "speaker": "pete",
+   "event": "idle",
+   "i": 1,
+   "text": "I'm so bored I could eat my hat.",
+   "h": "1ffiwt7"
+  },
+  {
+   "id": "pete/idle_2",
+   "speaker": "pete",
+   "event": "idle",
+   "i": 2,
+   "text": "Pew. Pew. Pew. Just practicing.",
+   "h": "y04tez"
+  },
+  {
+   "id": "pete/level_start_0",
+   "speaker": "pete",
+   "event": "level_start",
+   "i": 0,
+   "text": "High noon, y'all!",
+   "h": "x78hqd"
+  },
+  {
+   "id": "pete/level_start_1",
+   "speaker": "pete",
+   "event": "level_start",
+   "i": 1,
+   "text": "Let's ride, partner!",
+   "h": "1ejy2oh"
+  },
+  {
+   "id": "pete/level_clear_0",
+   "speaker": "pete",
+   "event": "level_clear",
+   "i": 0,
+   "text": "Another one in the saddle!",
+   "h": "r97cgu"
+  },
+  {
+   "id": "pete/level_clear_1",
+   "speaker": "pete",
+   "event": "level_clear",
+   "i": 1,
+   "text": "That was a hoot and a half!",
+   "h": "16l6hvw"
+  },
+  {
+   "id": "pete/level_fail_0",
+   "speaker": "pete",
+   "event": "level_fail",
+   "i": 0,
+   "text": "Aw, shucks.",
+   "h": "1ixjrgo"
+  },
+  {
+   "id": "brenda/spawn_0",
+   "speaker": "brenda",
+   "event": "spawn",
+   "i": 0,
+   "text": "BRENDA IS IN THE BUILDING!",
+   "h": "1ueu5ys"
+  },
+  {
+   "id": "brenda/spawn_1",
+   "speaker": "brenda",
+   "event": "spawn",
+   "i": 1,
+   "text": "WHO'S READY TO SWEAT?!",
+   "h": "1q83hft"
+  },
+  {
+   "id": "brenda/spawn_2",
+   "speaker": "brenda",
+   "event": "spawn",
+   "i": 2,
+   "text": "LET'S GET PUMPED!",
+   "h": "ysp0cw"
+  },
+  {
+   "id": "brenda/spawn_3",
+   "speaker": "brenda",
+   "event": "spawn",
+   "i": 3,
+   "text": "IT'S LEG DAY, EVERYBODY!",
+   "h": "1fq0y6w"
+  },
+  {
+   "id": "brenda/kill_0",
+   "speaker": "brenda",
+   "event": "kill",
+   "i": 0,
+   "text": "DROP AND GIVE ME TWENTY!",
+   "h": "15i8d3q"
+  },
+  {
+   "id": "brenda/kill_1",
+   "speaker": "brenda",
+   "event": "kill",
+   "i": 1,
+   "text": "NO PAIN, NO GAIN!",
+   "h": "1vrrcc3"
+  },
+  {
+   "id": "brenda/kill_2",
+   "speaker": "brenda",
+   "event": "kill",
+   "i": 2,
+   "text": "SQUATS FOR EVERYBODY!",
+   "h": "snwd6v"
+  },
+  {
+   "id": "brenda/kill_3",
+   "speaker": "brenda",
+   "event": "kill",
+   "i": 3,
+   "text": "GET YOUR {ASS} MOVING!",
+   "h": "my6btw"
+  },
+  {
+   "id": "brenda/kill_4",
+   "speaker": "brenda",
+   "event": "kill",
+   "i": 4,
+   "text": "TOO SLOW, MAGGOT!",
+   "h": "n2gy5k"
+  },
+  {
+   "id": "brenda/multikill_0",
+   "speaker": "brenda",
+   "event": "multikill",
+   "i": 0,
+   "text": "THAT'S WHAT I'M TALKING ABOUT!",
+   "h": "4ob347"
+  },
+  {
+   "id": "brenda/multikill_1",
+   "speaker": "brenda",
+   "event": "multikill",
+   "i": 1,
+   "text": "FEEL THE BURN, BABY!",
+   "h": "1gzvkhw"
+  },
+  {
+   "id": "brenda/multikill_2",
+   "speaker": "brenda",
+   "event": "multikill",
+   "i": 2,
+   "text": "DOUBLE REPS, TRIPLE KILLS!",
+   "h": "t0arcm"
+  },
+  {
+   "id": "brenda/pickup_0",
+   "speaker": "brenda",
+   "event": "pickup",
+   "i": 0,
+   "text": "MORE WEIGHT! I LOVE IT!",
+   "h": "hqo22m"
+  },
+  {
+   "id": "brenda/pickup_1",
+   "speaker": "brenda",
+   "event": "pickup",
+   "i": 1,
+   "text": "NOW THAT'S A WORKOUT!",
+   "h": "ybvs0x"
+  },
+  {
+   "id": "brenda/pickup_2",
+   "speaker": "brenda",
+   "event": "pickup",
+   "i": 2,
+   "text": "HAND IT OVER!",
+   "h": "rkzmre"
+  },
+  {
+   "id": "brenda/hurt_0",
+   "speaker": "brenda",
+   "event": "hurt",
+   "i": 0,
+   "text": "OW! WHO PUT THAT THERE?!",
+   "h": "1jubegs"
+  },
+  {
+   "id": "brenda/hurt_1",
+   "speaker": "brenda",
+   "event": "hurt",
+   "i": 1,
+   "text": "THAT'S JUST A FLESH WOUND! A BIG ONE!",
+   "h": "k39o25"
+  },
+  {
+   "id": "brenda/hurt_2",
+   "speaker": "brenda",
+   "event": "hurt",
+   "i": 2,
+   "text": "I CAN WALK IT OFF!",
+   "h": "n61kyw"
+  },
+  {
+   "id": "brenda/hurt_3",
+   "speaker": "brenda",
+   "event": "hurt",
+   "i": 3,
+   "text": "{DAMN}, THAT HURT!",
+   "h": "10ty89q"
+  },
+  {
+   "id": "brenda/low_hp_0",
+   "speaker": "brenda",
+   "event": "low_hp",
+   "i": 0,
+   "text": "I DON'T FEEL SO GOOD!",
+   "h": "lsizea"
+  },
+  {
+   "id": "brenda/low_hp_1",
+   "speaker": "brenda",
+   "event": "low_hp",
+   "i": 1,
+   "text": "PUSH THROUGH THE PAIN, BRENDA!",
+   "h": "1oouuiw"
+  },
+  {
+   "id": "brenda/die_0",
+   "speaker": "brenda",
+   "event": "die",
+   "i": 0,
+   "text": "I SKIPPED BREAKFAST!",
+   "h": "13a9etu"
+  },
+  {
+   "id": "brenda/die_1",
+   "speaker": "brenda",
+   "event": "die",
+   "i": 1,
+   "text": "TELL MY PROTEIN SHAKE I LOVE HIM!",
+   "h": "e1z5t3"
+  },
+  {
+   "id": "brenda/die_2",
+   "speaker": "brenda",
+   "event": "die",
+   "i": 2,
+   "text": "NO! MY BICEPS!",
+   "h": "ov3syo"
+  },
+  {
+   "id": "brenda/die_3",
+   "speaker": "brenda",
+   "event": "die",
+   "i": 3,
+   "text": "I FORGOT TO STRETCH!",
+   "h": "frvaw0"
+  },
+  {
+   "id": "brenda/rescue_0",
+   "speaker": "brenda",
+   "event": "rescue",
+   "i": 0,
+   "text": "UP AND AT 'EM, CHAMP!",
+   "h": "12smvcx"
+  },
+  {
+   "id": "brenda/rescue_1",
+   "speaker": "brenda",
+   "event": "rescue",
+   "i": 1,
+   "text": "YOU'RE ON MY TEAM NOW, SOLDIER!",
+   "h": "1cr17dp"
+  },
+  {
+   "id": "brenda/rescue_2",
+   "speaker": "brenda",
+   "event": "rescue",
+   "i": 2,
+   "text": "WELCOME TO BOOT CAMP!",
+   "h": "vs47u2"
+  },
+  {
+   "id": "brenda/flag_0",
+   "speaker": "brenda",
+   "event": "flag",
+   "i": 0,
+   "text": "WATER BREAK! FIVE SECONDS!",
+   "h": "17ahmko"
+  },
+  {
+   "id": "brenda/flag_1",
+   "speaker": "brenda",
+   "event": "flag",
+   "i": 1,
+   "text": "CHECKPOINT! GET YOUR HEART RATE UP!",
+   "h": "1079bpf"
+  },
+  {
+   "id": "brenda/explode_0",
+   "speaker": "brenda",
+   "event": "explode",
+   "i": 0,
+   "text": "KABOOM, BABY!",
+   "h": "kdmayx"
+  },
+  {
+   "id": "brenda/explode_1",
+   "speaker": "brenda",
+   "event": "explode",
+   "i": 1,
+   "text": "THAT'S A CARDIO BLAST!",
+   "h": "ghdl16"
+  },
+  {
+   "id": "brenda/gold_0",
+   "speaker": "brenda",
+   "event": "gold",
+   "i": 0,
+   "text": "GAINS! I LOVE GAINS!",
+   "h": "1slbd1m"
+  },
+  {
+   "id": "brenda/gold_1",
+   "speaker": "brenda",
+   "event": "gold",
+   "i": 1,
+   "text": "GOLD STAR FOR ME!",
+   "h": "rfmz6n"
+  },
+  {
+   "id": "brenda/idle_0",
+   "speaker": "brenda",
+   "event": "idle",
+   "i": 0,
+   "text": "WHY ARE WE STANDING AROUND?! MOVE!",
+   "h": "j4i356"
+  },
+  {
+   "id": "brenda/idle_1",
+   "speaker": "brenda",
+   "event": "idle",
+   "i": 1,
+   "text": "I'M GETTING COLD OVER HERE!",
+   "h": "gjq4s7"
+  },
+  {
+   "id": "brenda/idle_2",
+   "speaker": "brenda",
+   "event": "idle",
+   "i": 2,
+   "text": "LET'S GO, LET'S GO, LET'S GO!",
+   "h": "vxrerh"
+  },
+  {
+   "id": "brenda/level_start_0",
+   "speaker": "brenda",
+   "event": "level_start",
+   "i": 0,
+   "text": "WARM UP IS OVER, PEOPLE!",
+   "h": "1qhp2h7"
+  },
+  {
+   "id": "brenda/level_start_1",
+   "speaker": "brenda",
+   "event": "level_start",
+   "i": 1,
+   "text": "GAME FACE ON, LET'S GO!",
+   "h": "5gs25p"
+  },
+  {
+   "id": "brenda/level_clear_0",
+   "speaker": "brenda",
+   "event": "level_clear",
+   "i": 0,
+   "text": "THAT'S A WRAP! GREAT SESSION, TEAM!",
+   "h": "1bchp07"
+  },
+  {
+   "id": "brenda/level_clear_1",
+   "speaker": "brenda",
+   "event": "level_clear",
+   "i": 1,
+   "text": "NEW PERSONAL BEST!",
+   "h": "1iibz6q"
+  },
+  {
+   "id": "brenda/level_fail_0",
+   "speaker": "brenda",
+   "event": "level_fail",
+   "i": 0,
+   "text": "WE WILL TRAIN HARDER!",
+   "h": "q4zdpq"
+  },
+  {
+   "id": "major/spawn_0",
+   "speaker": "major",
+   "event": "spawn",
+   "i": 0,
+   "text": "Major Shhh, reporting. Do keep it down.",
+   "h": "ui3sd4"
+  },
+  {
+   "id": "major/spawn_1",
+   "speaker": "major",
+   "event": "spawn",
+   "i": 1,
+   "text": "Shhh. The enemy is napping.",
+   "h": "urctec"
+  },
+  {
+   "id": "major/spawn_2",
+   "speaker": "major",
+   "event": "spawn",
+   "i": 2,
+   "text": "Right-o, chaps. Tally ho.",
+   "h": "rnogdv"
+  },
+  {
+   "id": "major/spawn_3",
+   "speaker": "major",
+   "event": "spawn",
+   "i": 3,
+   "text": "Jolly good. Shall we?",
+   "h": "18lakwl"
+  },
+  {
+   "id": "major/kill_0",
+   "speaker": "major",
+   "event": "kill",
+   "i": 0,
+   "text": "Shhh. Sleep tight.",
+   "h": "1nday6d"
+  },
+  {
+   "id": "major/kill_1",
+   "speaker": "major",
+   "event": "kill",
+   "i": 1,
+   "text": "Terribly sorry, old chap.",
+   "h": "91ud52"
+  },
+  {
+   "id": "major/kill_2",
+   "speaker": "major",
+   "event": "kill",
+   "i": 2,
+   "text": "Jolly good shot, if I do say so myself.",
+   "h": "i3nu62"
+  },
+  {
+   "id": "major/kill_3",
+   "speaker": "major",
+   "event": "kill",
+   "i": 3,
+   "text": "Frightfully rude of you to stand there.",
+   "h": "wuqvju"
+  },
+  {
+   "id": "major/kill_4",
+   "speaker": "major",
+   "event": "kill",
+   "i": 4,
+   "text": "Shhh. No need to make a fuss.",
+   "h": "1ewdxig"
+  },
+  {
+   "id": "major/multikill_0",
+   "speaker": "major",
+   "event": "multikill",
+   "i": 0,
+   "text": "I say! What a spectacular mess!",
+   "h": "1ifriap"
+  },
+  {
+   "id": "major/multikill_1",
+   "speaker": "major",
+   "event": "multikill",
+   "i": 1,
+   "text": "Splendid! Absolutely splendid!",
+   "h": "jbuik1"
+  },
+  {
+   "id": "major/multikill_2",
+   "speaker": "major",
+   "event": "multikill",
+   "i": 2,
+   "text": "Do try to keep up, chaps.",
+   "h": "1vm6o25"
+  },
+  {
+   "id": "major/pickup_0",
+   "speaker": "major",
+   "event": "pickup",
+   "i": 0,
+   "text": "How frightfully generous.",
+   "h": "1tz637d"
+  },
+  {
+   "id": "major/pickup_1",
+   "speaker": "major",
+   "event": "pickup",
+   "i": 1,
+   "text": "Oh, a present! Shhh!",
+   "h": "gq2707"
+  },
+  {
+   "id": "major/pickup_2",
+   "speaker": "major",
+   "event": "pickup",
+   "i": 2,
+   "text": "Marvellous. Simply marvellous.",
+   "h": "1c14wgj"
+  },
+  {
+   "id": "major/hurt_0",
+   "speaker": "major",
+   "event": "hurt",
+   "i": 0,
+   "text": "I say! Rather uncivilised!",
+   "h": "1n8l3ky"
+  },
+  {
+   "id": "major/hurt_1",
+   "speaker": "major",
+   "event": "hurt",
+   "i": 1,
+   "text": "Oh, {bugger}.",
+   "h": "1k7aa3u"
+  },
+  {
+   "id": "major/hurt_2",
+   "speaker": "major",
+   "event": "hurt",
+   "i": 2,
+   "text": "Ooh, that stung a bit.",
+   "h": "1wf78tj"
+  },
+  {
+   "id": "major/hurt_3",
+   "speaker": "major",
+   "event": "hurt",
+   "i": 3,
+   "text": "Blast! My monocle!",
+   "h": "wznyz4"
+  },
+  {
+   "id": "major/low_hp_0",
+   "speaker": "major",
+   "event": "low_hp",
+   "i": 0,
+   "text": "Shhh. Do not panic. Panic quietly.",
+   "h": "mayrgh"
+  },
+  {
+   "id": "major/low_hp_1",
+   "speaker": "major",
+   "event": "low_hp",
+   "i": 1,
+   "text": "I may be a tad bit dead soon.",
+   "h": "2kl428"
+  },
+  {
+   "id": "major/die_0",
+   "speaker": "major",
+   "event": "die",
+   "i": 0,
+   "text": "Tell the Queen I was punctual.",
+   "h": "19m0nfn"
+  },
+  {
+   "id": "major/die_1",
+   "speaker": "major",
+   "event": "die",
+   "i": 1,
+   "text": "Shhh... it's rather peaceful actually.",
+   "h": "g87ui1"
+  },
+  {
+   "id": "major/die_2",
+   "speaker": "major",
+   "event": "die",
+   "i": 2,
+   "text": "Oh, {bollocks}.",
+   "h": "9gf4zr"
+  },
+  {
+   "id": "major/die_3",
+   "speaker": "major",
+   "event": "die",
+   "i": 3,
+   "text": "Terribly sorry. Must dash. To the afterlife.",
+   "h": "1l8dboa"
+  },
+  {
+   "id": "major/rescue_0",
+   "speaker": "major",
+   "event": "rescue",
+   "i": 0,
+   "text": "Jolly good to see you, old bean!",
+   "h": "rofanr"
+  },
+  {
+   "id": "major/rescue_1",
+   "speaker": "major",
+   "event": "rescue",
+   "i": 1,
+   "text": "Shhh. Rescue in progress.",
+   "h": "fs2jcv"
+  },
+  {
+   "id": "major/rescue_2",
+   "speaker": "major",
+   "event": "rescue",
+   "i": 2,
+   "text": "Welcome back, chap. Tea?",
+   "h": "1ey95td"
+  },
+  {
+   "id": "major/flag_0",
+   "speaker": "major",
+   "event": "flag",
+   "i": 0,
+   "text": "Shhh. Flag erected. Do admire.",
+   "h": "ngowl"
+  },
+  {
+   "id": "major/flag_1",
+   "speaker": "major",
+   "event": "flag",
+   "i": 1,
+   "text": "Checkpoint reached. Time for tea.",
+   "h": "1aewr6t"
+  },
+  {
+   "id": "major/explode_0",
+   "speaker": "major",
+   "event": "explode",
+   "i": 0,
+   "text": "Shhhhhh... BOOM.",
+   "h": "154dxyl"
+  },
+  {
+   "id": "major/explode_1",
+   "speaker": "major",
+   "event": "explode",
+   "i": 1,
+   "text": "That was rather loud. My apologies.",
+   "h": "yvrf7k"
+  },
+  {
+   "id": "major/gold_0",
+   "speaker": "major",
+   "event": "gold",
+   "i": 0,
+   "text": "Ooh, a few quid!",
+   "h": "1s5o972"
+  },
+  {
+   "id": "major/gold_1",
+   "speaker": "major",
+   "event": "gold",
+   "i": 1,
+   "text": "Splendid, pocket money.",
+   "h": "oni3uo"
+  },
+  {
+   "id": "major/idle_0",
+   "speaker": "major",
+   "event": "idle",
+   "i": 0,
+   "text": "Shhh. Do you hear that? No? Quite.",
+   "h": "1pvzrao"
+  },
+  {
+   "id": "major/idle_1",
+   "speaker": "major",
+   "event": "idle",
+   "i": 1,
+   "text": "I do wish someone would bring tea.",
+   "h": "1bsh53r"
+  },
+  {
+   "id": "major/idle_2",
+   "speaker": "major",
+   "event": "idle",
+   "i": 2,
+   "text": "Shhh. I'm thinking. Quietly.",
+   "h": "le5c"
+  },
+  {
+   "id": "major/level_start_0",
+   "speaker": "major",
+   "event": "level_start",
+   "i": 0,
+   "text": "Shhh. Stealth is the name of the game. Mostly.",
+   "h": "8z0mx1"
+  },
+  {
+   "id": "major/level_start_1",
+   "speaker": "major",
+   "event": "level_start",
+   "i": 1,
+   "text": "Chaps, let us proceed. Quietly.",
+   "h": "15bdr88"
+  },
+  {
+   "id": "major/level_clear_0",
+   "speaker": "major",
+   "event": "level_clear",
+   "i": 0,
+   "text": "Another one in the bag. Shhh.",
+   "h": "ayhvj5"
+  },
+  {
+   "id": "major/level_clear_1",
+   "speaker": "major",
+   "event": "level_clear",
+   "i": 1,
+   "text": "Jolly good show, everyone.",
+   "h": "1s89e1s"
+  },
+  {
+   "id": "major/level_fail_0",
+   "speaker": "major",
+   "event": "level_fail",
+   "i": 0,
+   "text": "Shhh. We shall never speak of this.",
+   "h": "4qeyvx"
+  },
+  {
+   "id": "gramps/spawn_0",
+   "speaker": "gramps",
+   "event": "spawn",
+   "i": 0,
+   "text": "Get off my lawn!",
+   "h": "agt77d"
+  },
+  {
+   "id": "gramps/spawn_1",
+   "speaker": "gramps",
+   "event": "spawn",
+   "i": 1,
+   "text": "Back in my day, we had two dimensions!",
+   "h": "4yteje"
+  },
+  {
+   "id": "gramps/spawn_2",
+   "speaker": "gramps",
+   "event": "spawn",
+   "i": 2,
+   "text": "What's all this ruckus?",
+   "h": "1wi2uww"
+  },
+  {
+   "id": "gramps/spawn_3",
+   "speaker": "gramps",
+   "event": "spawn",
+   "i": 3,
+   "text": "I'm too old for this {crap}.",
+   "h": "1ufs2qm"
+  },
+  {
+   "id": "gramps/kill_0",
+   "speaker": "gramps",
+   "event": "kill",
+   "i": 0,
+   "text": "Bah! Kids these days!",
+   "h": "1n5gllz"
+  },
+  {
+   "id": "gramps/kill_1",
+   "speaker": "gramps",
+   "event": "kill",
+   "i": 1,
+   "text": "Respect your elders!",
+   "h": "o51he2"
+  },
+  {
+   "id": "gramps/kill_2",
+   "speaker": "gramps",
+   "event": "kill",
+   "i": 2,
+   "text": "Take that, whippersnapper!",
+   "h": "1yjiczk"
+  },
+  {
+   "id": "gramps/kill_3",
+   "speaker": "gramps",
+   "event": "kill",
+   "i": 3,
+   "text": "Back in my day, we shot them with rocks.",
+   "h": "1q70ckx"
+  },
+  {
+   "id": "gramps/kill_4",
+   "speaker": "gramps",
+   "event": "kill",
+   "i": 4,
+   "text": "Whoops, my hand slipped.",
+   "h": "116pt9t"
+  },
+  {
+   "id": "gramps/multikill_0",
+   "speaker": "gramps",
+   "event": "multikill",
+   "i": 0,
+   "text": "I've still got it!",
+   "h": "136un4"
+  },
+  {
+   "id": "gramps/multikill_1",
+   "speaker": "gramps",
+   "event": "multikill",
+   "i": 1,
+   "text": "Whee! Look at me go!",
+   "h": "2r24v6"
+  },
+  {
+   "id": "gramps/multikill_2",
+   "speaker": "gramps",
+   "event": "multikill",
+   "i": 2,
+   "text": "Not bad for a man of ninety-seven!",
+   "h": "hvvng"
+  },
+  {
+   "id": "gramps/pickup_0",
+   "speaker": "gramps",
+   "event": "pickup",
+   "i": 0,
+   "text": "Is this my prescription?",
+   "h": "1hore0w"
+  },
+  {
+   "id": "gramps/pickup_1",
+   "speaker": "gramps",
+   "event": "pickup",
+   "i": 1,
+   "text": "Ooh, a flamethrower! Just like the war!",
+   "h": "1eofgsg"
+  },
+  {
+   "id": "gramps/pickup_2",
+   "speaker": "gramps",
+   "event": "pickup",
+   "i": 2,
+   "text": "Finders keepers, sonny.",
+   "h": "h0rvhs"
+  },
+  {
+   "id": "gramps/hurt_0",
+   "speaker": "gramps",
+   "event": "hurt",
+   "i": 0,
+   "text": "My hip!",
+   "h": "jwrnm5"
+  },
+  {
+   "id": "gramps/hurt_1",
+   "speaker": "gramps",
+   "event": "hurt",
+   "i": 1,
+   "text": "Ow! My dentures!",
+   "h": "7st3od"
+  },
+  {
+   "id": "gramps/hurt_2",
+   "speaker": "gramps",
+   "event": "hurt",
+   "i": 2,
+   "text": "My back! My other back!",
+   "h": "15mrzkn"
+  },
+  {
+   "id": "gramps/hurt_3",
+   "speaker": "gramps",
+   "event": "hurt",
+   "i": 3,
+   "text": "{Damn} kids!",
+   "h": "1nyhi09"
+  },
+  {
+   "id": "gramps/low_hp_0",
+   "speaker": "gramps",
+   "event": "low_hp",
+   "i": 0,
+   "text": "Call my nurse!",
+   "h": "1x1bn4l"
+  },
+  {
+   "id": "gramps/low_hp_1",
+   "speaker": "gramps",
+   "event": "low_hp",
+   "i": 1,
+   "text": "I'm too old for this.",
+   "h": "1lcznls"
+  },
+  {
+   "id": "gramps/die_0",
+   "speaker": "gramps",
+   "event": "die",
+   "i": 0,
+   "text": "Tell my cat I loved her.",
+   "h": "1sjjtok"
+  },
+  {
+   "id": "gramps/die_1",
+   "speaker": "gramps",
+   "event": "die",
+   "i": 1,
+   "text": "I'm having my own episode.",
+   "h": "1jwc834"
+  },
+  {
+   "id": "gramps/die_2",
+   "speaker": "gramps",
+   "event": "die",
+   "i": 2,
+   "text": "I see the light! Oh, wait, it's a lamp.",
+   "h": "9l6rax"
+  },
+  {
+   "id": "gramps/die_3",
+   "speaker": "gramps",
+   "event": "die",
+   "i": 3,
+   "text": "Where are my teeth?!",
+   "h": "olutko"
+  },
+  {
+   "id": "gramps/rescue_0",
+   "speaker": "gramps",
+   "event": "rescue",
+   "i": 0,
+   "text": "Well, don't just stand there, help an old man!",
+   "h": "1vxhfa1"
+  },
+  {
+   "id": "gramps/rescue_1",
+   "speaker": "gramps",
+   "event": "rescue",
+   "i": 1,
+   "text": "Thank goodness, I needed someone to carry my bags.",
+   "h": "1s8ye8y"
+  },
+  {
+   "id": "gramps/rescue_2",
+   "speaker": "gramps",
+   "event": "rescue",
+   "i": 2,
+   "text": "Hurry up, I'm not getting any younger!",
+   "h": "16wyfcy"
+  },
+  {
+   "id": "gramps/flag_0",
+   "speaker": "gramps",
+   "event": "flag",
+   "i": 0,
+   "text": "That flag's crooked. Fix it.",
+   "h": "1r0m5rl"
+  },
+  {
+   "id": "gramps/flag_1",
+   "speaker": "gramps",
+   "event": "flag",
+   "i": 1,
+   "text": "Checkpoint! Time for my nap!",
+   "h": "xylqmi"
+  },
+  {
+   "id": "gramps/explode_0",
+   "speaker": "gramps",
+   "event": "explode",
+   "i": 0,
+   "text": "That's what I call a firecracker!",
+   "h": "1eurxl8"
+  },
+  {
+   "id": "gramps/explode_1",
+   "speaker": "gramps",
+   "event": "explode",
+   "i": 1,
+   "text": "Bah, back in my day explosions were bigger.",
+   "h": "1udq3zh"
+  },
+  {
+   "id": "gramps/gold_0",
+   "speaker": "gramps",
+   "event": "gold",
+   "i": 0,
+   "text": "Pocket change! Don't mind if I do.",
+   "h": "1vfsqgf"
+  },
+  {
+   "id": "gramps/gold_1",
+   "speaker": "gramps",
+   "event": "gold",
+   "i": 1,
+   "text": "My pension is saved!",
+   "h": "v64iev"
+  },
+  {
+   "id": "gramps/idle_0",
+   "speaker": "gramps",
+   "event": "idle",
+   "i": 0,
+   "text": "Where did I put my teeth?",
+   "h": "wkiwr6"
+  },
+  {
+   "id": "gramps/idle_1",
+   "speaker": "gramps",
+   "event": "idle",
+   "i": 1,
+   "text": "Hey! Quit your standing around!",
+   "h": "b801gg"
+  },
+  {
+   "id": "gramps/idle_2",
+   "speaker": "gramps",
+   "event": "idle",
+   "i": 2,
+   "text": "Are we done yet? I need my pills.",
+   "h": "1ib9965"
+  },
+  {
+   "id": "gramps/level_start_0",
+   "speaker": "gramps",
+   "event": "level_start",
+   "i": 0,
+   "text": "Let's get this over with, I've got bingo at five.",
+   "h": "208hip"
+  },
+  {
+   "id": "gramps/level_start_1",
+   "speaker": "gramps",
+   "event": "level_start",
+   "i": 1,
+   "text": "Alright, who's got my slippers?",
+   "h": "zolyn9"
+  },
+  {
+   "id": "gramps/level_clear_0",
+   "speaker": "gramps",
+   "event": "level_clear",
+   "i": 0,
+   "text": "Now that's how we did it in 1952!",
+   "h": "791m91"
+  },
+  {
+   "id": "gramps/level_clear_1",
+   "speaker": "gramps",
+   "event": "level_clear",
+   "i": 1,
+   "text": "Done! Take me home.",
+   "h": "13d4by2"
+  },
+  {
+   "id": "gramps/level_fail_0",
+   "speaker": "gramps",
+   "event": "level_fail",
+   "i": 0,
+   "text": "That's it. I'm retiring.",
+   "h": "1smy6cq"
+  },
+  {
+   "id": "goon/spawn_0",
+   "speaker": "goon",
+   "event": "spawn",
+   "i": 0,
+   "text": "HUH?!",
+   "h": "3oko4q"
+  },
+  {
+   "id": "goon/spawn_1",
+   "speaker": "goon",
+   "event": "spawn",
+   "i": 1,
+   "text": "Get him!",
+   "h": "vkcvdw"
+  },
+  {
+   "id": "goon/spawn_2",
+   "speaker": "goon",
+   "event": "spawn",
+   "i": 2,
+   "text": "Is that a stick?!",
+   "h": "adyy1d"
+  },
+  {
+   "id": "goon/spawn_3",
+   "speaker": "goon",
+   "event": "spawn",
+   "i": 3,
+   "text": "Intruder!",
+   "h": "18v1btf"
+  },
+  {
+   "id": "goon/spawn_4",
+   "speaker": "goon",
+   "event": "spawn",
+   "i": 4,
+   "text": "Hey! You can't be here!",
+   "h": "1j0gw4i"
+  },
+  {
+   "id": "goon/spawn_5",
+   "speaker": "goon",
+   "event": "spawn",
+   "i": 5,
+   "text": "Mommy?!",
+   "h": "ey8zn8"
+  },
+  {
+   "id": "goon/spawn_6",
+   "speaker": "goon",
+   "event": "spawn",
+   "i": 6,
+   "text": "Who ordered the stick guy?",
+   "h": "1k862qz"
+  },
+  {
+   "id": "goon/spawn_7",
+   "speaker": "goon",
+   "event": "spawn",
+   "i": 7,
+   "text": "Sound the alarm! Wait, I am the alarm. AAAH!",
+   "h": "cdedb1"
+  },
+  {
+   "id": "goon/kill_0",
+   "speaker": "goon",
+   "event": "kill",
+   "i": 0,
+   "text": "My leg!",
+   "h": "jwumxw"
+  },
+  {
+   "id": "goon/kill_1",
+   "speaker": "goon",
+   "event": "kill",
+   "i": 1,
+   "text": "Not the face!",
+   "h": "fqiu93"
+  },
+  {
+   "id": "goon/kill_2",
+   "speaker": "goon",
+   "event": "kill",
+   "i": 2,
+   "text": "I just started this job!",
+   "h": "129msyn"
+  },
+  {
+   "id": "goon/kill_3",
+   "speaker": "goon",
+   "event": "kill",
+   "i": 3,
+   "text": "Tell my wife... I was a goon.",
+   "h": "1kpxkyv"
+  },
+  {
+   "id": "goon/kill_4",
+   "speaker": "goon",
+   "event": "kill",
+   "i": 4,
+   "text": "That's not in my contract!",
+   "h": "1r650fx"
+  },
+  {
+   "id": "goon/kill_5",
+   "speaker": "goon",
+   "event": "kill",
+   "i": 5,
+   "text": "Ow! My other leg!",
+   "h": "11b857x"
+  },
+  {
+   "id": "goon/kill_6",
+   "speaker": "goon",
+   "event": "kill",
+   "i": 6,
+   "text": "Gah! {Shit}!",
+   "h": "th9ytj"
+  },
+  {
+   "id": "goon/kill_7",
+   "speaker": "goon",
+   "event": "kill",
+   "i": 7,
+   "text": "I want my mommy!",
+   "h": "99bm8u"
+  },
+  {
+   "id": "goon/kill_8",
+   "speaker": "goon",
+   "event": "kill",
+   "i": 8,
+   "text": "Oh no, oh no, oh no!",
+   "h": "16uvuu2"
+  },
+  {
+   "id": "goon/kill_9",
+   "speaker": "goon",
+   "event": "kill",
+   "i": 9,
+   "text": "Bad day to be a bad guy.",
+   "h": "1p07eqn"
+  },
+  {
+   "id": "goon/hurt_0",
+   "speaker": "goon",
+   "event": "hurt",
+   "i": 0,
+   "text": "Ow!",
+   "h": "376o30"
+  },
+  {
+   "id": "goon/hurt_1",
+   "speaker": "goon",
+   "event": "hurt",
+   "i": 1,
+   "text": "Hey, watch it!",
+   "h": "4xkrm4"
+  },
+  {
+   "id": "goon/hurt_2",
+   "speaker": "goon",
+   "event": "hurt",
+   "i": 2,
+   "text": "That's my good arm!",
+   "h": "11hedmo"
+  },
+  {
+   "id": "goon/hurt_3",
+   "speaker": "goon",
+   "event": "hurt",
+   "i": 3,
+   "text": "I'm too young for this!",
+   "h": "a7rpae"
+  },
+  {
+   "id": "goon/hurt_4",
+   "speaker": "goon",
+   "event": "hurt",
+   "i": 4,
+   "text": "Medic! Oh wait, I'm the medic.",
+   "h": "1f7quzy"
+  },
+  {
+   "id": "goon/idle_0",
+   "speaker": "goon",
+   "event": "idle",
+   "i": 0,
+   "text": "Nice weather we're having.",
+   "h": "lzh4e1"
+  },
+  {
+   "id": "goon/idle_1",
+   "speaker": "goon",
+   "event": "idle",
+   "i": 1,
+   "text": "I hate this shift.",
+   "h": "stw384"
+  },
+  {
+   "id": "goon/idle_2",
+   "speaker": "goon",
+   "event": "idle",
+   "i": 2,
+   "text": "Did you hear something? Nope.",
+   "h": "ycjylc"
+  },
+  {
+   "id": "goon/idle_3",
+   "speaker": "goon",
+   "event": "idle",
+   "i": 3,
+   "text": "I miss my couch.",
+   "h": "19h9s5s"
+  },
+  {
+   "id": "goon/explode_0",
+   "speaker": "goon",
+   "event": "explode",
+   "i": 0,
+   "text": "Grenade!",
+   "h": "gx3zq4"
+  },
+  {
+   "id": "goon/explode_1",
+   "speaker": "goon",
+   "event": "explode",
+   "i": 1,
+   "text": "Take cover!",
+   "h": "1b7hbai"
+  },
+  {
+   "id": "goon/explode_2",
+   "speaker": "goon",
+   "event": "explode",
+   "i": 2,
+   "text": "Run away! Run away!",
+   "h": "kmus5x"
+  },
+  {
+   "id": "goon/explode_3",
+   "speaker": "goon",
+   "event": "explode",
+   "i": 3,
+   "text": "That's gonna cost me my deposit!",
+   "h": "1i7wbd9"
+  },
+  {
+   "id": "announcer/level_start_0",
+   "speaker": "announcer",
+   "event": "level_start",
+   "i": 0,
+   "text": "Level start! Let's go DOOSH!",
+   "h": "1lxlupr"
+  },
+  {
+   "id": "announcer/level_start_1",
+   "speaker": "announcer",
+   "event": "level_start",
+   "i": 1,
+   "text": "Ready? Set? DOOSH!",
+   "h": "1afy4te"
+  },
+  {
+   "id": "announcer/level_start_2",
+   "speaker": "announcer",
+   "event": "level_start",
+   "i": 2,
+   "text": "It's showtime, stick fans!",
+   "h": "1lx1zy7"
+  },
+  {
+   "id": "announcer/level_start_3",
+   "speaker": "announcer",
+   "event": "level_start",
+   "i": 3,
+   "text": "Round one. DOOSH!",
+   "h": "gz2e9n"
+  },
+  {
+   "id": "announcer/level_start_ice_0",
+   "speaker": "announcer",
+   "event": "level_start_ice",
+   "i": 0,
+   "text": "Brrr-zerker Glacier! Bring a sweater!",
+   "h": "17y0v50"
+  },
+  {
+   "id": "announcer/level_start_fire_0",
+   "speaker": "announcer",
+   "event": "level_start_fire",
+   "i": 0,
+   "text": "Mount Ka-Blammo! Try not to melt!",
+   "h": "8tjv4"
+  },
+  {
+   "id": "announcer/level_start_wind_0",
+   "speaker": "announcer",
+   "event": "level_start_wind",
+   "i": 0,
+   "text": "Gustbuster Skyway! Hold on to your hats!",
+   "h": "1nls6x9"
+  },
+  {
+   "id": "announcer/level_start_water_0",
+   "speaker": "announcer",
+   "event": "level_start_water",
+   "i": 0,
+   "text": "Soggy Bottom Docks! Don't forget your floaties!",
+   "h": "wtwaqq"
+  },
+  {
+   "id": "announcer/level_start_mud_0",
+   "speaker": "announcer",
+   "event": "level_start_mud",
+   "i": 0,
+   "text": "Sludge Bog! Mind the muck!",
+   "h": "1wj1y4c"
+  },
+  {
+   "id": "announcer/level_start_jungle_0",
+   "speaker": "announcer",
+   "event": "level_start_jungle",
+   "i": 0,
+   "text": "Bananarama Temple! Watch for monkeys!",
+   "h": "5qacpg"
+  },
+  {
+   "id": "announcer/level_start_mountain_0",
+   "speaker": "announcer",
+   "event": "level_start_mountain",
+   "i": 0,
+   "text": "Mount Doosh-more! Don't look down!",
+   "h": "oa2vk0"
+  },
+  {
+   "id": "announcer/level_start_plains_0",
+   "speaker": "announcer",
+   "event": "level_start_plains",
+   "i": 0,
+   "text": "Cornfed Plains! Beware of the cows!",
+   "h": "9e0eqf"
+  },
+  {
+   "id": "announcer/level_start_fantasy_0",
+   "speaker": "announcer",
+   "event": "level_start_fantasy",
+   "i": 0,
+   "text": "Castle Wizzlebeard! Mind the beard!",
+   "h": "16nnt4d"
+  },
+  {
+   "id": "announcer/level_start_moon_0",
+   "speaker": "announcer",
+   "event": "level_start_moon",
+   "i": 0,
+   "text": "Moon Base Bonkers! One small step for stick!",
+   "h": "ehmlbf"
+  },
+  {
+   "id": "announcer/level_start_retro_0",
+   "speaker": "announcer",
+   "event": "level_start_retro",
+   "i": 0,
+   "text": "Eight-Bit Bonanza! Press start!",
+   "h": "1vs8bgo"
+  },
+  {
+   "id": "announcer/level_start_fortress_0",
+   "speaker": "announcer",
+   "event": "level_start_fortress",
+   "i": 0,
+   "text": "Doosh Fortress! The final showdown!",
+   "h": "1jimg3k"
+  },
+  {
+   "id": "announcer/level_clear_0",
+   "speaker": "announcer",
+   "event": "level_clear",
+   "i": 0,
+   "text": "Level clear! DOOOOSH!",
+   "h": "18zisch"
+  },
+  {
+   "id": "announcer/level_clear_1",
+   "speaker": "announcer",
+   "event": "level_clear",
+   "i": 1,
+   "text": "Stage complete! You absolute legends!",
+   "h": "xzbj5e"
+  },
+  {
+   "id": "announcer/level_clear_2",
+   "speaker": "announcer",
+   "event": "level_clear",
+   "i": 2,
+   "text": "Outstanding! Doosh on!",
+   "h": "1qajbgx"
+  },
+  {
+   "id": "announcer/level_clear_3",
+   "speaker": "announcer",
+   "event": "level_clear",
+   "i": 3,
+   "text": "Another one bites the dust!",
+   "h": "10ahai9"
+  },
+  {
+   "id": "announcer/level_fail_0",
+   "speaker": "announcer",
+   "event": "level_fail",
+   "i": 0,
+   "text": "Game over, man. Game over.",
+   "h": "1ssdx5h"
+  },
+  {
+   "id": "announcer/level_fail_1",
+   "speaker": "announcer",
+   "event": "level_fail",
+   "i": 1,
+   "text": "Better luck next time, sticks.",
+   "h": "1wmeker"
+  },
+  {
+   "id": "announcer/level_fail_2",
+   "speaker": "announcer",
+   "event": "level_fail",
+   "i": 2,
+   "text": "Ouch. That's gonna leave a mark.",
+   "h": "9zr19j"
+  },
+  {
+   "id": "announcer/pickup_shotgun_0",
+   "speaker": "announcer",
+   "event": "pickup_shotgun",
+   "i": 0,
+   "text": "SHOTGUN!",
+   "h": "xslxbi"
+  },
+  {
+   "id": "announcer/pickup_shotgun_1",
+   "speaker": "announcer",
+   "event": "pickup_shotgun",
+   "i": 1,
+   "text": "DOOSH shotgun!",
+   "h": "1ioc13f"
+  },
+  {
+   "id": "announcer/pickup_mg_0",
+   "speaker": "announcer",
+   "event": "pickup_mg",
+   "i": 0,
+   "text": "MACHINE GUN!",
+   "h": "f4o285"
+  },
+  {
+   "id": "announcer/pickup_mg_1",
+   "speaker": "announcer",
+   "event": "pickup_mg",
+   "i": 1,
+   "text": "BRRRT, machine gun!",
+   "h": "1oswla5"
+  },
+  {
+   "id": "announcer/pickup_rocket_0",
+   "speaker": "announcer",
+   "event": "pickup_rocket",
+   "i": 0,
+   "text": "ROCKETS!",
+   "h": "12rxp0h"
+  },
+  {
+   "id": "announcer/pickup_rocket_1",
+   "speaker": "announcer",
+   "event": "pickup_rocket",
+   "i": 1,
+   "text": "Rocket launcher!",
+   "h": "1apbijk"
+  },
+  {
+   "id": "announcer/pickup_flame_0",
+   "speaker": "announcer",
+   "event": "pickup_flame",
+   "i": 0,
+   "text": "FLAMETHROWER!",
+   "h": "5ev5w6"
+  },
+  {
+   "id": "announcer/pickup_flame_1",
+   "speaker": "announcer",
+   "event": "pickup_flame",
+   "i": 1,
+   "text": "Flame on!",
+   "h": "1ao4du0"
+  },
+  {
+   "id": "announcer/pickup_laser_0",
+   "speaker": "announcer",
+   "event": "pickup_laser",
+   "i": 0,
+   "text": "LASER!",
+   "h": "1gp5kot"
+  },
+  {
+   "id": "announcer/pickup_laser_1",
+   "speaker": "announcer",
+   "event": "pickup_laser",
+   "i": 1,
+   "text": "Pew pew, laser!",
+   "h": "ob3jdt"
+  },
+  {
+   "id": "announcer/pickup_spread_0",
+   "speaker": "announcer",
+   "event": "pickup_spread",
+   "i": 0,
+   "text": "SPREAD GUN!",
+   "h": "15lufnz"
+  },
+  {
+   "id": "announcer/pickup_spread_1",
+   "speaker": "announcer",
+   "event": "pickup_spread",
+   "i": 1,
+   "text": "Spread shot!",
+   "h": "gjawo3"
+  },
+  {
+   "id": "announcer/pickup_dual_0",
+   "speaker": "announcer",
+   "event": "pickup_dual",
+   "i": 0,
+   "text": "DUAL PISTOLS!",
+   "h": "1v4ej22"
+  },
+  {
+   "id": "announcer/pickup_0",
+   "speaker": "announcer",
+   "event": "pickup",
+   "i": 0,
+   "text": "Power up!",
+   "h": "112gr6g"
+  },
+  {
+   "id": "announcer/pickup_1",
+   "speaker": "announcer",
+   "event": "pickup",
+   "i": 1,
+   "text": "New toy!",
+   "h": "1u76vt8"
+  },
+  {
+   "id": "announcer/pickup_barrier_0",
+   "speaker": "announcer",
+   "event": "pickup_barrier",
+   "i": 0,
+   "text": "BARRIER!",
+   "h": "1ece6rx"
+  },
+  {
+   "id": "announcer/pickup_rapid_0",
+   "speaker": "announcer",
+   "event": "pickup_rapid",
+   "i": 0,
+   "text": "RAPID FIRE!",
+   "h": "ds76ik"
+  },
+  {
+   "id": "announcer/pickup_heal_0",
+   "speaker": "announcer",
+   "event": "pickup_heal",
+   "i": 0,
+   "text": "HEALTH!",
+   "h": "m5jazg"
+  },
+  {
+   "id": "announcer/pickup_1up_0",
+   "speaker": "announcer",
+   "event": "pickup_1up",
+   "i": 0,
+   "text": "ONE UP!",
+   "h": "zh8r8t"
+  },
+  {
+   "id": "announcer/chopper_0",
+   "speaker": "announcer",
+   "event": "chopper",
+   "i": 0,
+   "text": "GET TO THE CHOPPA!",
+   "h": "78fx9h"
+  },
+  {
+   "id": "announcer/chopper_1",
+   "speaker": "announcer",
+   "event": "chopper",
+   "i": 1,
+   "text": "Get to the choppa! Now!",
+   "h": "1hsmw56"
+  },
+  {
+   "id": "announcer/chopper_2",
+   "speaker": "announcer",
+   "event": "chopper",
+   "i": 2,
+   "text": "Chopper incoming! Move it!",
+   "h": "snm17k"
+  },
+  {
+   "id": "announcer/multikill_0",
+   "speaker": "announcer",
+   "event": "multikill",
+   "i": 0,
+   "text": "DOUBLE KILL!",
+   "h": "5fk5rh"
+  },
+  {
+   "id": "announcer/multikill_1",
+   "speaker": "announcer",
+   "event": "multikill",
+   "i": 1,
+   "text": "TRIPLE KILL!",
+   "h": "1qhb4aq"
+  },
+  {
+   "id": "announcer/multikill_2",
+   "speaker": "announcer",
+   "event": "multikill",
+   "i": 2,
+   "text": "MULTI KILL!",
+   "h": "1go0jtp"
+  },
+  {
+   "id": "announcer/multikill_3",
+   "speaker": "announcer",
+   "event": "multikill",
+   "i": 3,
+   "text": "MONSTER DOOSH!",
+   "h": "crjawb"
+  },
+  {
+   "id": "announcer/boss_die_0",
+   "speaker": "announcer",
+   "event": "boss_die",
+   "i": 0,
+   "text": "FATALITY! Doosh!",
+   "h": "hcwldu"
+  },
+  {
+   "id": "announcer/boss_die_1",
+   "speaker": "announcer",
+   "event": "boss_die",
+   "i": 1,
+   "text": "KA-DOOOOSH! Boss down!",
+   "h": "raryay"
+  },
+  {
+   "id": "announcer/weak_0",
+   "speaker": "announcer",
+   "event": "weak",
+   "i": 0,
+   "text": "WEAK!",
+   "h": "3ytgtq"
+  },
+  {
+   "id": "announcer/weak_1",
+   "speaker": "announcer",
+   "event": "weak",
+   "i": 1,
+   "text": "That's his weakness!",
+   "h": "8ez6ja"
+  },
+  {
+   "id": "announcer/super_ice_0",
+   "speaker": "announcer",
+   "event": "super_ice",
+   "i": 0,
+   "text": "Freeze Grenade acquired!",
+   "h": "51tt0r"
+  },
+  {
+   "id": "announcer/super_fire_0",
+   "speaker": "announcer",
+   "event": "super_fire",
+   "i": 0,
+   "text": "Napalm Strike acquired!",
+   "h": "1nkmrzz"
+  },
+  {
+   "id": "announcer/super_wind_0",
+   "speaker": "announcer",
+   "event": "super_wind",
+   "i": 0,
+   "text": "Tornado acquired!",
+   "h": "fdn357"
+  },
+  {
+   "id": "announcer/super_water_0",
+   "speaker": "announcer",
+   "event": "super_water",
+   "i": 0,
+   "text": "Tidal Wave acquired!",
+   "h": "1ob545x"
+  },
+  {
+   "id": "announcer/super_mud_0",
+   "speaker": "announcer",
+   "event": "super_mud",
+   "i": 0,
+   "text": "Mud Bomb acquired!",
+   "h": "1uzmqu2"
+  },
+  {
+   "id": "announcer/super_jungle_0",
+   "speaker": "announcer",
+   "event": "super_jungle",
+   "i": 0,
+   "text": "Banana Boomerang acquired!",
+   "h": "kys8b3"
+  },
+  {
+   "id": "announcer/super_mountain_0",
+   "speaker": "announcer",
+   "event": "super_mountain",
+   "i": 0,
+   "text": "Boulder acquired!",
+   "h": "1tuqtd"
+  },
+  {
+   "id": "announcer/super_plains_0",
+   "speaker": "announcer",
+   "event": "super_plains",
+   "i": 0,
+   "text": "Cow Launcher acquired!",
+   "h": "xm0hkf"
+  },
+  {
+   "id": "announcer/super_fantasy_0",
+   "speaker": "announcer",
+   "event": "super_fantasy",
+   "i": 0,
+   "text": "Magic Missiles acquired!",
+   "h": "1alx4ce"
+  },
+  {
+   "id": "announcer/super_moon_0",
+   "speaker": "announcer",
+   "event": "super_moon",
+   "i": 0,
+   "text": "Gravity Bomb acquired!",
+   "h": "8k8uka"
+  },
+  {
+   "id": "announcer/super_retro_0",
+   "speaker": "announcer",
+   "event": "super_retro",
+   "i": 0,
+   "text": "Pixel Bomb acquired!",
+   "h": "1hbi8ly"
+  },
+  {
+   "id": "boss_ice/boss_intro_0",
+   "speaker": "boss_ice",
+   "event": "boss_intro",
+   "i": 0,
+   "text": "Whoa. Chill out, little dude. Literally. I'm Frosty McChillface, and you're about to be a popsicle.",
+   "h": "1fxai4s"
+  },
+  {
+   "id": "boss_ice/boss_intro_1",
+   "speaker": "boss_ice",
+   "event": "boss_intro",
+   "i": 1,
+   "text": "Dude. You're on thin ice. And I brought a snowmobile.",
+   "h": "qkjvvo"
+  },
+  {
+   "id": "boss_ice/boss_hurt_0",
+   "speaker": "boss_ice",
+   "event": "boss_hurt",
+   "i": 0,
+   "text": "Brrr-ing it on!",
+   "h": "315db7"
+  },
+  {
+   "id": "boss_ice/boss_hurt_1",
+   "speaker": "boss_ice",
+   "event": "boss_hurt",
+   "i": 1,
+   "text": "Dude, my fur!",
+   "h": "rc8p3"
+  },
+  {
+   "id": "boss_ice/boss_hurt_2",
+   "speaker": "boss_ice",
+   "event": "boss_hurt",
+   "i": 2,
+   "text": "That's, like, not cool.",
+   "h": "a5yuux"
+  },
+  {
+   "id": "boss_ice/boss_enrage_0",
+   "speaker": "boss_ice",
+   "event": "boss_enrage",
+   "i": 0,
+   "text": "Okay, now I'm ice-cold furious!",
+   "h": "57ckpw"
+  },
+  {
+   "id": "boss_ice/boss_enrage_1",
+   "speaker": "boss_ice",
+   "event": "boss_enrage",
+   "i": 1,
+   "text": "My scarf! You got my tiny scarf!",
+   "h": "1snuipo"
+  },
+  {
+   "id": "boss_ice/boss_die_0",
+   "speaker": "boss_ice",
+   "event": "boss_die",
+   "i": 0,
+   "text": "Stay frosty... bro...",
+   "h": "1ofdn1g"
+  },
+  {
+   "id": "boss_ice/boss_die_1",
+   "speaker": "boss_ice",
+   "event": "boss_die",
+   "i": 1,
+   "text": "Tell the avalanche... I'm out.",
+   "h": "tgowp3"
+  },
+  {
+   "id": "boss_fire/boss_intro_0",
+   "speaker": "boss_fire",
+   "event": "boss_intro",
+   "i": 0,
+   "text": "I'm Captain Combustion! I put out fires! And I'm on fire! This is fine!",
+   "h": "hfviit"
+  },
+  {
+   "id": "boss_fire/boss_intro_1",
+   "speaker": "boss_fire",
+   "event": "boss_intro",
+   "i": 1,
+   "text": "Hello! Don't mind the flames! I'm professionally on fire!",
+   "h": "j4p5rn"
+  },
+  {
+   "id": "boss_fire/boss_hurt_0",
+   "speaker": "boss_fire",
+   "event": "boss_hurt",
+   "i": 0,
+   "text": "Ow, hot! I mean, ow!",
+   "h": "17l828w"
+  },
+  {
+   "id": "boss_fire/boss_hurt_1",
+   "speaker": "boss_fire",
+   "event": "boss_hurt",
+   "i": 1,
+   "text": "Hose! Where's the hose?!",
+   "h": "wzm4gq"
+  },
+  {
+   "id": "boss_fire/boss_hurt_2",
+   "speaker": "boss_fire",
+   "event": "boss_hurt",
+   "i": 2,
+   "text": "I'm fine! Everything's fine!",
+   "h": "1uirip3"
+  },
+  {
+   "id": "boss_fire/boss_enrage_0",
+   "speaker": "boss_fire",
+   "event": "boss_enrage",
+   "i": 0,
+   "text": "Now I'm REALLY on fire!",
+   "h": "f7mjer"
+  },
+  {
+   "id": "boss_fire/boss_enrage_1",
+   "speaker": "boss_fire",
+   "event": "boss_enrage",
+   "i": 1,
+   "text": "Oh {hell}, I'm literally on fire!",
+   "h": "13ye7mg"
+  },
+  {
+   "id": "boss_fire/boss_die_0",
+   "speaker": "boss_fire",
+   "event": "boss_die",
+   "i": 0,
+   "text": "Stop, drop, and roll... oh, I can't.",
+   "h": "1pqo36d"
+  },
+  {
+   "id": "boss_fire/boss_die_1",
+   "speaker": "boss_fire",
+   "event": "boss_die",
+   "i": 1,
+   "text": "Finally, a break from the heat.",
+   "h": "1i3y9cb"
+  },
+  {
+   "id": "boss_wind/boss_intro_0",
+   "speaker": "boss_wind",
+   "event": "boss_intro",
+   "i": 0,
+   "text": "Hear that? That's the sound of my mighty lungs! Gustav Blowhard will blow you away!",
+   "h": "15l7cyy"
+  },
+  {
+   "id": "boss_wind/boss_intro_1",
+   "speaker": "boss_wind",
+   "event": "boss_intro",
+   "i": 1,
+   "text": "Hooo! Time to clear the air!",
+   "h": "1nklqpe"
+  },
+  {
+   "id": "boss_wind/boss_hurt_0",
+   "speaker": "boss_wind",
+   "event": "boss_hurt",
+   "i": 0,
+   "text": "Hey! I was mid-gust!",
+   "h": "1axulwr"
+  },
+  {
+   "id": "boss_wind/boss_hurt_1",
+   "speaker": "boss_wind",
+   "event": "boss_hurt",
+   "i": 1,
+   "text": "Pffff! You knocked the wind out of me!",
+   "h": "14epw1p"
+  },
+  {
+   "id": "boss_wind/boss_hurt_2",
+   "speaker": "boss_wind",
+   "event": "boss_hurt",
+   "i": 2,
+   "text": "Ooh, that tickled.",
+   "h": "jtqoeu"
+  },
+  {
+   "id": "boss_wind/boss_enrage_0",
+   "speaker": "boss_wind",
+   "event": "boss_enrage",
+   "i": 0,
+   "text": "Now I'm gonna huff, and puff, and blow your face off!",
+   "h": "1th78a7"
+  },
+  {
+   "id": "boss_wind/boss_enrage_1",
+   "speaker": "boss_wind",
+   "event": "boss_enrage",
+   "i": 1,
+   "text": "Leaf blower, MAXIMUM!",
+   "h": "1gd3b0z"
+  },
+  {
+   "id": "boss_wind/boss_die_0",
+   "speaker": "boss_wind",
+   "event": "boss_die",
+   "i": 0,
+   "text": "I'm out of breath...",
+   "h": "ceszv3"
+  },
+  {
+   "id": "boss_wind/boss_die_1",
+   "speaker": "boss_wind",
+   "event": "boss_die",
+   "i": 1,
+   "text": "Wind... down...",
+   "h": "1qqs4wz"
+  },
+  {
+   "id": "boss_water/boss_intro_0",
+   "speaker": "boss_water",
+   "event": "boss_intro",
+   "i": 0,
+   "text": "Arrr! Admiral Soggybottom be here! Me bathtub be mighty, and me bottom be soggy!",
+   "h": "3grifh"
+  },
+  {
+   "id": "boss_water/boss_intro_1",
+   "speaker": "boss_water",
+   "event": "boss_intro",
+   "i": 1,
+   "text": "Avast, ye landlubbers! Prepare to be rinsed!",
+   "h": "1lhj1i4"
+  },
+  {
+   "id": "boss_water/boss_hurt_0",
+   "speaker": "boss_water",
+   "event": "boss_hurt",
+   "i": 0,
+   "text": "Shiver me bubbles!",
+   "h": "1lmfx48"
+  },
+  {
+   "id": "boss_water/boss_hurt_1",
+   "speaker": "boss_water",
+   "event": "boss_hurt",
+   "i": 1,
+   "text": "Ye popped me rubber ducky!",
+   "h": "1hoxkrk"
+  },
+  {
+   "id": "boss_water/boss_hurt_2",
+   "speaker": "boss_water",
+   "event": "boss_hurt",
+   "i": 2,
+   "text": "Arr, that smarts!",
+   "h": "1lii3gi"
+  },
+  {
+   "id": "boss_water/boss_enrage_0",
+   "speaker": "boss_water",
+   "event": "boss_enrage",
+   "i": 0,
+   "text": "Now ye've made me tub angry!",
+   "h": "1ndir0v"
+  },
+  {
+   "id": "boss_water/boss_enrage_1",
+   "speaker": "boss_water",
+   "event": "boss_enrage",
+   "i": 1,
+   "text": "Pull the plug! No, don't pull the plug!",
+   "h": "1yp6t4"
+  },
+  {
+   "id": "boss_water/boss_die_0",
+   "speaker": "boss_water",
+   "event": "boss_die",
+   "i": 0,
+   "text": "Down the drain I go... glug glug...",
+   "h": "wpe84d"
+  },
+  {
+   "id": "boss_water/boss_die_1",
+   "speaker": "boss_water",
+   "event": "boss_die",
+   "i": 1,
+   "text": "Arrr... me bath... is cold...",
+   "h": "1d6zhnt"
+  },
+  {
+   "id": "boss_mud/boss_intro_0",
+   "speaker": "boss_mud",
+   "event": "boss_intro",
+   "i": 0,
+   "text": "I say. Sir Sludgington, if you please. You've tracked mud on my carpet. Which is me.",
+   "h": "xzyco7"
+  },
+  {
+   "id": "boss_mud/boss_intro_1",
+   "speaker": "boss_mud",
+   "event": "boss_intro",
+   "i": 1,
+   "text": "Good evening. Prepare to be squelched.",
+   "h": "1wvcvsd"
+  },
+  {
+   "id": "boss_mud/boss_hurt_0",
+   "speaker": "boss_mud",
+   "event": "boss_hurt",
+   "i": 0,
+   "text": "Squelch! How rude!",
+   "h": "1wc36ze"
+  },
+  {
+   "id": "boss_mud/boss_hurt_1",
+   "speaker": "boss_mud",
+   "event": "boss_hurt",
+   "i": 1,
+   "text": "My monocle!",
+   "h": "102w5w9"
+  },
+  {
+   "id": "boss_mud/boss_hurt_2",
+   "speaker": "boss_mud",
+   "event": "boss_hurt",
+   "i": 2,
+   "text": "Oh, I'm leaking.",
+   "h": "wjd9qm"
+  },
+  {
+   "id": "boss_mud/boss_enrage_0",
+   "speaker": "boss_mud",
+   "event": "boss_enrage",
+   "i": 0,
+   "text": "Now I'm positively filthy with rage!",
+   "h": "cj4c8q"
+  },
+  {
+   "id": "boss_mud/boss_enrage_1",
+   "speaker": "boss_mud",
+   "event": "boss_enrage",
+   "i": 1,
+   "text": "Mud in your eye, sir!",
+   "h": "1qfdy5r"
+  },
+  {
+   "id": "boss_mud/boss_die_0",
+   "speaker": "boss_mud",
+   "event": "boss_die",
+   "i": 0,
+   "text": "I'm dissolving... how undignified...",
+   "h": "2zyslo"
+  },
+  {
+   "id": "boss_mud/boss_die_1",
+   "speaker": "boss_mud",
+   "event": "boss_die",
+   "i": 1,
+   "text": "Splorch.",
+   "h": "1j382em"
+  },
+  {
+   "id": "boss_jungle/boss_intro_0",
+   "speaker": "boss_jungle",
+   "event": "boss_intro",
+   "i": 0,
+   "text": "OOK OOK! CHIMPANZILLA SMASH TINY STICK!",
+   "h": "1q8o5f7"
+  },
+  {
+   "id": "boss_jungle/boss_intro_1",
+   "speaker": "boss_jungle",
+   "event": "boss_intro",
+   "i": 1,
+   "text": "Ook! You come to my temple? Bad idea! Ook!",
+   "h": "1sjfrqc"
+  },
+  {
+   "id": "boss_jungle/boss_hurt_0",
+   "speaker": "boss_jungle",
+   "event": "boss_hurt",
+   "i": 0,
+   "text": "Ook!",
+   "h": "yjzvyn"
+  },
+  {
+   "id": "boss_jungle/boss_hurt_1",
+   "speaker": "boss_jungle",
+   "event": "boss_hurt",
+   "i": 1,
+   "text": "Hey! That my banana!",
+   "h": "6pir7p"
+  },
+  {
+   "id": "boss_jungle/boss_hurt_2",
+   "speaker": "boss_jungle",
+   "event": "boss_hurt",
+   "i": 2,
+   "text": "AAAH! Ook ook!",
+   "h": "11vtrhg"
+  },
+  {
+   "id": "boss_jungle/boss_enrage_0",
+   "speaker": "boss_jungle",
+   "event": "boss_enrage",
+   "i": 0,
+   "text": "NOW CHIMPANZILLA ANGRY! OOK OOK OOK!",
+   "h": "iybdkj"
+  },
+  {
+   "id": "boss_jungle/boss_enrage_1",
+   "speaker": "boss_jungle",
+   "event": "boss_enrage",
+   "i": 1,
+   "text": "Me chest drum now! Bom bom bom!",
+   "h": "xdeghi"
+  },
+  {
+   "id": "boss_jungle/boss_die_0",
+   "speaker": "boss_jungle",
+   "event": "boss_die",
+   "i": 0,
+   "text": "Ook... no more... bananas...",
+   "h": "wr5auo"
+  },
+  {
+   "id": "boss_jungle/boss_die_1",
+   "speaker": "boss_jungle",
+   "event": "boss_die",
+   "i": 1,
+   "text": "Ooook... tell the monkeys... I loved them...",
+   "h": "13z0tsj"
+  },
+  {
+   "id": "boss_mountain/boss_intro_0",
+   "speaker": "boss_mountain",
+   "event": "boss_intro",
+   "i": 0,
+   "text": "Baaa! I'm Billy the Kidd, king of the mountain, and I'm the G.O.A.T.!",
+   "h": "1fwou0"
+  },
+  {
+   "id": "boss_mountain/boss_intro_1",
+   "speaker": "boss_mountain",
+   "event": "boss_intro",
+   "i": 1,
+   "text": "Bleat this, stick boy! Baaa ha ha!",
+   "h": "8jbt3m"
+  },
+  {
+   "id": "boss_mountain/boss_hurt_0",
+   "speaker": "boss_mountain",
+   "event": "boss_hurt",
+   "i": 0,
+   "text": "Baaa! Hey!",
+   "h": "re1p1u"
+  },
+  {
+   "id": "boss_mountain/boss_hurt_1",
+   "speaker": "boss_mountain",
+   "event": "boss_hurt",
+   "i": 1,
+   "text": "Not the beard!",
+   "h": "jl2lp2"
+  },
+  {
+   "id": "boss_mountain/boss_hurt_2",
+   "speaker": "boss_mountain",
+   "event": "boss_hurt",
+   "i": 2,
+   "text": "Ow! My horns!",
+   "h": "1c2b3jx"
+  },
+  {
+   "id": "boss_mountain/boss_enrage_0",
+   "speaker": "boss_mountain",
+   "event": "boss_enrage",
+   "i": 0,
+   "text": "That's it! Jetpack, activate!",
+   "h": "9qbxri"
+  },
+  {
+   "id": "boss_mountain/boss_enrage_1",
+   "speaker": "boss_mountain",
+   "event": "boss_enrage",
+   "i": 1,
+   "text": "I'm gonna ram you so hard!",
+   "h": "m7x8tw"
+  },
+  {
+   "id": "boss_mountain/boss_die_0",
+   "speaker": "boss_mountain",
+   "event": "boss_die",
+   "i": 0,
+   "text": "Baaa... greatest... of all time...",
+   "h": "1f7ylvo"
+  },
+  {
+   "id": "boss_mountain/boss_die_1",
+   "speaker": "boss_mountain",
+   "event": "boss_die",
+   "i": 1,
+   "text": "Goodbye... cruel... mountain...",
+   "h": "154c7rm"
+  },
+  {
+   "id": "boss_plains/boss_intro_0",
+   "speaker": "boss_plains",
+   "event": "boss_intro",
+   "i": 0,
+   "text": "Howdy, varmint. Colonel Cornhusk. I'm gonna harvest ya like corn.",
+   "h": "mx2l7i"
+  },
+  {
+   "id": "boss_plains/boss_intro_1",
+   "speaker": "boss_plains",
+   "event": "boss_intro",
+   "i": 1,
+   "text": "This here's my field, and that there's my combine. Y'all are about to get thrashed.",
+   "h": "1t24pt4"
+  },
+  {
+   "id": "boss_plains/boss_hurt_0",
+   "speaker": "boss_plains",
+   "event": "boss_hurt",
+   "i": 0,
+   "text": "Dagnabbit!",
+   "h": "x196w2"
+  },
+  {
+   "id": "boss_plains/boss_hurt_1",
+   "speaker": "boss_plains",
+   "event": "boss_hurt",
+   "i": 1,
+   "text": "Ya crushed my corn!",
+   "h": "phfgna"
+  },
+  {
+   "id": "boss_plains/boss_hurt_2",
+   "speaker": "boss_plains",
+   "event": "boss_hurt",
+   "i": 2,
+   "text": "Ow! My straw!",
+   "h": "1ja4rqc"
+  },
+  {
+   "id": "boss_plains/boss_enrage_0",
+   "speaker": "boss_plains",
+   "event": "boss_enrage",
+   "i": 0,
+   "text": "Now I'm stuffed with rage! And straw!",
+   "h": "b0wl0o"
+  },
+  {
+   "id": "boss_plains/boss_enrage_1",
+   "speaker": "boss_plains",
+   "event": "boss_enrage",
+   "i": 1,
+   "text": "Crank up the combine!",
+   "h": "wqd3qw"
+  },
+  {
+   "id": "boss_plains/boss_die_0",
+   "speaker": "boss_plains",
+   "event": "boss_die",
+   "i": 0,
+   "text": "I'm all shucked out...",
+   "h": "10zkexw"
+  },
+  {
+   "id": "boss_plains/boss_die_1",
+   "speaker": "boss_plains",
+   "event": "boss_die",
+   "i": 1,
+   "text": "Tell the crows... I loved 'em...",
+   "h": "lndjrp"
+  },
+  {
+   "id": "boss_fantasy/boss_intro_0",
+   "speaker": "boss_fantasy",
+   "event": "boss_intro",
+   "i": 0,
+   "text": "Behold! I am Wizzlebeard the Wise, and my beard is mightier than your gun!",
+   "h": "kybpus"
+  },
+  {
+   "id": "boss_fantasy/boss_intro_1",
+   "speaker": "boss_fantasy",
+   "event": "boss_intro",
+   "i": 1,
+   "text": "Fools! You dare enter my castle? Prepare to be turned into a toad!",
+   "h": "162gdw0"
+  },
+  {
+   "id": "boss_fantasy/boss_hurt_0",
+   "speaker": "boss_fantasy",
+   "event": "boss_hurt",
+   "i": 0,
+   "text": "My beard! Not the beard!",
+   "h": "1gavlsr"
+  },
+  {
+   "id": "boss_fantasy/boss_hurt_1",
+   "speaker": "boss_fantasy",
+   "event": "boss_hurt",
+   "i": 1,
+   "text": "Fie! That tingled!",
+   "h": "yicdyr"
+  },
+  {
+   "id": "boss_fantasy/boss_hurt_2",
+   "speaker": "boss_fantasy",
+   "event": "boss_hurt",
+   "i": 2,
+   "text": "Egad!",
+   "h": "3muw0n"
+  },
+  {
+   "id": "boss_fantasy/boss_enrage_0",
+   "speaker": "boss_fantasy",
+   "event": "boss_enrage",
+   "i": 0,
+   "text": "Now you've done it! I shall conjure my TINY DRAGON!",
+   "h": "1el9k8l"
+  },
+  {
+   "id": "boss_fantasy/boss_enrage_1",
+   "speaker": "boss_fantasy",
+   "event": "boss_enrage",
+   "i": 1,
+   "text": "Abra-ca-DOOSH!",
+   "h": "ia1v7b"
+  },
+  {
+   "id": "boss_fantasy/boss_die_0",
+   "speaker": "boss_fantasy",
+   "event": "boss_die",
+   "i": 0,
+   "text": "My beard... was my power... all along...",
+   "h": "11pk4of"
+  },
+  {
+   "id": "boss_fantasy/boss_die_1",
+   "speaker": "boss_fantasy",
+   "event": "boss_die",
+   "i": 1,
+   "text": "{Damn}... {damn}... curses!",
+   "h": "1ju3yxr"
+  },
+  {
+   "id": "boss_moon/boss_intro_0",
+   "speaker": "boss_moon",
+   "event": "boss_intro",
+   "i": 0,
+   "text": "Greetings, Earth stick. I am Emperor Zorp. Resistance is futile. Also, a little bit funny.",
+   "h": "t0wzpq"
+  },
+  {
+   "id": "boss_moon/boss_intro_1",
+   "speaker": "boss_moon",
+   "event": "boss_intro",
+   "i": 1,
+   "text": "Bow before Zorp, ruler of the Moon! Which is made of cheese. Probably.",
+   "h": "1age8r4"
+  },
+  {
+   "id": "boss_moon/boss_hurt_0",
+   "speaker": "boss_moon",
+   "event": "boss_hurt",
+   "i": 0,
+   "text": "Bzzt! Ouch!",
+   "h": "2a6nxc"
+  },
+  {
+   "id": "boss_moon/boss_hurt_1",
+   "speaker": "boss_moon",
+   "event": "boss_hurt",
+   "i": 1,
+   "text": "Zorp does not appreciate this!",
+   "h": "11iag4j"
+  },
+  {
+   "id": "boss_moon/boss_hurt_2",
+   "speaker": "boss_moon",
+   "event": "boss_hurt",
+   "i": 2,
+   "text": "My UFO! You dented my UFO!",
+   "h": "1ni7a6w"
+  },
+  {
+   "id": "boss_moon/boss_enrage_0",
+   "speaker": "boss_moon",
+   "event": "boss_enrage",
+   "i": 0,
+   "text": "Activate mech arms! All of them!",
+   "h": "1ucqb0k"
+  },
+  {
+   "id": "boss_moon/boss_enrage_1",
+   "speaker": "boss_moon",
+   "event": "boss_enrage",
+   "i": 1,
+   "text": "Zorp is now maximum angry!",
+   "h": "1fo7i1s"
+  },
+  {
+   "id": "boss_moon/boss_die_0",
+   "speaker": "boss_moon",
+   "event": "boss_die",
+   "i": 0,
+   "text": "Zorp will return... in a better UFO...",
+   "h": "1nc5nms"
+  },
+  {
+   "id": "boss_moon/boss_die_1",
+   "speaker": "boss_moon",
+   "event": "boss_die",
+   "i": 1,
+   "text": "Take me to your leader... of the afterlife.",
+   "h": "yshbbv"
+  },
+  {
+   "id": "boss_retro/boss_intro_0",
+   "speaker": "boss_retro",
+   "event": "boss_intro",
+   "i": 0,
+   "text": "ERROR. PLAYER DETECTED. INITIATING GLITCH DOT EXE.",
+   "h": "vi8a2k"
+  },
+  {
+   "id": "boss_retro/boss_intro_1",
+   "speaker": "boss_retro",
+   "event": "boss_intro",
+   "i": 1,
+   "text": "PRESS START TO DIE.",
+   "h": "ls6jqb"
+  },
+  {
+   "id": "boss_retro/boss_hurt_0",
+   "speaker": "boss_retro",
+   "event": "boss_hurt",
+   "i": 0,
+   "text": "Bzzt! Segmentation fault!",
+   "h": "1f0vzy3"
+  },
+  {
+   "id": "boss_retro/boss_hurt_1",
+   "speaker": "boss_retro",
+   "event": "boss_hurt",
+   "i": 1,
+   "text": "Syntax error!",
+   "h": "1r5v8wn"
+  },
+  {
+   "id": "boss_retro/boss_hurt_2",
+   "speaker": "boss_retro",
+   "event": "boss_hurt",
+   "i": 2,
+   "text": "Lag spike!",
+   "h": "loi1va"
+  },
+  {
+   "id": "boss_retro/boss_enrage_0",
+   "speaker": "boss_retro",
+   "event": "boss_enrage",
+   "i": 0,
+   "text": "FATAL ERROR. UPGRADING TO PHASE TWO.",
+   "h": "sy783m"
+  },
+  {
+   "id": "boss_retro/boss_enrage_1",
+   "speaker": "boss_retro",
+   "event": "boss_enrage",
+   "i": 1,
+   "text": "Overclocking! Zero one zero one!",
+   "h": "17ctqp"
+  },
+  {
+   "id": "boss_retro/boss_die_0",
+   "speaker": "boss_retro",
+   "event": "boss_die",
+   "i": 0,
+   "text": "Game over. Insert coin.",
+   "h": "1k84cb9"
+  },
+  {
+   "id": "boss_retro/boss_die_1",
+   "speaker": "boss_retro",
+   "event": "boss_die",
+   "i": 1,
+   "text": "Connection lost...",
+   "h": "148b0sh"
+  },
+  {
+   "id": "boss_fortress/boss_intro_0",
+   "speaker": "boss_fortress",
+   "event": "boss_intro",
+   "i": 0,
+   "text": "At last, we meet. I am General Doom-Doosh. Yes, I'm Sergeant Doosh's evil twin. My goatee is evil.",
+   "h": "nmtj9m"
+  },
+  {
+   "id": "boss_fortress/boss_intro_1",
+   "speaker": "boss_fortress",
+   "event": "boss_intro",
+   "i": 1,
+   "text": "Welcome to the DOOSHINATOR! Prepare for DOOM. And also DOOSH!",
+   "h": "5lleb"
+  },
+  {
+   "id": "boss_fortress/boss_hurt_0",
+   "speaker": "boss_fortress",
+   "event": "boss_hurt",
+   "i": 0,
+   "text": "You dare scratch my goatee?!",
+   "h": "2358xt"
+  },
+  {
+   "id": "boss_fortress/boss_hurt_1",
+   "speaker": "boss_fortress",
+   "event": "boss_hurt",
+   "i": 1,
+   "text": "Impossible! Doosh versus Doosh!",
+   "h": "66vy80"
+  },
+  {
+   "id": "boss_fortress/boss_hurt_2",
+   "speaker": "boss_fortress",
+   "event": "boss_hurt",
+   "i": 2,
+   "text": "{Damn} you, Doosh!",
+   "h": "b0q1us"
+  },
+  {
+   "id": "boss_fortress/boss_enrage_0",
+   "speaker": "boss_fortress",
+   "event": "boss_enrage",
+   "i": 0,
+   "text": "Now I will unleash the full power of the DOOSHINATOR!",
+   "h": "z2g4vg"
+  },
+  {
+   "id": "boss_fortress/boss_enrage_1",
+   "speaker": "boss_fortress",
+   "event": "boss_enrage",
+   "i": 1,
+   "text": "Behold! The DOOOOSH of DOOM!",
+   "h": "1uoj9"
+  },
+  {
+   "id": "boss_fortress/boss_die_0",
+   "speaker": "boss_fortress",
+   "event": "boss_die",
+   "i": 0,
+   "text": "Impossible! I'm the better Doosh...",
+   "h": "1fdaw2w"
+  },
+  {
+   "id": "boss_fortress/boss_die_1",
+   "speaker": "boss_fortress",
+   "event": "boss_die",
+   "i": 1,
+   "text": "Tell my goatee... I loved it...",
+   "h": "j0lhad"
+  }
+ ]
+}

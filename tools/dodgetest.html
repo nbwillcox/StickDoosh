@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Stick Doosh - dodge test</title>
+<style>
+  body { background: #141018; color: #eee; font: 13px/1.35 Consolas, monospace; margin: 12px; }
+  h1 { font-size: 16px; margin: 0 0 8px; color: #ffe14d; }
+  button { font: inherit; padding: 4px 10px; margin: 0 6px 8px 0; }
+  table { border-collapse: collapse; margin-top: 8px; } td, th { border: 1px solid #3a3450; padding: 2px 8px; text-align: left; }
+  .ok { color: #7dff6b; } .bad { color: #ff5a5a; } #log { white-space: pre-wrap; margin-top: 8px; color: #bbb; }
+  canvas#game { position: fixed; right: 8px; top: 8px; width: 400px; height: 225px; border: 2px solid #3a3450; background: #000; }
+  #ui, #loading, #toast, #rotate { display: none !important; }
+</style>
+</head>
+<body>
+<h1>STICK DOOSH - boss dodge proof (browser build of tools/dodgetest.js)</h1>
+<div>
+  bosses <input id="only" value="" placeholder="all (e.g. ice,fire)" size="18">
+  starts <input id="starts" value="12" size="3">
+  react <input id="react" value="0.25" size="4">
+  <button id="runM">run matrix</button> <button id="runF">run fights</button>
+</div>
+<div id="status">idle</div>
+<table id="tbl"><thead><tr><th>boss</th><th>pattern</th><th>phase</th><th>runs</th><th>boss hits</th><th>verdict</th></tr></thead><tbody></tbody></table>
+<div id="log"></div>
+<canvas id="game"></canvas>
+<div id="ui"><div id="title" class="screen"></div><div id="select" class="screen"></div><div id="vs" class="screen"></div><div id="shop" class="screen"></div><div id="settings" class="screen"></div><div id="pause" class="screen"></div><div id="results" class="screen"></div><div id="howto" class="screen"></div><div id="credits" class="screen"></div></div>
+<div id="toast"></div><div id="rotate"></div><div id="loading"></div>
+<script src="../js/util.js"></script>
+<script src="../js/config.js"></script>
+<script src="../js/save.js"></script>
+<script src="../js/input.js"></script>
+<script src="../js/audiolist.js"></script>
+<script src="../js/audio.js"></script>
+<script src="../js/music.js"></script>
+<script src="../js/voice.js"></script>
+<script src="../js/comic.js"></script>
+<script src="../js/fx.js"></script>
+<script src="../js/terrain.js"></script>
+<script src="../js/rig.js"></script>
+<script src="../js/props.js"></script>
+<script src="../js/dudes.js"></script>
+<script src="../js/themes.js"></script>
+<script src="../js/backdrops.js"></script>
+<script src="../js/levelgen.js"></script>
+<script src="../js/weapons.js"></script>
+<script src="../js/supers.js"></script>
+<script src="../js/entities.js"></script>
+<script src="../js/enemies.js"></script>
+<script src="../js/bosses.js"></script>
+<script src="../js/player.js"></script>
+<script src="../js/game.js"></script>
+<script src="../js/render.js"></script>
+<script src="../js/hud.js"></script>
+<script src="../js/shop.js"></script>
+<script src="../js/ui.js"></script>
+<script src="../js/main.js"></script>
+<script>document.write('<script src="dodgetest.js?' + Date.now() + '"><\/script>');</script>
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id), S = window.SGS;
+  const q = new URLSearchParams(location.search);
+  let env = null;
+  function setup() {
+    if (env) return;
+    env = DodgeTest.init();
+    // headless-friendly: no VS splash / menus in the way, and never auto-pause when the pane is hidden
+    if (S.UI) { S.UI.onBossIntro = (d, cb) => cb(); S.UI.isOpen = () => false; }
+    const am = S.Input.aimMode; S.Input.aimMode = () => (S.Input.fightAim ? 'stick' : am());
+  }
+  function addRow(c) {
+    const tr = document.createElement('tr'), ok = c.hits === 0 && !c.violations.length;
+    tr.innerHTML = '<td>' + c.theme + '</td><td>' + c.pattern + '</td><td>P' + c.phase + '</td><td>' + c.runs + '</td><td>' + c.hits + '</td><td class="' + (ok ? 'ok' : 'bad') + '">' + (ok ? 'PASS' : 'FAIL ' + c.violations.join('; ') + ' ' + c.failed.slice(0, 2).map((f) => f.tag + '@' + f.hit).join(' ')) + '</td>';
+    $('tbl').tBodies[0].appendChild(tr);
+  }
+  const tick = () => new Promise((r) => setTimeout(r, 0));
+  async function runMatrix() {
+    setup(); const themes = ($('only').value || '').split(',').filter(Boolean), list = themes.length ? themes : DodgeTest.THEMES, cells = [];
+    $('tbl').tBodies[0].innerHTML = '';
+    for (const th of list) {
+      $('status').textContent = 'matrix: ' + th + '...'; await tick();
+      for (const c of DodgeTest.matrix([th], { starts: +$('starts').value || 12, react: +$('react').value || 0.25 })) { cells.push(c); addRow(c); }
+    }
+    const bad = cells.filter((c) => c.hits || c.violations.length);
+    $('status').textContent = 'matrix done: ' + (cells.length - bad.length) + '/' + cells.length + ' cells clean, ' + cells.reduce((a, c) => a + c.hits, 0) + ' boss hits';
+    window.DODGE_RESULT = { cells }; document.title = 'DODGE DONE';
+    return cells;
+  }
+  async function runFights() {
+    setup(); const themes = ($('only').value || '').split(',').filter(Boolean), list = themes.length ? themes : DodgeTest.THEMES, out = [];
+    for (const th of list) {
+      $('status').textContent = 'fight: ' + th + '...'; await tick();
+      const r = DodgeTest.fight(th, 5, { react: +$('react').value || 0.25 }); out.push(r);
+      $('log').textContent += 'FIGHT ' + th + ' ' + (r.won ? 'WON' : 'LOST') + ' ' + r.time + 's boss hits ' + r.bossHits + ' minion hits ' + r.minionHits + (r.violations.length ? ' VIOLATIONS ' + r.violations.join('; ') : '') + '\n';
+    }
+    const avg = out.reduce((a, f) => a + f.bossHits, 0) / out.length;
+    $('status').textContent = 'fights done: avg boss-attack hits per fight ' + avg.toFixed(2);
+    window.DODGE_FIGHTS = out; document.title = 'DODGE DONE';
+    return out;
+  }
+  $('runM').onclick = runMatrix; $('runF').onclick = runFights;
+  window.DodgePage = { runMatrix, runFights, setup };
+  if (q.get('only')) $('only').value = q.get('only'); if (q.get('starts')) $('starts').value = q.get('starts');
+  if (q.get('auto') === 'matrix') window.addEventListener('load', () => setTimeout(runMatrix, 300));
+  if (q.get('auto') === 'fights') window.addEventListener('load', () => setTimeout(runFights, 300));
+})();
+</script>
+</body>
+</html>

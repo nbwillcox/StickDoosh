@@ -1,0 +1,2981 @@
+{
+"announcer/boss_die_0": {
+"bytes": 8568,
+"curses": [],
+"d": 1.16,
+"h": "hcwldu",
+"voice": "am_fenrir"
+},
+"announcer/boss_die_1": {
+"bytes": 10584,
+"curses": [],
+"d": 1.46,
+"h": "raryay",
+"voice": "am_fenrir"
+},
+"announcer/chopper_0": {
+"bytes": 7896,
+"curses": [],
+"d": 1.06,
+"h": "78fx9h",
+"voice": "am_fenrir"
+},
+"announcer/chopper_1": {
+"bytes": 9912,
+"curses": [],
+"d": 1.36,
+"h": "1hsmw56",
+"voice": "am_fenrir"
+},
+"announcer/chopper_2": {
+"bytes": 11088,
+"curses": [],
+"d": 1.52,
+"h": "snm17k",
+"voice": "am_fenrir"
+},
+"announcer/level_clear_0": {
+"bytes": 10080,
+"curses": [],
+"d": 1.37,
+"h": "18zisch",
+"voice": "am_fenrir"
+},
+"announcer/level_clear_1": {
+"bytes": 16296,
+"curses": [],
+"d": 2.27,
+"h": "xzbj5e",
+"voice": "am_fenrir"
+},
+"announcer/level_clear_2": {
+"bytes": 9240,
+"curses": [],
+"d": 1.26,
+"h": "1qajbgx",
+"voice": "am_fenrir"
+},
+"announcer/level_clear_3": {
+"bytes": 11256,
+"curses": [],
+"d": 1.55,
+"h": "10ahai9",
+"voice": "am_fenrir"
+},
+"announcer/level_fail_0": {
+"bytes": 11760,
+"curses": [],
+"d": 1.62,
+"h": "1ssdx5h",
+"voice": "am_fenrir"
+},
+"announcer/level_fail_1": {
+"bytes": 11928,
+"curses": [],
+"d": 1.64,
+"h": "1wmeker",
+"voice": "am_fenrir"
+},
+"announcer/level_fail_2": {
+"bytes": 11088,
+"curses": [],
+"d": 1.52,
+"h": "9zr19j",
+"voice": "am_fenrir"
+},
+"announcer/level_start_0": {
+"bytes": 12432,
+"curses": [],
+"d": 1.72,
+"h": "1lxlupr",
+"voice": "am_fenrir"
+},
+"announcer/level_start_1": {
+"bytes": 8736,
+"curses": [],
+"d": 1.2,
+"h": "1afy4te",
+"voice": "am_fenrir"
+},
+"announcer/level_start_2": {
+"bytes": 10752,
+"curses": [],
+"d": 1.46,
+"h": "1lx1zy7",
+"voice": "am_fenrir"
+},
+"announcer/level_start_3": {
+"bytes": 7896,
+"curses": [],
+"d": 1.07,
+"h": "gz2e9n",
+"voice": "am_fenrir"
+},
+"announcer/level_start_fantasy_0": {
+"bytes": 13440,
+"curses": [],
+"d": 1.87,
+"h": "16nnt4d",
+"voice": "am_fenrir"
+},
+"announcer/level_start_fire_0": {
+"bytes": 13944,
+"curses": [],
+"d": 1.93,
+"h": "8tjv4",
+"voice": "am_fenrir"
+},
+"announcer/level_start_fortress_0": {
+"bytes": 14112,
+"curses": [],
+"d": 1.96,
+"h": "1jimg3k",
+"voice": "am_fenrir"
+},
+"announcer/level_start_ice_0": {
+"bytes": 15120,
+"curses": [],
+"d": 2.1,
+"h": "17y0v50",
+"voice": "am_fenrir"
+},
+"announcer/level_start_jungle_0": {
+"bytes": 16968,
+"curses": [],
+"d": 2.38,
+"h": "5qacpg",
+"voice": "am_fenrir"
+},
+"announcer/level_start_moon_0": {
+"bytes": 19488,
+"curses": [],
+"d": 2.73,
+"h": "ehmlbf",
+"voice": "am_fenrir"
+},
+"announcer/level_start_mountain_0": {
+"bytes": 12432,
+"curses": [],
+"d": 1.72,
+"h": "oa2vk0",
+"voice": "am_fenrir"
+},
+"announcer/level_start_mud_0": {
+"bytes": 10920,
+"curses": [],
+"d": 1.5,
+"h": "1wj1y4c",
+"voice": "am_fenrir"
+},
+"announcer/level_start_plains_0": {
+"bytes": 15624,
+"curses": [],
+"d": 2.17,
+"h": "9e0eqf",
+"voice": "am_fenrir"
+},
+"announcer/level_start_retro_0": {
+"bytes": 12936,
+"curses": [],
+"d": 1.78,
+"h": "1vs8bgo",
+"voice": "am_fenrir"
+},
+"announcer/level_start_water_0": {
+"bytes": 18144,
+"curses": [],
+"d": 2.54,
+"h": "wtwaqq",
+"voice": "am_fenrir"
+},
+"announcer/level_start_wind_0": {
+"bytes": 16968,
+"curses": [],
+"d": 2.36,
+"h": "1nls6x9",
+"voice": "am_fenrir"
+},
+"announcer/multikill_0": {
+"bytes": 6384,
+"curses": [],
+"d": 0.84,
+"h": "5fk5rh",
+"voice": "am_fenrir"
+},
+"announcer/multikill_1": {
+"bytes": 6384,
+"curses": [],
+"d": 0.86,
+"h": "1qhb4aq",
+"voice": "am_fenrir"
+},
+"announcer/multikill_2": {
+"bytes": 7056,
+"curses": [],
+"d": 0.95,
+"h": "1go0jtp",
+"voice": "am_fenrir"
+},
+"announcer/multikill_3": {
+"bytes": 7392,
+"curses": [],
+"d": 1.01,
+"h": "crjawb",
+"voice": "am_fenrir"
+},
+"announcer/pickup_0": {
+"bytes": 5712,
+"curses": [],
+"d": 0.76,
+"h": "112gr6g",
+"voice": "am_fenrir"
+},
+"announcer/pickup_1": {
+"bytes": 5712,
+"curses": [],
+"d": 0.75,
+"h": "1u76vt8",
+"voice": "am_fenrir"
+},
+"announcer/pickup_1up_0": {
+"bytes": 5208,
+"curses": [],
+"d": 0.69,
+"h": "zh8r8t",
+"voice": "am_fenrir"
+},
+"announcer/pickup_barrier_0": {
+"bytes": 5040,
+"curses": [],
+"d": 0.66,
+"h": "1ece6rx",
+"voice": "am_fenrir"
+},
+"announcer/pickup_dual_0": {
+"bytes": 7896,
+"curses": [],
+"d": 1.07,
+"h": "1v4ej22",
+"voice": "am_fenrir"
+},
+"announcer/pickup_flame_0": {
+"bytes": 6552,
+"curses": [],
+"d": 0.89,
+"h": "5ev5w6",
+"voice": "am_fenrir"
+},
+"announcer/pickup_flame_1": {
+"bytes": 6048,
+"curses": [],
+"d": 0.81,
+"h": "1ao4du0",
+"voice": "am_fenrir"
+},
+"announcer/pickup_heal_0": {
+"bytes": 4536,
+"curses": [],
+"d": 0.58,
+"h": "m5jazg",
+"voice": "am_fenrir"
+},
+"announcer/pickup_laser_0": {
+"bytes": 5208,
+"curses": [],
+"d": 0.69,
+"h": "1gp5kot",
+"voice": "am_fenrir"
+},
+"announcer/pickup_laser_1": {
+"bytes": 7896,
+"curses": [],
+"d": 1.07,
+"h": "ob3jdt",
+"voice": "am_fenrir"
+},
+"announcer/pickup_mg_0": {
+"bytes": 6720,
+"curses": [],
+"d": 0.91,
+"h": "f4o285",
+"voice": "am_fenrir"
+},
+"announcer/pickup_mg_1": {
+"bytes": 8400,
+"curses": [],
+"d": 1.13,
+"h": "1oswla5",
+"voice": "am_fenrir"
+},
+"announcer/pickup_rapid_0": {
+"bytes": 6888,
+"curses": [],
+"d": 0.93,
+"h": "ds76ik",
+"voice": "am_fenrir"
+},
+"announcer/pickup_rocket_0": {
+"bytes": 5712,
+"curses": [],
+"d": 0.77,
+"h": "12rxp0h",
+"voice": "am_fenrir"
+},
+"announcer/pickup_rocket_1": {
+"bytes": 7728,
+"curses": [],
+"d": 1.03,
+"h": "1apbijk",
+"voice": "am_fenrir"
+},
+"announcer/pickup_shotgun_0": {
+"bytes": 6048,
+"curses": [],
+"d": 0.8,
+"h": "xslxbi",
+"voice": "am_fenrir"
+},
+"announcer/pickup_shotgun_1": {
+"bytes": 7392,
+"curses": [],
+"d": 1.0,
+"h": "1ioc13f",
+"voice": "am_fenrir"
+},
+"announcer/pickup_spread_0": {
+"bytes": 6384,
+"curses": [],
+"d": 0.85,
+"h": "15lufnz",
+"voice": "am_fenrir"
+},
+"announcer/pickup_spread_1": {
+"bytes": 6888,
+"curses": [],
+"d": 0.92,
+"h": "gjawo3",
+"voice": "am_fenrir"
+},
+"announcer/super_fantasy_0": {
+"bytes": 10080,
+"curses": [],
+"d": 1.39,
+"h": "1alx4ce",
+"voice": "am_fenrir"
+},
+"announcer/super_fire_0": {
+"bytes": 10248,
+"curses": [],
+"d": 1.39,
+"h": "1nkmrzz",
+"voice": "am_fenrir"
+},
+"announcer/super_ice_0": {
+"bytes": 10248,
+"curses": [],
+"d": 1.4,
+"h": "51tt0r",
+"voice": "am_fenrir"
+},
+"announcer/super_jungle_0": {
+"bytes": 10920,
+"curses": [],
+"d": 1.5,
+"h": "kys8b3",
+"voice": "am_fenrir"
+},
+"announcer/super_moon_0": {
+"bytes": 9912,
+"curses": [],
+"d": 1.35,
+"h": "8k8uka",
+"voice": "am_fenrir"
+},
+"announcer/super_mountain_0": {
+"bytes": 7728,
+"curses": [],
+"d": 1.05,
+"h": "1tuqtd",
+"voice": "am_fenrir"
+},
+"announcer/super_mud_0": {
+"bytes": 8568,
+"curses": [],
+"d": 1.17,
+"h": "1uzmqu2",
+"voice": "am_fenrir"
+},
+"announcer/super_plains_0": {
+"bytes": 9408,
+"curses": [],
+"d": 1.28,
+"h": "xm0hkf",
+"voice": "am_fenrir"
+},
+"announcer/super_retro_0": {
+"bytes": 9240,
+"curses": [],
+"d": 1.26,
+"h": "1hbi8ly",
+"voice": "am_fenrir"
+},
+"announcer/super_water_0": {
+"bytes": 9072,
+"curses": [],
+"d": 1.23,
+"h": "1ob545x",
+"voice": "am_fenrir"
+},
+"announcer/super_wind_0": {
+"bytes": 8736,
+"curses": [],
+"d": 1.18,
+"h": "fdn357",
+"voice": "am_fenrir"
+},
+"announcer/weak_0": {
+"bytes": 4872,
+"curses": [],
+"d": 0.63,
+"h": "3ytgtq",
+"voice": "am_fenrir"
+},
+"announcer/weak_1": {
+"bytes": 8232,
+"curses": [],
+"d": 1.11,
+"h": "8ez6ja",
+"voice": "am_fenrir"
+},
+"boss_fantasy/boss_die_0": {
+"bytes": 22344,
+"curses": [],
+"d": 3.14,
+"h": "11pk4of",
+"voice": "bm_fable"
+},
+"boss_fantasy/boss_die_1": {
+"bytes": 21504,
+"curses": [
+[
+0.0,
+0.844
+],
+[
+0.834,
+1.698
+]
+],
+"d": 3.01,
+"h": "1ju3yxr",
+"voice": "bm_fable"
+},
+"boss_fantasy/boss_enrage_0": {
+"bytes": 26880,
+"curses": [],
+"d": 3.77,
+"h": "1el9k8l",
+"voice": "bm_fable"
+},
+"boss_fantasy/boss_enrage_1": {
+"bytes": 10920,
+"curses": [],
+"d": 1.5,
+"h": "ia1v7b",
+"voice": "bm_fable"
+},
+"boss_fantasy/boss_hurt_0": {
+"bytes": 15960,
+"curses": [],
+"d": 2.23,
+"h": "1gavlsr",
+"voice": "bm_fable"
+},
+"boss_fantasy/boss_hurt_1": {
+"bytes": 14616,
+"curses": [],
+"d": 2.04,
+"h": "yicdyr",
+"voice": "bm_fable"
+},
+"boss_fantasy/boss_hurt_2": {
+"bytes": 6720,
+"curses": [],
+"d": 0.9,
+"h": "3muw0n",
+"voice": "bm_fable"
+},
+"boss_fantasy/boss_intro_0": {
+"bytes": 35280,
+"curses": [],
+"d": 4.98,
+"h": "kybpus",
+"voice": "bm_fable"
+},
+"boss_fantasy/boss_intro_1": {
+"bytes": 31080,
+"curses": [],
+"d": 4.38,
+"h": "162gdw0",
+"voice": "bm_fable"
+},
+"boss_fire/boss_die_0": {
+"bytes": 12768,
+"curses": [],
+"d": 1.77,
+"h": "1pqo36d",
+"voice": "am_eric"
+},
+"boss_fire/boss_die_1": {
+"bytes": 10920,
+"curses": [],
+"d": 1.5,
+"h": "1i3y9cb",
+"voice": "am_eric"
+},
+"boss_fire/boss_enrage_0": {
+"bytes": 9744,
+"curses": [],
+"d": 1.34,
+"h": "f7mjer",
+"voice": "am_eric"
+},
+"boss_fire/boss_enrage_1": {
+"bytes": 15456,
+"curses": [
+[
+0.35,
+0.861
+]
+],
+"d": 2.16,
+"h": "13ye7mg",
+"voice": "am_eric"
+},
+"boss_fire/boss_hurt_0": {
+"bytes": 8232,
+"curses": [],
+"d": 1.12,
+"h": "17l828w",
+"voice": "am_eric"
+},
+"boss_fire/boss_hurt_1": {
+"bytes": 8568,
+"curses": [],
+"d": 1.16,
+"h": "wzm4gq",
+"voice": "am_eric"
+},
+"boss_fire/boss_hurt_2": {
+"bytes": 10584,
+"curses": [],
+"d": 1.45,
+"h": "1uirip3",
+"voice": "am_eric"
+},
+"boss_fire/boss_intro_0": {
+"bytes": 23016,
+"curses": [],
+"d": 3.22,
+"h": "hfviit",
+"voice": "am_eric"
+},
+"boss_fire/boss_intro_1": {
+"bytes": 17472,
+"curses": [],
+"d": 2.43,
+"h": "j4p5rn",
+"voice": "am_eric"
+},
+"boss_fortress/boss_die_0": {
+"bytes": 18480,
+"curses": [],
+"d": 2.58,
+"h": "1fdaw2w",
+"voice": "am_michael"
+},
+"boss_fortress/boss_die_1": {
+"bytes": 17136,
+"curses": [],
+"d": 2.4,
+"h": "j0lhad",
+"voice": "am_michael"
+},
+"boss_fortress/boss_enrage_0": {
+"bytes": 26712,
+"curses": [],
+"d": 3.75,
+"h": "z2g4vg",
+"voice": "am_michael"
+},
+"boss_fortress/boss_enrage_1": {
+"bytes": 15288,
+"curses": [],
+"d": 2.13,
+"h": "1uoj9",
+"voice": "am_michael"
+},
+"boss_fortress/boss_hurt_0": {
+"bytes": 14448,
+"curses": [],
+"d": 2.01,
+"h": "2358xt",
+"voice": "am_michael"
+},
+"boss_fortress/boss_hurt_1": {
+"bytes": 18312,
+"curses": [],
+"d": 2.54,
+"h": "66vy80",
+"voice": "am_michael"
+},
+"boss_fortress/boss_hurt_2": {
+"bytes": 12264,
+"curses": [
+[
+0.0,
+0.671
+]
+],
+"d": 1.68,
+"h": "b0q1us",
+"voice": "am_michael"
+},
+"boss_fortress/boss_intro_0": {
+"bytes": 61992,
+"curses": [],
+"d": 8.81,
+"h": "nmtj9m",
+"voice": "am_michael"
+},
+"boss_fortress/boss_intro_1": {
+"bytes": 31752,
+"curses": [],
+"d": 4.49,
+"h": "5lleb",
+"voice": "am_michael"
+},
+"boss_ice/boss_die_0": {
+"bytes": 12600,
+"curses": [],
+"d": 1.75,
+"h": "1ofdn1g",
+"voice": "am_liam"
+},
+"boss_ice/boss_die_1": {
+"bytes": 13104,
+"curses": [],
+"d": 1.82,
+"h": "tgowp3",
+"voice": "am_liam"
+},
+"boss_ice/boss_enrage_0": {
+"bytes": 17136,
+"curses": [],
+"d": 2.4,
+"h": "57ckpw",
+"voice": "am_liam"
+},
+"boss_ice/boss_enrage_1": {
+"bytes": 16296,
+"curses": [],
+"d": 2.26,
+"h": "1snuipo",
+"voice": "am_liam"
+},
+"boss_ice/boss_hurt_0": {
+"bytes": 9072,
+"curses": [],
+"d": 1.23,
+"h": "315db7",
+"voice": "am_liam"
+},
+"boss_ice/boss_hurt_1": {
+"bytes": 9576,
+"curses": [],
+"d": 1.3,
+"h": "rc8p3",
+"voice": "am_liam"
+},
+"boss_ice/boss_hurt_2": {
+"bytes": 11592,
+"curses": [],
+"d": 1.59,
+"h": "a5yuux",
+"voice": "am_liam"
+},
+"boss_ice/boss_intro_0": {
+"bytes": 39648,
+"curses": [],
+"d": 5.61,
+"h": "1fxai4s",
+"voice": "am_liam"
+},
+"boss_ice/boss_intro_1": {
+"bytes": 23016,
+"curses": [],
+"d": 3.23,
+"h": "qkjvvo",
+"voice": "am_liam"
+},
+"boss_jungle/boss_die_0": {
+"bytes": 12432,
+"curses": [],
+"d": 1.72,
+"h": "wr5auo",
+"voice": "am_onyx"
+},
+"boss_jungle/boss_die_1": {
+"bytes": 15120,
+"curses": [],
+"d": 2.1,
+"h": "13z0tsj",
+"voice": "am_onyx"
+},
+"boss_jungle/boss_enrage_0": {
+"bytes": 15624,
+"curses": [],
+"d": 2.17,
+"h": "iybdkj",
+"voice": "am_onyx"
+},
+"boss_jungle/boss_enrage_1": {
+"bytes": 14112,
+"curses": [],
+"d": 1.95,
+"h": "xdeghi",
+"voice": "am_onyx"
+},
+"boss_jungle/boss_hurt_0": {
+"bytes": 4032,
+"curses": [],
+"d": 0.51,
+"h": "yjzvyn",
+"voice": "am_onyx"
+},
+"boss_jungle/boss_hurt_1": {
+"bytes": 9408,
+"curses": [],
+"d": 1.29,
+"h": "6pir7p",
+"voice": "am_onyx"
+},
+"boss_jungle/boss_hurt_2": {
+"bytes": 7896,
+"curses": [],
+"d": 1.07,
+"h": "11vtrhg",
+"voice": "am_onyx"
+},
+"boss_jungle/boss_intro_0": {
+"bytes": 15288,
+"curses": [],
+"d": 2.13,
+"h": "1q8o5f7",
+"voice": "am_onyx"
+},
+"boss_jungle/boss_intro_1": {
+"bytes": 16632,
+"curses": [],
+"d": 2.33,
+"h": "1sjfrqc",
+"voice": "am_onyx"
+},
+"boss_moon/boss_die_0": {
+"bytes": 19152,
+"curses": [],
+"d": 2.67,
+"h": "1nc5nms",
+"voice": "am_echo"
+},
+"boss_moon/boss_die_1": {
+"bytes": 18144,
+"curses": [],
+"d": 2.54,
+"h": "yshbbv",
+"voice": "am_echo"
+},
+"boss_moon/boss_enrage_0": {
+"bytes": 16464,
+"curses": [],
+"d": 2.3,
+"h": "1ucqb0k",
+"voice": "am_echo"
+},
+"boss_moon/boss_enrage_1": {
+"bytes": 16800,
+"curses": [],
+"d": 2.35,
+"h": "1fo7i1s",
+"voice": "am_echo"
+},
+"boss_moon/boss_hurt_0": {
+"bytes": 8568,
+"curses": [],
+"d": 1.17,
+"h": "2a6nxc",
+"voice": "am_echo"
+},
+"boss_moon/boss_hurt_1": {
+"bytes": 15960,
+"curses": [],
+"d": 2.21,
+"h": "11iag4j",
+"voice": "am_echo"
+},
+"boss_moon/boss_hurt_2": {
+"bytes": 18984,
+"curses": [],
+"d": 2.65,
+"h": "1ni7a6w",
+"voice": "am_echo"
+},
+"boss_moon/boss_intro_0": {
+"bytes": 38976,
+"curses": [],
+"d": 5.52,
+"h": "t0wzpq",
+"voice": "am_echo"
+},
+"boss_moon/boss_intro_1": {
+"bytes": 31248,
+"curses": [],
+"d": 4.41,
+"h": "1age8r4",
+"voice": "am_echo"
+},
+"boss_mountain/boss_die_0": {
+"bytes": 11928,
+"curses": [],
+"d": 1.65,
+"h": "1f7ylvo",
+"voice": "am_fenrir"
+},
+"boss_mountain/boss_die_1": {
+"bytes": 9912,
+"curses": [],
+"d": 1.37,
+"h": "154c7rm",
+"voice": "am_fenrir"
+},
+"boss_mountain/boss_enrage_0": {
+"bytes": 9576,
+"curses": [],
+"d": 1.31,
+"h": "9qbxri",
+"voice": "am_fenrir"
+},
+"boss_mountain/boss_enrage_1": {
+"bytes": 8904,
+"curses": [],
+"d": 1.22,
+"h": "m7x8tw",
+"voice": "am_fenrir"
+},
+"boss_mountain/boss_hurt_0": {
+"bytes": 4872,
+"curses": [],
+"d": 0.65,
+"h": "re1p1u",
+"voice": "am_fenrir"
+},
+"boss_mountain/boss_hurt_1": {
+"bytes": 5376,
+"curses": [],
+"d": 0.71,
+"h": "jl2lp2",
+"voice": "am_fenrir"
+},
+"boss_mountain/boss_hurt_2": {
+"bytes": 6048,
+"curses": [],
+"d": 0.82,
+"h": "1c2b3jx",
+"voice": "am_fenrir"
+},
+"boss_mountain/boss_intro_0": {
+"bytes": 19824,
+"curses": [],
+"d": 2.76,
+"h": "1fwou0",
+"voice": "am_fenrir"
+},
+"boss_mountain/boss_intro_1": {
+"bytes": 11256,
+"curses": [],
+"d": 1.54,
+"h": "8jbt3m",
+"voice": "am_fenrir"
+},
+"boss_mud/boss_die_0": {
+"bytes": 21672,
+"curses": [],
+"d": 3.04,
+"h": "2zyslo",
+"voice": "bm_lewis"
+},
+"boss_mud/boss_die_1": {
+"bytes": 7056,
+"curses": [],
+"d": 0.95,
+"h": "1j382em",
+"voice": "bm_lewis"
+},
+"boss_mud/boss_enrage_0": {
+"bytes": 21672,
+"curses": [],
+"d": 3.05,
+"h": "cj4c8q",
+"voice": "bm_lewis"
+},
+"boss_mud/boss_enrage_1": {
+"bytes": 11928,
+"curses": [],
+"d": 1.66,
+"h": "1qfdy5r",
+"voice": "bm_lewis"
+},
+"boss_mud/boss_hurt_0": {
+"bytes": 11592,
+"curses": [],
+"d": 1.61,
+"h": "1wc36ze",
+"voice": "bm_lewis"
+},
+"boss_mud/boss_hurt_1": {
+"bytes": 8736,
+"curses": [],
+"d": 1.18,
+"h": "102w5w9",
+"voice": "bm_lewis"
+},
+"boss_mud/boss_hurt_2": {
+"bytes": 10248,
+"curses": [],
+"d": 1.39,
+"h": "wjd9qm",
+"voice": "bm_lewis"
+},
+"boss_mud/boss_intro_0": {
+"bytes": 45360,
+"curses": [],
+"d": 6.42,
+"h": "xzyco7",
+"voice": "bm_lewis"
+},
+"boss_mud/boss_intro_1": {
+"bytes": 20328,
+"curses": [],
+"d": 2.85,
+"h": "1wvcvsd",
+"voice": "bm_lewis"
+},
+"boss_plains/boss_die_0": {
+"bytes": 9912,
+"curses": [],
+"d": 1.36,
+"h": "10zkexw",
+"voice": "am_santa"
+},
+"boss_plains/boss_die_1": {
+"bytes": 17808,
+"curses": [],
+"d": 2.47,
+"h": "lndjrp",
+"voice": "am_santa"
+},
+"boss_plains/boss_enrage_0": {
+"bytes": 20496,
+"curses": [],
+"d": 2.88,
+"h": "b0wl0o",
+"voice": "am_santa"
+},
+"boss_plains/boss_enrage_1": {
+"bytes": 10248,
+"curses": [],
+"d": 1.41,
+"h": "wqd3qw",
+"voice": "am_santa"
+},
+"boss_plains/boss_hurt_0": {
+"bytes": 6720,
+"curses": [],
+"d": 0.89,
+"h": "x196w2",
+"voice": "am_santa"
+},
+"boss_plains/boss_hurt_1": {
+"bytes": 10584,
+"curses": [],
+"d": 1.44,
+"h": "phfgna",
+"voice": "am_santa"
+},
+"boss_plains/boss_hurt_2": {
+"bytes": 10752,
+"curses": [],
+"d": 1.47,
+"h": "1ja4rqc",
+"voice": "am_santa"
+},
+"boss_plains/boss_intro_0": {
+"bytes": 33936,
+"curses": [],
+"d": 4.8,
+"h": "mx2l7i",
+"voice": "am_santa"
+},
+"boss_plains/boss_intro_1": {
+"bytes": 40320,
+"curses": [],
+"d": 5.69,
+"h": "1t24pt4",
+"voice": "am_santa"
+},
+"boss_retro/boss_die_0": {
+"bytes": 11928,
+"curses": [],
+"d": 1.64,
+"h": "1k84cb9",
+"voice": "am_michael"
+},
+"boss_retro/boss_die_1": {
+"bytes": 8064,
+"curses": [],
+"d": 1.1,
+"h": "148b0sh",
+"voice": "am_michael"
+},
+"boss_retro/boss_enrage_0": {
+"bytes": 16968,
+"curses": [],
+"d": 2.37,
+"h": "sy783m",
+"voice": "am_michael"
+},
+"boss_retro/boss_enrage_1": {
+"bytes": 17640,
+"curses": [],
+"d": 2.47,
+"h": "17ctqp",
+"voice": "am_michael"
+},
+"boss_retro/boss_hurt_0": {
+"bytes": 12432,
+"curses": [],
+"d": 1.72,
+"h": "1f0vzy3",
+"voice": "am_michael"
+},
+"boss_retro/boss_hurt_1": {
+"bytes": 7560,
+"curses": [],
+"d": 1.02,
+"h": "1r5v8wn",
+"voice": "am_michael"
+},
+"boss_retro/boss_hurt_2": {
+"bytes": 6384,
+"curses": [],
+"d": 0.86,
+"h": "loi1va",
+"voice": "am_michael"
+},
+"boss_retro/boss_intro_0": {
+"bytes": 27048,
+"curses": [],
+"d": 3.8,
+"h": "vi8a2k",
+"voice": "am_michael"
+},
+"boss_retro/boss_intro_1": {
+"bytes": 8568,
+"curses": [],
+"d": 1.16,
+"h": "ls6jqb",
+"voice": "am_michael"
+},
+"boss_water/boss_die_0": {
+"bytes": 16632,
+"curses": [],
+"d": 2.31,
+"h": "wpe84d",
+"voice": "bm_daniel"
+},
+"boss_water/boss_die_1": {
+"bytes": 13776,
+"curses": [],
+"d": 1.9,
+"h": "1d6zhnt",
+"voice": "bm_daniel"
+},
+"boss_water/boss_enrage_0": {
+"bytes": 15288,
+"curses": [],
+"d": 2.12,
+"h": "1ndir0v",
+"voice": "bm_daniel"
+},
+"boss_water/boss_enrage_1": {
+"bytes": 16800,
+"curses": [],
+"d": 2.33,
+"h": "1yp6t4",
+"voice": "bm_daniel"
+},
+"boss_water/boss_hurt_0": {
+"bytes": 10584,
+"curses": [],
+"d": 1.45,
+"h": "1lmfx48",
+"voice": "bm_daniel"
+},
+"boss_water/boss_hurt_1": {
+"bytes": 12936,
+"curses": [],
+"d": 1.78,
+"h": "1hoxkrk",
+"voice": "bm_daniel"
+},
+"boss_water/boss_hurt_2": {
+"bytes": 10248,
+"curses": [],
+"d": 1.4,
+"h": "1lii3gi",
+"voice": "bm_daniel"
+},
+"boss_water/boss_intro_0": {
+"bytes": 34944,
+"curses": [],
+"d": 4.93,
+"h": "3grifh",
+"voice": "bm_daniel"
+},
+"boss_water/boss_intro_1": {
+"bytes": 19656,
+"curses": [],
+"d": 2.74,
+"h": "1lhj1i4",
+"voice": "bm_daniel"
+},
+"boss_wind/boss_die_0": {
+"bytes": 7392,
+"curses": [],
+"d": 1.0,
+"h": "ceszv3",
+"voice": "am_adam"
+},
+"boss_wind/boss_die_1": {
+"bytes": 7560,
+"curses": [],
+"d": 1.02,
+"h": "1qqs4wz",
+"voice": "am_adam"
+},
+"boss_wind/boss_enrage_0": {
+"bytes": 18984,
+"curses": [],
+"d": 2.66,
+"h": "1th78a7",
+"voice": "am_adam"
+},
+"boss_wind/boss_enrage_1": {
+"bytes": 10752,
+"curses": [],
+"d": 1.47,
+"h": "1gd3b0z",
+"voice": "am_adam"
+},
+"boss_wind/boss_hurt_0": {
+"bytes": 9576,
+"curses": [],
+"d": 1.3,
+"h": "1axulwr",
+"voice": "am_adam"
+},
+"boss_wind/boss_hurt_1": {
+"bytes": 12432,
+"curses": [],
+"d": 1.71,
+"h": "14epw1p",
+"voice": "am_adam"
+},
+"boss_wind/boss_hurt_2": {
+"bytes": 7728,
+"curses": [],
+"d": 1.05,
+"h": "jtqoeu",
+"voice": "am_adam"
+},
+"boss_wind/boss_intro_0": {
+"bytes": 33096,
+"curses": [],
+"d": 4.68,
+"h": "15l7cyy",
+"voice": "am_adam"
+},
+"boss_wind/boss_intro_1": {
+"bytes": 10584,
+"curses": [],
+"d": 1.46,
+"h": "1nklqpe",
+"voice": "am_adam"
+},
+"brenda/die_0": {
+"bytes": 7392,
+"curses": [],
+"d": 0.99,
+"h": "13a9etu",
+"voice": "af_bella"
+},
+"brenda/die_1": {
+"bytes": 12096,
+"curses": [],
+"d": 1.67,
+"h": "e1z5t3",
+"voice": "af_bella"
+},
+"brenda/die_2": {
+"bytes": 8064,
+"curses": [],
+"d": 1.09,
+"h": "ov3syo",
+"voice": "af_bella"
+},
+"brenda/die_3": {
+"bytes": 7728,
+"curses": [],
+"d": 1.05,
+"h": "frvaw0",
+"voice": "af_bella"
+},
+"brenda/explode_0": {
+"bytes": 6384,
+"curses": [],
+"d": 0.86,
+"h": "kdmayx",
+"voice": "af_bella"
+},
+"brenda/explode_1": {
+"bytes": 8904,
+"curses": [],
+"d": 1.22,
+"h": "ghdl16",
+"voice": "af_bella"
+},
+"brenda/flag_0": {
+"bytes": 11088,
+"curses": [],
+"d": 1.54,
+"h": "17ahmko",
+"voice": "af_bella"
+},
+"brenda/flag_1": {
+"bytes": 12936,
+"curses": [],
+"d": 1.78,
+"h": "1079bpf",
+"voice": "af_bella"
+},
+"brenda/gold_0": {
+"bytes": 10416,
+"curses": [],
+"d": 1.44,
+"h": "1slbd1m",
+"voice": "af_bella"
+},
+"brenda/gold_1": {
+"bytes": 7560,
+"curses": [],
+"d": 1.01,
+"h": "rfmz6n",
+"voice": "af_bella"
+},
+"brenda/hurt_0": {
+"bytes": 9744,
+"curses": [],
+"d": 1.34,
+"h": "1jubegs",
+"voice": "af_bella"
+},
+"brenda/hurt_1": {
+"bytes": 15120,
+"curses": [],
+"d": 2.1,
+"h": "k39o25",
+"voice": "af_bella"
+},
+"brenda/hurt_2": {
+"bytes": 6720,
+"curses": [],
+"d": 0.9,
+"h": "n61kyw",
+"voice": "af_bella"
+},
+"brenda/hurt_3": {
+"bytes": 8064,
+"curses": [
+[
+0.0,
+0.428
+]
+],
+"d": 1.09,
+"h": "10ty89q",
+"voice": "af_bella"
+},
+"brenda/idle_0": {
+"bytes": 14784,
+"curses": [],
+"d": 2.06,
+"h": "j4i356",
+"voice": "af_bella"
+},
+"brenda/idle_1": {
+"bytes": 9408,
+"curses": [],
+"d": 1.28,
+"h": "gjq4s7",
+"voice": "af_bella"
+},
+"brenda/idle_2": {
+"bytes": 12096,
+"curses": [],
+"d": 1.66,
+"h": "vxrerh",
+"voice": "af_bella"
+},
+"brenda/kill_0": {
+"bytes": 8904,
+"curses": [],
+"d": 1.22,
+"h": "15i8d3q",
+"voice": "af_bella"
+},
+"brenda/kill_1": {
+"bytes": 8400,
+"curses": [],
+"d": 1.13,
+"h": "1vrrcc3",
+"voice": "af_bella"
+},
+"brenda/kill_2": {
+"bytes": 8232,
+"curses": [],
+"d": 1.11,
+"h": "snwd6v",
+"voice": "af_bella"
+},
+"brenda/kill_3": {
+"bytes": 10416,
+"curses": [
+[
+0.456,
+0.876
+]
+],
+"d": 1.42,
+"h": "my6btw",
+"voice": "af_bella"
+},
+"brenda/kill_4": {
+"bytes": 6888,
+"curses": [],
+"d": 0.91,
+"h": "n2gy5k",
+"voice": "af_bella"
+},
+"brenda/level_clear_0": {
+"bytes": 13944,
+"curses": [],
+"d": 1.93,
+"h": "1bchp07",
+"voice": "af_bella"
+},
+"brenda/level_clear_1": {
+"bytes": 7392,
+"curses": [],
+"d": 0.99,
+"h": "1iibz6q",
+"voice": "af_bella"
+},
+"brenda/level_fail_0": {
+"bytes": 7056,
+"curses": [],
+"d": 0.95,
+"h": "q4zdpq",
+"voice": "af_bella"
+},
+"brenda/level_start_0": {
+"bytes": 9744,
+"curses": [],
+"d": 1.34,
+"h": "1qhp2h7",
+"voice": "af_bella"
+},
+"brenda/level_start_1": {
+"bytes": 10248,
+"curses": [],
+"d": 1.41,
+"h": "5gs25p",
+"voice": "af_bella"
+},
+"brenda/low_hp_0": {
+"bytes": 7560,
+"curses": [],
+"d": 1.03,
+"h": "lsizea",
+"voice": "af_bella"
+},
+"brenda/low_hp_1": {
+"bytes": 9240,
+"curses": [],
+"d": 1.25,
+"h": "1oouuiw",
+"voice": "af_bella"
+},
+"brenda/multikill_0": {
+"bytes": 9072,
+"curses": [],
+"d": 1.24,
+"h": "4ob347",
+"voice": "af_bella"
+},
+"brenda/multikill_1": {
+"bytes": 7728,
+"curses": [],
+"d": 1.05,
+"h": "1gzvkhw",
+"voice": "af_bella"
+},
+"brenda/multikill_2": {
+"bytes": 10752,
+"curses": [],
+"d": 1.49,
+"h": "t0arcm",
+"voice": "af_bella"
+},
+"brenda/pickup_0": {
+"bytes": 8904,
+"curses": [],
+"d": 1.22,
+"h": "hqo22m",
+"voice": "af_bella"
+},
+"brenda/pickup_1": {
+"bytes": 7392,
+"curses": [],
+"d": 0.99,
+"h": "ybvs0x",
+"voice": "af_bella"
+},
+"brenda/pickup_2": {
+"bytes": 5712,
+"curses": [],
+"d": 0.76,
+"h": "rkzmre",
+"voice": "af_bella"
+},
+"brenda/rescue_0": {
+"bytes": 8064,
+"curses": [],
+"d": 1.09,
+"h": "12smvcx",
+"voice": "af_bella"
+},
+"brenda/rescue_1": {
+"bytes": 11256,
+"curses": [],
+"d": 1.54,
+"h": "1cr17dp",
+"voice": "af_bella"
+},
+"brenda/rescue_2": {
+"bytes": 8064,
+"curses": [],
+"d": 1.1,
+"h": "vs47u2",
+"voice": "af_bella"
+},
+"brenda/spawn_0": {
+"bytes": 9240,
+"curses": [],
+"d": 1.25,
+"h": "1ueu5ys",
+"voice": "af_bella"
+},
+"brenda/spawn_1": {
+"bytes": 7224,
+"curses": [],
+"d": 0.96,
+"h": "1q83hft",
+"voice": "af_bella"
+},
+"brenda/spawn_2": {
+"bytes": 6552,
+"curses": [],
+"d": 0.88,
+"h": "ysp0cw",
+"voice": "af_bella"
+},
+"brenda/spawn_3": {
+"bytes": 10248,
+"curses": [],
+"d": 1.4,
+"h": "1fq0y6w",
+"voice": "af_bella"
+},
+"goon/explode_0": {
+"bytes": 6552,
+"curses": [],
+"d": 0.88,
+"h": "gx3zq4",
+"voice": "am_echo"
+},
+"goon/explode_1": {
+"bytes": 7224,
+"curses": [],
+"d": 0.96,
+"h": "1b7hbai",
+"voice": "am_echo"
+},
+"goon/explode_2": {
+"bytes": 11088,
+"curses": [],
+"d": 1.51,
+"h": "kmus5x",
+"voice": "am_echo"
+},
+"goon/explode_3": {
+"bytes": 12264,
+"curses": [],
+"d": 1.69,
+"h": "1i7wbd9",
+"voice": "am_adam"
+},
+"goon/hurt_0": {
+"bytes": 5040,
+"curses": [],
+"d": 0.65,
+"h": "376o30",
+"voice": "am_liam"
+},
+"goon/hurt_1": {
+"bytes": 8400,
+"curses": [],
+"d": 1.14,
+"h": "4xkrm4",
+"voice": "am_echo"
+},
+"goon/hurt_2": {
+"bytes": 8232,
+"curses": [],
+"d": 1.13,
+"h": "11hedmo",
+"voice": "am_eric"
+},
+"goon/hurt_3": {
+"bytes": 10752,
+"curses": [],
+"d": 1.48,
+"h": "a7rpae",
+"voice": "am_echo"
+},
+"goon/hurt_4": {
+"bytes": 11256,
+"curses": [],
+"d": 1.55,
+"h": "1f7quzy",
+"voice": "am_eric"
+},
+"goon/idle_0": {
+"bytes": 11088,
+"curses": [],
+"d": 1.53,
+"h": "lzh4e1",
+"voice": "am_echo"
+},
+"goon/idle_1": {
+"bytes": 9240,
+"curses": [],
+"d": 1.26,
+"h": "stw384",
+"voice": "am_liam"
+},
+"goon/idle_2": {
+"bytes": 11256,
+"curses": [],
+"d": 1.54,
+"h": "ycjylc",
+"voice": "am_liam"
+},
+"goon/idle_3": {
+"bytes": 7896,
+"curses": [],
+"d": 1.08,
+"h": "19h9s5s",
+"voice": "am_eric"
+},
+"goon/kill_0": {
+"bytes": 6384,
+"curses": [],
+"d": 0.84,
+"h": "jwumxw",
+"voice": "am_echo"
+},
+"goon/kill_1": {
+"bytes": 6552,
+"curses": [],
+"d": 0.88,
+"h": "fqiu93",
+"voice": "am_adam"
+},
+"goon/kill_2": {
+"bytes": 10584,
+"curses": [],
+"d": 1.44,
+"h": "129msyn",
+"voice": "am_michael"
+},
+"goon/kill_3": {
+"bytes": 11424,
+"curses": [],
+"d": 1.58,
+"h": "1kpxkyv",
+"voice": "am_eric"
+},
+"goon/kill_4": {
+"bytes": 12264,
+"curses": [],
+"d": 1.68,
+"h": "1r650fx",
+"voice": "am_echo"
+},
+"goon/kill_5": {
+"bytes": 7560,
+"curses": [],
+"d": 1.02,
+"h": "11b857x",
+"voice": "am_adam"
+},
+"goon/kill_6": {
+"bytes": 8232,
+"curses": [
+[
+0.509,
+1.046
+]
+],
+"d": 1.13,
+"h": "th9ytj",
+"voice": "am_liam"
+},
+"goon/kill_7": {
+"bytes": 8064,
+"curses": [],
+"d": 1.09,
+"h": "99bm8u",
+"voice": "am_adam"
+},
+"goon/kill_8": {
+"bytes": 12096,
+"curses": [],
+"d": 1.66,
+"h": "16uvuu2",
+"voice": "am_echo"
+},
+"goon/kill_9": {
+"bytes": 10920,
+"curses": [],
+"d": 1.49,
+"h": "1p07eqn",
+"voice": "am_michael"
+},
+"goon/spawn_0": {
+"bytes": 4536,
+"curses": [],
+"d": 0.58,
+"h": "3oko4q",
+"voice": "am_adam"
+},
+"goon/spawn_1": {
+"bytes": 4872,
+"curses": [],
+"d": 0.65,
+"h": "vkcvdw",
+"voice": "am_adam"
+},
+"goon/spawn_2": {
+"bytes": 6888,
+"curses": [],
+"d": 0.94,
+"h": "adyy1d",
+"voice": "am_eric"
+},
+"goon/spawn_3": {
+"bytes": 5880,
+"curses": [],
+"d": 0.79,
+"h": "18v1btf",
+"voice": "am_adam"
+},
+"goon/spawn_4": {
+"bytes": 9408,
+"curses": [],
+"d": 1.29,
+"h": "1j0gw4i",
+"voice": "am_michael"
+},
+"goon/spawn_5": {
+"bytes": 5040,
+"curses": [],
+"d": 0.66,
+"h": "ey8zn8",
+"voice": "am_michael"
+},
+"goon/spawn_6": {
+"bytes": 10080,
+"curses": [],
+"d": 1.38,
+"h": "1k862qz",
+"voice": "am_michael"
+},
+"goon/spawn_7": {
+"bytes": 16968,
+"curses": [],
+"d": 2.35,
+"h": "cdedb1",
+"voice": "am_liam"
+},
+"gramps/die_0": {
+"bytes": 14616,
+"curses": [],
+"d": 2.02,
+"h": "1sjjtok",
+"voice": "bm_lewis"
+},
+"gramps/die_1": {
+"bytes": 17640,
+"curses": [],
+"d": 2.45,
+"h": "1jwc834",
+"voice": "bm_lewis"
+},
+"gramps/die_2": {
+"bytes": 22848,
+"curses": [],
+"d": 3.2,
+"h": "9l6rax",
+"voice": "bm_lewis"
+},
+"gramps/die_3": {
+"bytes": 11088,
+"curses": [],
+"d": 1.52,
+"h": "olutko",
+"voice": "bm_lewis"
+},
+"gramps/explode_0": {
+"bytes": 16128,
+"curses": [],
+"d": 2.24,
+"h": "1eurxl8",
+"voice": "bm_lewis"
+},
+"gramps/explode_1": {
+"bytes": 23352,
+"curses": [],
+"d": 3.28,
+"h": "1udq3zh",
+"voice": "bm_lewis"
+},
+"gramps/flag_0": {
+"bytes": 17304,
+"curses": [],
+"d": 2.42,
+"h": "1r0m5rl",
+"voice": "bm_lewis"
+},
+"gramps/flag_1": {
+"bytes": 15960,
+"curses": [],
+"d": 2.21,
+"h": "xylqmi",
+"voice": "bm_lewis"
+},
+"gramps/gold_0": {
+"bytes": 20496,
+"curses": [],
+"d": 2.87,
+"h": "1vfsqgf",
+"voice": "bm_lewis"
+},
+"gramps/gold_1": {
+"bytes": 14112,
+"curses": [],
+"d": 1.96,
+"h": "v64iev",
+"voice": "bm_lewis"
+},
+"gramps/hurt_0": {
+"bytes": 7224,
+"curses": [],
+"d": 0.97,
+"h": "jwrnm5",
+"voice": "bm_lewis"
+},
+"gramps/hurt_1": {
+"bytes": 10752,
+"curses": [],
+"d": 1.48,
+"h": "7st3od",
+"voice": "bm_lewis"
+},
+"gramps/hurt_2": {
+"bytes": 13608,
+"curses": [],
+"d": 1.87,
+"h": "15mrzkn",
+"voice": "bm_lewis"
+},
+"gramps/hurt_3": {
+"bytes": 10752,
+"curses": [
+[
+0.0,
+0.705
+]
+],
+"d": 1.48,
+"h": "1nyhi09",
+"voice": "bm_lewis"
+},
+"gramps/idle_0": {
+"bytes": 13272,
+"curses": [],
+"d": 1.82,
+"h": "wkiwr6",
+"voice": "bm_lewis"
+},
+"gramps/idle_1": {
+"bytes": 15456,
+"curses": [],
+"d": 2.14,
+"h": "b801gg",
+"voice": "bm_lewis"
+},
+"gramps/idle_2": {
+"bytes": 20328,
+"curses": [],
+"d": 2.83,
+"h": "1ib9965",
+"voice": "bm_lewis"
+},
+"gramps/kill_0": {
+"bytes": 13272,
+"curses": [],
+"d": 1.83,
+"h": "1n5gllz",
+"voice": "bm_lewis"
+},
+"gramps/kill_1": {
+"bytes": 13608,
+"curses": [],
+"d": 1.89,
+"h": "o51he2",
+"voice": "bm_lewis"
+},
+"gramps/kill_2": {
+"bytes": 13272,
+"curses": [],
+"d": 1.83,
+"h": "1yjiczk",
+"voice": "bm_lewis"
+},
+"gramps/kill_3": {
+"bytes": 20496,
+"curses": [],
+"d": 2.87,
+"h": "1q70ckx",
+"voice": "bm_lewis"
+},
+"gramps/kill_4": {
+"bytes": 12936,
+"curses": [],
+"d": 1.79,
+"h": "116pt9t",
+"voice": "bm_lewis"
+},
+"gramps/level_clear_0": {
+"bytes": 30072,
+"curses": [],
+"d": 4.23,
+"h": "791m91",
+"voice": "bm_lewis"
+},
+"gramps/level_clear_1": {
+"bytes": 11256,
+"curses": [],
+"d": 1.55,
+"h": "13d4by2",
+"voice": "bm_lewis"
+},
+"gramps/level_fail_0": {
+"bytes": 15456,
+"curses": [],
+"d": 2.14,
+"h": "1smy6cq",
+"voice": "bm_lewis"
+},
+"gramps/level_start_0": {
+"bytes": 25368,
+"curses": [],
+"d": 3.55,
+"h": "208hip",
+"voice": "bm_lewis"
+},
+"gramps/level_start_1": {
+"bytes": 16464,
+"curses": [],
+"d": 2.29,
+"h": "zolyn9",
+"voice": "bm_lewis"
+},
+"gramps/low_hp_0": {
+"bytes": 9744,
+"curses": [],
+"d": 1.33,
+"h": "1x1bn4l",
+"voice": "bm_lewis"
+},
+"gramps/low_hp_1": {
+"bytes": 11592,
+"curses": [],
+"d": 1.59,
+"h": "1lcznls",
+"voice": "bm_lewis"
+},
+"gramps/multikill_0": {
+"bytes": 10416,
+"curses": [],
+"d": 1.44,
+"h": "136un4",
+"voice": "bm_lewis"
+},
+"gramps/multikill_1": {
+"bytes": 11928,
+"curses": [],
+"d": 1.65,
+"h": "2r24v6",
+"voice": "bm_lewis"
+},
+"gramps/multikill_2": {
+"bytes": 18312,
+"curses": [],
+"d": 2.56,
+"h": "hvvng",
+"voice": "bm_lewis"
+},
+"gramps/pickup_0": {
+"bytes": 15288,
+"curses": [],
+"d": 2.12,
+"h": "1hore0w",
+"voice": "bm_lewis"
+},
+"gramps/pickup_1": {
+"bytes": 21000,
+"curses": [],
+"d": 2.94,
+"h": "1eofgsg",
+"voice": "bm_lewis"
+},
+"gramps/pickup_2": {
+"bytes": 14952,
+"curses": [],
+"d": 2.08,
+"h": "h0rvhs",
+"voice": "bm_lewis"
+},
+"gramps/rescue_0": {
+"bytes": 21168,
+"curses": [],
+"d": 2.96,
+"h": "1vxhfa1",
+"voice": "bm_lewis"
+},
+"gramps/rescue_1": {
+"bytes": 28056,
+"curses": [],
+"d": 3.94,
+"h": "1s8ye8y",
+"voice": "bm_lewis"
+},
+"gramps/rescue_2": {
+"bytes": 18144,
+"curses": [],
+"d": 2.52,
+"h": "16wyfcy",
+"voice": "bm_lewis"
+},
+"gramps/spawn_0": {
+"bytes": 11424,
+"curses": [],
+"d": 1.57,
+"h": "agt77d",
+"voice": "bm_lewis"
+},
+"gramps/spawn_1": {
+"bytes": 21840,
+"curses": [],
+"d": 3.05,
+"h": "4yteje",
+"voice": "bm_lewis"
+},
+"gramps/spawn_2": {
+"bytes": 12768,
+"curses": [],
+"d": 1.76,
+"h": "1wi2uww",
+"voice": "bm_lewis"
+},
+"gramps/spawn_3": {
+"bytes": 17472,
+"curses": [
+[
+1.675,
+2.417
+]
+],
+"d": 2.43,
+"h": "1ufs2qm",
+"voice": "bm_lewis"
+},
+"major/die_0": {
+"bytes": 16968,
+"curses": [],
+"d": 2.35,
+"h": "19m0nfn",
+"voice": "bm_george"
+},
+"major/die_1": {
+"bytes": 18312,
+"curses": [],
+"d": 2.57,
+"h": "g87ui1",
+"voice": "bm_george"
+},
+"major/die_2": {
+"bytes": 10584,
+"curses": [
+[
+0.661,
+1.436
+]
+],
+"d": 1.45,
+"h": "9gf4zr",
+"voice": "bm_george"
+},
+"major/die_3": {
+"bytes": 22008,
+"curses": [],
+"d": 3.07,
+"h": "1l8dboa",
+"voice": "bm_george"
+},
+"major/explode_0": {
+"bytes": 12264,
+"curses": [],
+"d": 1.7,
+"h": "154dxyl",
+"voice": "bm_george"
+},
+"major/explode_1": {
+"bytes": 19656,
+"curses": [],
+"d": 2.75,
+"h": "yvrf7k",
+"voice": "bm_george"
+},
+"major/flag_0": {
+"bytes": 21000,
+"curses": [],
+"d": 2.94,
+"h": "ngowl",
+"voice": "bm_george"
+},
+"major/flag_1": {
+"bytes": 16968,
+"curses": [],
+"d": 2.37,
+"h": "1aewr6t",
+"voice": "bm_george"
+},
+"major/gold_0": {
+"bytes": 10752,
+"curses": [],
+"d": 1.48,
+"h": "1s5o972",
+"voice": "bm_george"
+},
+"major/gold_1": {
+"bytes": 12432,
+"curses": [],
+"d": 1.71,
+"h": "oni3uo",
+"voice": "bm_george"
+},
+"major/hurt_0": {
+"bytes": 16464,
+"curses": [],
+"d": 2.3,
+"h": "1n8l3ky",
+"voice": "bm_george"
+},
+"major/hurt_1": {
+"bytes": 10080,
+"curses": [
+[
+0.661,
+1.384
+]
+],
+"d": 1.39,
+"h": "1k7aa3u",
+"voice": "bm_george"
+},
+"major/hurt_2": {
+"bytes": 11928,
+"curses": [],
+"d": 1.65,
+"h": "1wf78tj",
+"voice": "bm_george"
+},
+"major/hurt_3": {
+"bytes": 11088,
+"curses": [],
+"d": 1.53,
+"h": "wznyz4",
+"voice": "bm_george"
+},
+"major/idle_0": {
+"bytes": 18480,
+"curses": [],
+"d": 2.58,
+"h": "1pvzrao",
+"voice": "bm_george"
+},
+"major/idle_1": {
+"bytes": 17640,
+"curses": [],
+"d": 2.45,
+"h": "1bsh53r",
+"voice": "bm_george"
+},
+"major/idle_2": {
+"bytes": 16968,
+"curses": [],
+"d": 2.36,
+"h": "le5c",
+"voice": "bm_george"
+},
+"major/kill_0": {
+"bytes": 12432,
+"curses": [],
+"d": 1.72,
+"h": "1nday6d",
+"voice": "bm_george"
+},
+"major/kill_1": {
+"bytes": 14952,
+"curses": [],
+"d": 2.08,
+"h": "91ud52",
+"voice": "bm_george"
+},
+"major/kill_2": {
+"bytes": 22344,
+"curses": [],
+"d": 3.12,
+"h": "i3nu62",
+"voice": "bm_george"
+},
+"major/kill_3": {
+"bytes": 16968,
+"curses": [],
+"d": 2.37,
+"h": "wuqvju",
+"voice": "bm_george"
+},
+"major/kill_4": {
+"bytes": 16296,
+"curses": [],
+"d": 2.27,
+"h": "1ewdxig",
+"voice": "bm_george"
+},
+"major/level_clear_0": {
+"bytes": 16296,
+"curses": [],
+"d": 2.28,
+"h": "ayhvj5",
+"voice": "bm_george"
+},
+"major/level_clear_1": {
+"bytes": 15120,
+"curses": [],
+"d": 2.1,
+"h": "1s89e1s",
+"voice": "bm_george"
+},
+"major/level_fail_0": {
+"bytes": 17808,
+"curses": [],
+"d": 2.49,
+"h": "4qeyvx",
+"voice": "bm_george"
+},
+"major/level_start_0": {
+"bytes": 24528,
+"curses": [],
+"d": 3.45,
+"h": "8z0mx1",
+"voice": "bm_george"
+},
+"major/level_start_1": {
+"bytes": 17808,
+"curses": [],
+"d": 2.48,
+"h": "15bdr88",
+"voice": "bm_george"
+},
+"major/low_hp_0": {
+"bytes": 20832,
+"curses": [],
+"d": 2.91,
+"h": "mayrgh",
+"voice": "bm_george"
+},
+"major/low_hp_1": {
+"bytes": 15624,
+"curses": [],
+"d": 2.18,
+"h": "2kl428",
+"voice": "bm_george"
+},
+"major/multikill_0": {
+"bytes": 14952,
+"curses": [],
+"d": 2.08,
+"h": "1ifriap",
+"voice": "bm_george"
+},
+"major/multikill_1": {
+"bytes": 15960,
+"curses": [],
+"d": 2.21,
+"h": "jbuik1",
+"voice": "bm_george"
+},
+"major/multikill_2": {
+"bytes": 13776,
+"curses": [],
+"d": 1.91,
+"h": "1vm6o25",
+"voice": "bm_george"
+},
+"major/pickup_0": {
+"bytes": 12936,
+"curses": [],
+"d": 1.79,
+"h": "1tz637d",
+"voice": "bm_george"
+},
+"major/pickup_1": {
+"bytes": 13272,
+"curses": [],
+"d": 1.84,
+"h": "gq2707",
+"voice": "bm_george"
+},
+"major/pickup_2": {
+"bytes": 14784,
+"curses": [],
+"d": 2.06,
+"h": "1c14wgj",
+"voice": "bm_george"
+},
+"major/rescue_0": {
+"bytes": 17808,
+"curses": [],
+"d": 2.48,
+"h": "rofanr",
+"voice": "bm_george"
+},
+"major/rescue_1": {
+"bytes": 17808,
+"curses": [],
+"d": 2.48,
+"h": "fs2jcv",
+"voice": "bm_george"
+},
+"major/rescue_2": {
+"bytes": 13776,
+"curses": [],
+"d": 1.91,
+"h": "1ey95td",
+"voice": "bm_george"
+},
+"major/spawn_0": {
+"bytes": 25872,
+"curses": [],
+"d": 3.65,
+"h": "ui3sd4",
+"voice": "bm_george"
+},
+"major/spawn_1": {
+"bytes": 18480,
+"curses": [],
+"d": 2.58,
+"h": "urctec",
+"voice": "bm_george"
+},
+"major/spawn_2": {
+"bytes": 15960,
+"curses": [],
+"d": 2.22,
+"h": "rnogdv",
+"voice": "bm_george"
+},
+"major/spawn_3": {
+"bytes": 12600,
+"curses": [],
+"d": 1.74,
+"h": "18lakwl",
+"voice": "bm_george"
+},
+"pete/die_0": {
+"bytes": 8232,
+"curses": [],
+"d": 1.12,
+"h": "pdbtp7",
+"voice": "am_puck"
+},
+"pete/die_1": {
+"bytes": 10080,
+"curses": [],
+"d": 1.39,
+"h": "36nrpa",
+"voice": "am_puck"
+},
+"pete/die_2": {
+"bytes": 7056,
+"curses": [],
+"d": 0.95,
+"h": "13nqbqa",
+"voice": "am_puck"
+},
+"pete/die_3": {
+"bytes": 7056,
+"curses": [
+[
+0.447,
+0.939
+]
+],
+"d": 0.94,
+"h": "9et0iw",
+"voice": "am_puck"
+},
+"pete/explode_0": {
+"bytes": 5376,
+"curses": [],
+"d": 0.71,
+"h": "1gfk0pw",
+"voice": "am_puck"
+},
+"pete/explode_1": {
+"bytes": 11256,
+"curses": [],
+"d": 1.56,
+"h": "3fwdia",
+"voice": "am_puck"
+},
+"pete/flag_0": {
+"bytes": 6216,
+"curses": [],
+"d": 0.82,
+"h": "r32ezo",
+"voice": "am_puck"
+},
+"pete/flag_1": {
+"bytes": 11088,
+"curses": [],
+"d": 1.53,
+"h": "d6il3d",
+"voice": "am_puck"
+},
+"pete/gold_0": {
+"bytes": 7728,
+"curses": [],
+"d": 1.05,
+"h": "1blkbj4",
+"voice": "am_puck"
+},
+"pete/gold_1": {
+"bytes": 6888,
+"curses": [],
+"d": 0.92,
+"h": "e4whyf",
+"voice": "am_puck"
+},
+"pete/hurt_0": {
+"bytes": 5880,
+"curses": [],
+"d": 0.78,
+"h": "mqntyx",
+"voice": "am_puck"
+},
+"pete/hurt_1": {
+"bytes": 8232,
+"curses": [],
+"d": 1.12,
+"h": "jbsu7q",
+"voice": "am_puck"
+},
+"pete/hurt_2": {
+"bytes": 4872,
+"curses": [],
+"d": 0.64,
+"h": "x196w2",
+"voice": "am_puck"
+},
+"pete/hurt_3": {
+"bytes": 5376,
+"curses": [],
+"d": 0.71,
+"h": "1v9aef2",
+"voice": "am_puck"
+},
+"pete/idle_0": {
+"bytes": 5880,
+"curses": [],
+"d": 0.79,
+"h": "d58u3z",
+"voice": "am_puck"
+},
+"pete/idle_1": {
+"bytes": 10752,
+"curses": [],
+"d": 1.48,
+"h": "1ffiwt7",
+"voice": "am_puck"
+},
+"pete/idle_2": {
+"bytes": 10248,
+"curses": [],
+"d": 1.42,
+"h": "y04tez",
+"voice": "am_puck"
+},
+"pete/kill_0": {
+"bytes": 6384,
+"curses": [],
+"d": 0.84,
+"h": "1rzeeff",
+"voice": "am_puck"
+},
+"pete/kill_1": {
+"bytes": 4200,
+"curses": [],
+"d": 0.53,
+"h": "1fj0pyh",
+"voice": "am_puck"
+},
+"pete/kill_2": {
+"bytes": 11256,
+"curses": [],
+"d": 1.55,
+"h": "1ox6xjs",
+"voice": "am_puck"
+},
+"pete/kill_3": {
+"bytes": 9576,
+"curses": [],
+"d": 1.3,
+"h": "135rcjr",
+"voice": "am_puck"
+},
+"pete/kill_4": {
+"bytes": 6888,
+"curses": [],
+"d": 0.93,
+"h": "ya0vrx",
+"voice": "am_puck"
+},
+"pete/level_clear_0": {
+"bytes": 7728,
+"curses": [],
+"d": 1.05,
+"h": "r97cgu",
+"voice": "am_puck"
+},
+"pete/level_clear_1": {
+"bytes": 7728,
+"curses": [],
+"d": 1.04,
+"h": "16l6hvw",
+"voice": "am_puck"
+},
+"pete/level_fail_0": {
+"bytes": 5208,
+"curses": [],
+"d": 0.68,
+"h": "1ixjrgo",
+"voice": "am_puck"
+},
+"pete/level_start_0": {
+"bytes": 5880,
+"curses": [],
+"d": 0.77,
+"h": "x78hqd",
+"voice": "am_puck"
+},
+"pete/level_start_1": {
+"bytes": 7056,
+"curses": [],
+"d": 0.94,
+"h": "1ejy2oh",
+"voice": "am_puck"
+},
+"pete/low_hp_0": {
+"bytes": 7728,
+"curses": [],
+"d": 1.04,
+"h": "1xk9i4y",
+"voice": "am_puck"
+},
+"pete/low_hp_1": {
+"bytes": 6888,
+"curses": [],
+"d": 0.94,
+"h": "19kig2g",
+"voice": "am_puck"
+},
+"pete/multikill_0": {
+"bytes": 9576,
+"curses": [],
+"d": 1.31,
+"h": "15ptq5z",
+"voice": "am_puck"
+},
+"pete/multikill_1": {
+"bytes": 10920,
+"curses": [],
+"d": 1.5,
+"h": "dri10p",
+"voice": "am_puck"
+},
+"pete/multikill_2": {
+"bytes": 7896,
+"curses": [],
+"d": 1.08,
+"h": "3tgvwh",
+"voice": "am_puck"
+},
+"pete/pickup_0": {
+"bytes": 6384,
+"curses": [],
+"d": 0.85,
+"h": "kkmy5e",
+"voice": "am_puck"
+},
+"pete/pickup_1": {
+"bytes": 4872,
+"curses": [],
+"d": 0.63,
+"h": "wclkmb",
+"voice": "am_puck"
+},
+"pete/pickup_2": {
+"bytes": 6384,
+"curses": [],
+"d": 0.85,
+"h": "bnqyqb",
+"voice": "am_puck"
+},
+"pete/rescue_0": {
+"bytes": 8232,
+"curses": [],
+"d": 1.12,
+"h": "4dqtk9",
+"voice": "am_puck"
+},
+"pete/rescue_1": {
+"bytes": 8064,
+"curses": [],
+"d": 1.1,
+"h": "2pub6b",
+"voice": "am_puck"
+},
+"pete/rescue_2": {
+"bytes": 9072,
+"curses": [],
+"d": 1.25,
+"h": "wx9ryw",
+"voice": "am_puck"
+},
+"pete/spawn_0": {
+"bytes": 7728,
+"curses": [],
+"d": 1.04,
+"h": "hrt8z2",
+"voice": "am_puck"
+},
+"pete/spawn_1": {
+"bytes": 10080,
+"curses": [],
+"d": 1.37,
+"h": "x82ecb",
+"voice": "am_puck"
+},
+"pete/spawn_2": {
+"bytes": 7056,
+"curses": [],
+"d": 0.95,
+"h": "19jfcjk",
+"voice": "am_puck"
+},
+"pete/spawn_3": {
+"bytes": 10248,
+"curses": [],
+"d": 1.39,
+"h": "rtm2s7",
+"voice": "am_puck"
+},
+"sgt/die_0": {
+"bytes": 14952,
+"curses": [],
+"d": 2.07,
+"h": "1kc5veb",
+"voice": "am_onyx"
+},
+"sgt/die_1": {
+"bytes": 14448,
+"curses": [],
+"d": 2.01,
+"h": "wt6l5g",
+"voice": "am_onyx"
+},
+"sgt/die_2": {
+"bytes": 12768,
+"curses": [],
+"d": 1.76,
+"h": "camb3p",
+"voice": "am_onyx"
+},
+"sgt/die_3": {
+"bytes": 14112,
+"curses": [],
+"d": 1.95,
+"h": "4kcy17",
+"voice": "am_onyx"
+},
+"sgt/explode_0": {
+"bytes": 5040,
+"curses": [],
+"d": 0.66,
+"h": "3kx4nn",
+"voice": "am_onyx"
+},
+"sgt/explode_1": {
+"bytes": 19320,
+"curses": [],
+"d": 2.7,
+"h": "1ro2n6z",
+"voice": "am_onyx"
+},
+"sgt/flag_0": {
+"bytes": 11424,
+"curses": [],
+"d": 1.58,
+"h": "1axjtgm",
+"voice": "am_onyx"
+},
+"sgt/flag_1": {
+"bytes": 18984,
+"curses": [],
+"d": 2.66,
+"h": "243mwe",
+"voice": "am_onyx"
+},
+"sgt/gold_0": {
+"bytes": 9576,
+"curses": [],
+"d": 1.31,
+"h": "6u02nz",
+"voice": "am_onyx"
+},
+"sgt/gold_1": {
+"bytes": 5208,
+"curses": [],
+"d": 0.69,
+"h": "1m0ah1t",
+"voice": "am_onyx"
+},
+"sgt/hurt_0": {
+"bytes": 12432,
+"curses": [],
+"d": 1.71,
+"h": "3dh9zs",
+"voice": "am_onyx"
+},
+"sgt/hurt_1": {
+"bytes": 9240,
+"curses": [],
+"d": 1.26,
+"h": "146whs3",
+"voice": "am_onyx"
+},
+"sgt/hurt_2": {
+"bytes": 11928,
+"curses": [],
+"d": 1.64,
+"h": "1yydw1l",
+"voice": "am_onyx"
+},
+"sgt/hurt_3": {
+"bytes": 11928,
+"curses": [
+[
+0.0,
+0.613
+]
+],
+"d": 1.64,
+"h": "shcn9v",
+"voice": "am_onyx"
+},
+"sgt/idle_0": {
+"bytes": 8064,
+"curses": [],
+"d": 1.09,
+"h": "x1ihwi",
+"voice": "am_onyx"
+},
+"sgt/idle_1": {
+"bytes": 10920,
+"curses": [],
+"d": 1.51,
+"h": "q4gdmz",
+"voice": "am_onyx"
+},
+"sgt/idle_2": {
+"bytes": 12600,
+"curses": [],
+"d": 1.73,
+"h": "1hy4g5q",
+"voice": "am_onyx"
+},
+"sgt/kill_0": {
+"bytes": 6384,
+"curses": [],
+"d": 0.84,
+"h": "1avrhcr",
+"voice": "am_onyx"
+},
+"sgt/kill_1": {
+"bytes": 15456,
+"curses": [],
+"d": 2.16,
+"h": "gfcbgs",
+"voice": "am_onyx"
+},
+"sgt/kill_2": {
+"bytes": 11256,
+"curses": [],
+"d": 1.55,
+"h": "rrxu2y",
+"voice": "am_onyx"
+},
+"sgt/kill_3": {
+"bytes": 15456,
+"curses": [
+[
+0.513,
+1.08
+]
+],
+"d": 2.15,
+"h": "1ivlkkk",
+"voice": "am_onyx"
+},
+"sgt/kill_4": {
+"bytes": 19992,
+"curses": [],
+"d": 2.81,
+"h": "jfr0nc",
+"voice": "am_onyx"
+},
+"sgt/kill_5": {
+"bytes": 9240,
+"curses": [],
+"d": 1.25,
+"h": "eqdw9j",
+"voice": "am_onyx"
+},
+"sgt/level_clear_0": {
+"bytes": 15456,
+"curses": [],
+"d": 2.14,
+"h": "1pslul3",
+"voice": "am_onyx"
+},
+"sgt/level_clear_1": {
+"bytes": 20496,
+"curses": [],
+"d": 2.86,
+"h": "2ar6sb",
+"voice": "am_onyx"
+},
+"sgt/level_fail_0": {
+"bytes": 8904,
+"curses": [
+[
+0.569,
+1.202
+]
+],
+"d": 1.21,
+"h": "b4amzv",
+"voice": "am_onyx"
+},
+"sgt/level_start_0": {
+"bytes": 12264,
+"curses": [],
+"d": 1.69,
+"h": "1l8vkun",
+"voice": "am_onyx"
+},
+"sgt/level_start_1": {
+"bytes": 14784,
+"curses": [],
+"d": 2.06,
+"h": "1xp5cr1",
+"voice": "am_onyx"
+},
+"sgt/low_hp_0": {
+"bytes": 13944,
+"curses": [],
+"d": 1.93,
+"h": "1xifn13",
+"voice": "am_onyx"
+},
+"sgt/low_hp_1": {
+"bytes": 11424,
+"curses": [],
+"d": 1.57,
+"h": "1aq9dv2",
+"voice": "am_onyx"
+},
+"sgt/multikill_0": {
+"bytes": 8232,
+"curses": [],
+"d": 1.11,
+"h": "qrda6y",
+"voice": "am_onyx"
+},
+"sgt/multikill_1": {
+"bytes": 7896,
+"curses": [],
+"d": 1.07,
+"h": "vgn4r0",
+"voice": "am_onyx"
+},
+"sgt/multikill_2": {
+"bytes": 9744,
+"curses": [],
+"d": 1.34,
+"h": "p0quk2",
+"voice": "am_onyx"
+},
+"sgt/multikill_3": {
+"bytes": 13776,
+"curses": [],
+"d": 1.91,
+"h": "1mkzske",
+"voice": "am_onyx"
+},
+"sgt/pickup_0": {
+"bytes": 9240,
+"curses": [],
+"d": 1.26,
+"h": "1i6uplq",
+"voice": "am_onyx"
+},
+"sgt/pickup_1": {
+"bytes": 12096,
+"curses": [],
+"d": 1.67,
+"h": "1ykykd1",
+"voice": "am_onyx"
+},
+"sgt/pickup_2": {
+"bytes": 8568,
+"curses": [],
+"d": 1.16,
+"h": "88hfpr",
+"voice": "am_onyx"
+},
+"sgt/rescue_0": {
+"bytes": 9744,
+"curses": [],
+"d": 1.32,
+"h": "sfhbo1",
+"voice": "am_onyx"
+},
+"sgt/rescue_1": {
+"bytes": 12936,
+"curses": [],
+"d": 1.78,
+"h": "kl522k",
+"voice": "am_onyx"
+},
+"sgt/rescue_2": {
+"bytes": 15960,
+"curses": [],
+"d": 2.22,
+"h": "68e7zb",
+"voice": "am_onyx"
+},
+"sgt/spawn_0": {
+"bytes": 16632,
+"curses": [],
+"d": 2.32,
+"h": "1eho3uu",
+"voice": "am_onyx"
+},
+"sgt/spawn_1": {
+"bytes": 12096,
+"curses": [],
+"d": 1.68,
+"h": "3kqwwh",
+"voice": "am_onyx"
+},
+"sgt/spawn_2": {
+"bytes": 15624,
+"curses": [],
+"d": 2.16,
+"h": "1rm9uz3",
+"voice": "am_onyx"
+},
+"sgt/spawn_3": {
+"bytes": 12936,
+"curses": [],
+"d": 1.78,
+"h": "jmgu6d",
+"voice": "am_onyx"
+}
+}
