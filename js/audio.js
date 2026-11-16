@@ -99,7 +99,7 @@
         s.buffer = b; s.connect(c.destination); s.start(0);
       } catch (e) { /* ignore */ }
       if (S.Music && S.Music._onUnlock) S.Music._onUnlock();
-      setTimeout(() => A.preload(PRELOAD), 1200);
+      setTimeout(() => A.preload(PRELOAD.concat(Object.keys(files()).filter((k) => /_v\d+$/.test(k)))), 1200);
     }
     return true;
   };
@@ -649,6 +649,14 @@
   }
 
   // sfx(name,{vol,pitch,x,pan,bus,exact,when}) -> handle|null
+  // variants: files name, name_v2, name_v3... -> random pick each play (breaks up repetition)
+  function pickVariant(name) {
+    const f = files();
+    if (!f[name + '_v2']) return name;
+    let n = 2; while (f[name + '_v' + (n + 1)]) n++;
+    const k = Math.floor(Math.random() * n);
+    return k === 0 ? name : name + '_v' + (k + 1);
+  }
   A.sfx = function (name, o) {
     if (!A.inited) A.init();
     if (!A.ready() || !name) return null;
@@ -673,7 +681,7 @@
     const dest = (o.bus && A.bus[o.bus]) || A.bus.sfx;
     const out = outNode(c, vol, pan, dest);
     const v = { name, out, src: null, end: 0 };
-    const buf = bufferFor(name);
+    const buf = bufferFor(pickVariant(name));
     let dur;
     if (buf) {
       const s = c.createBufferSource(); s.buffer = buf; s.playbackRate.value = pitch;

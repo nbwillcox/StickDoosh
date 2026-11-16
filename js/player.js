@@ -160,7 +160,8 @@
         if (st.regen && this.hp < this.maxHp) { this.regenAcc += st.regen * dt; if (this.regenAcc >= 1) { this.regenAcc -= 1; this.hp = Math.min(this.maxHp, this.hp + 1); } }
 
         // ---------- input ----------
-        const frozen = G && (G.state === 'intro' || G.state === 'chopper' || G.state === 'clear');
+        // chopper state must NOT freeze input: the player has to walk to the ladder (bug fix 2026-11-17)
+        const frozen = G && (G.state === 'intro' || G.state === 'clear');
         let ax = frozen ? 0 : I.axisX();
         const up = !frozen && I.down('up'), down = !frozen && I.down('down');
         const jumpPress = !frozen && I.pressed('jump'), jumpHeld = !frozen && I.down('jump');
